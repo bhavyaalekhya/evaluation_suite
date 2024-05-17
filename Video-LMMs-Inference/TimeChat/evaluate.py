@@ -53,7 +53,7 @@ def load_data(args, anno_path, split=None):
         ]
     }
     '''
-    file_path = os.path.join(anno_path)
+    file_path = anno_path
     with open(file_path, 'r') as f:
         data = json.load(f)["annotations"]
 
