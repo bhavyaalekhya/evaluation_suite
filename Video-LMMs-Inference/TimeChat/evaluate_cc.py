@@ -83,9 +83,9 @@ def save_result(args, output_dir, results, split_name='test', format=False):
     file_name = '{}_{}_f{}_result.json'.format(args.dataset, split_name, args.num_frames)
     if args.timestamp:
         if args.timestamp_file != '':
-            file_name = f'{args.dataset}_{split_name}_f{args.num_frames}_result_with_pred_timestamp.json'
+            file_name = '{}_{}_f{}_result_with_pred_timestamp.json'.format(args.dataset, split_name, args.num_frames)
         else:
-            file_name = f'{args.dataset}_{split_name}_f{args.num_frames}_result_with_gt_timestamp.json'
+            file_name = '{}_{}_f{}_result_with_gt_timestamp.json'.format(args.dataset, split_name, args.num_frames)
     if args.debug:
         file_name = 'debug_' + file_name
     if format:
