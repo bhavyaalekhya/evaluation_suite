@@ -2,11 +2,6 @@ import copy
 import os
 import sys
 
-timechat_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Video-LMMs-Inference', 'TimeChat', 'timechat'))
-
-# Add the `timechat` directory to sys.path
-sys.path.append(timechat_path)
-
 import torch
 import argparse
 from transformers import StoppingCriteria, StoppingCriteriaList
