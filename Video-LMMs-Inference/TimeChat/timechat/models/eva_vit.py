@@ -17,6 +17,8 @@ from timm.models.registry import register_model
 from timechat.common.utils import is_url
 from timechat.common.dist_utils import download_cached_file
 
+torch.backends.cuda.max_split_size_mb = 128  # Adjust this value as needed
+
 def _cfg(url='', **kwargs):
     return {
         'url': url,
@@ -326,7 +328,7 @@ class VisionTransformer(nn.Module):
         batch_size, seq_len, _ = x.size()
 
         cls_tokens = self.cls_token.expand(batch_size, -1, -1)  # stole cls_tokens impl from Phil Wang, thanks
-        temp = torch.cat((cls_tokens, x), dim=1).to(device='cuda')
+        temp = torch.cat((cls_tokens, x), dim=1)
         x = temp
         if self.pos_embed is not None:
             x = x + self.pos_embed
