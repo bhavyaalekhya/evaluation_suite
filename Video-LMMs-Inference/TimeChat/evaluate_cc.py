@@ -212,6 +212,7 @@ def main(args):
     # load model
     device = torch.device(f"cuda:{args.gpu_id}")
     args.options = []
+    print("Device: ",device)
 
     seed = 42
     random.seed(seed)
