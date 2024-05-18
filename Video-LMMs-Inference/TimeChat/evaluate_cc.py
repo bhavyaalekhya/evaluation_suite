@@ -220,7 +220,8 @@ def main(args):
     cudnn.benchmark = False
     cudnn.deterministic = True
 
-    print(args)
+    #print(args)
+    args.cfg_path = '/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/eval_configs/timechat.yaml'
     cfg = Config(args)
     model_config = cfg.model_cfg
     model_config.device_8bit = args.gpu_id
