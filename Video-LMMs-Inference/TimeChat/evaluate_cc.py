@@ -80,7 +80,7 @@ def merge_seg_caps(results):
 
 def save_result(args, output_dir, results, split_name='test', format=False):
     Path(output_dir).mkdir(parents=True, exist_ok=True)
-    file_name = f'{args.dataset}_{split_name}_f{args.num_frames}_result.json'
+    file_name = '{}_{}_f{}_result.json'.format(args.dataset, split_name, args.num_frames)
     if args.timestamp:
         if args.timestamp_file != '':
             file_name = f'{args.dataset}_{split_name}_f{args.num_frames}_result_with_pred_timestamp.json'
