@@ -2,10 +2,10 @@ import copy
 import os
 import sys
 
-parent_directory = os.path.abspath(os.path.dirname(__file__))
+timechat_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Video-LMMs-Inference', 'TimeChat', 'timechat'))
 
-# Add the cvvr_evaluation_suite directory to the system path
-sys.path.append(os.path.join(parent_directory, 'cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat'))
+# Add the `timechat` directory to sys.path
+sys.path.append(timechat_path)
 
 import torch
 import argparse
