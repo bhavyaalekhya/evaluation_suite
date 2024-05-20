@@ -70,8 +70,8 @@ def main():
     print("Initialization finished")
 
     #initialize video dataset
-    args.video_path = '/data/rohith/captain_cook/videos/gopro/resolution_360p/8_16_360p.mp4'
-    video, _ = load_video(video_path = args.video_path, n_frms = 30, sample = 'uniform', return_msg = True)
+    #args.video_path = '/data/rohith/captain_cook/videos/gopro/resolution_360p/8_16_360p.mp4'
+    video, _ = load_video(video_path = '/data/rohith/captain_cook/videos/gopro/resolution_360p/8_16_360p.mp4', n_frms = 30, sample = 'uniform', return_msg = True)
 
     print(video.size())
     C, T, H, W = video.shape
@@ -81,7 +81,7 @@ def main():
     img_list = []
     chat_state = conv_llava_llama_2.copy()
     chat_state.system = "You are able to understand the visual content that the user provides. Follow the instructions carefully and explain your answers in detail."
-    msg = chat.upload_video_without_audio(video_path=args.video_path, conv=chat_state, img_list = img_list, n_frms=96)
+    msg = chat.upload_video_without_audio(video_path='/data/rohith/captain_cook/videos/gopro/resolution_360p/8_16_360p.mp4', conv=chat_state, img_list = img_list, n_frms=30)
 
     #response from chat
     text_input = "You are given a cooking video from the Captain Cook dataset. Please watch the video and extract a maximum of 10 significant cooking steps. For each step, determine the starting and ending times and provide a concise description. The format should be: 'start time - end time, brief step description'. For example, ' 90 - 102 seconds, spread margarine on two slices of white bread'."
