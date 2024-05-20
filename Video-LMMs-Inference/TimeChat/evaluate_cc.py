@@ -52,7 +52,6 @@ def load_data(args, anno_path, split=None):
             },
             ...
         ]
-    }
     '''
     file_path = anno_path
     with open(file_path, 'r') as f:
@@ -121,8 +120,8 @@ def format_dvc(datas):
         for j in range(len(timestamps)):
             fmt_datas[vid].append({"timestamp": timestamps[j], "caption": sents[j]})
         timestamp_count.append(len(timestamps))
-    print(f"predict avg {sum(timestamp_count) / len(timestamp_count)} events per video")
-    print(f'parse failed number: {cnt}')
+    print("predict avg {} events per video".format(sum(timestamp_count) / len(timestamp_count)))
+    print('parse failed number: {}'.format(cnt))
     return fmt_datas
 
 
@@ -137,9 +136,9 @@ def format_tvg(datas):
         timestamps = format_tvg_output(gcap)
         if len(timestamps) == 0:
             cnt += 1
-            print(vid, query + "\n", gcap, "\n")
+            print(vid, "{}\n{}\n".format(query, gcap))
         fmt_datas[qid] = {"timestamp": timestamps, "query": query, "vid": vid}
-    print(f'parse failed number: {cnt}')
+    print('parse failed number: {}'.format(cnt))
     return fmt_datas
 
 
@@ -157,19 +156,14 @@ def format_vhd(datas, gts):
         highlights, clipscores = format_vhd_output(gcap, vid2gts[vid])
         if len(highlights) == 0:
             cnt += 1
-            print(vid, query + "\n", gcap + "\n")
-            # pdb.set_trace()
-        else:
-            # print(gcap)
-            # print(timestamps)
-            pass
+            print("{}\n{}\n".format(vid, query, gcap))
         result = {}
         result["qid"] = qid
         result["query"] = query
         result["vid"] = vid
         result["pred_saliency_scores"] = clipscores
         fmt_datas.append(result)
-    print(f'parse failed number: {cnt}')
+    print('parse failed number: {}'.format(cnt))
     return fmt_datas
 
 
@@ -210,9 +204,9 @@ def main(args):
     prompt = read_txt(args.prompt_file)
 
     # load model
-    device = torch.device(f"cuda:{args.gpu_id}")
+    device = torch.device("cuda:{}".format(args.gpu_id))
     args.options = []
-    print("Device: ",device)
+    print("Device: {}".format(device))
 
     seed = 42
     random.seed(seed)
@@ -221,7 +215,6 @@ def main(args):
     cudnn.benchmark = False
     cudnn.deterministic = True
 
-    #print(args)
     args.cfg_path = '/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/eval_configs/timechat.yaml'
     cfg = Config(args)
     model_config = cfg.model_cfg
@@ -230,10 +223,9 @@ def main(args):
     if args.no_lora:
         model_config.lora = False
 
-    # set after init_distributed_mode() to only log on master.
     setup_logger()
     cfg.pretty_print()
-    message = '\n' + '\n'.join([f'{k:<25}: {v}' for k, v in vars(args).items()])
+    message = '\n' + '\n'.join(['{:<25}: {}'.format(k, v) for k, v in vars(args).items()])
     logging.info(message)
 
     model_cls = registry.get_model_class(model_config.arch)
@@ -255,25 +247,21 @@ def main(args):
     captions = []
     qids = []
     if args.sample_num > 0:
-        # sample part data to evaluate
         anno_data = random.sample(anno_data, args.sample_num)
     for jterm in anno_data:
         vname = jterm["image_id"].split("/")[-1]
         vid_path = os.path.join(video_path, vname)
         if args.timestamp:
             duration = int(jterm["duration"])
-            if args.timestamp_file == '':  # input the gt timestamps
+            if args.timestamp_file == '':
                 timestamp = jterm["segments"]
-            else:  # input the pred timestamps
+            else:
                 timestamp = pred_timestamps[vname]
             for (start_time, end_time) in timestamp:
-                # process anno timestamp error
                 if start_time >= end_time or end_time > duration or start_time >= duration:
                     continue
                 vids.append(vid_path)
-                vnames.append(vname + "_" + str(start_time) + "_" + str(end_time))
-                # image_emb, _ = model.encode_img(video)
-                # img_lists.append([image_emb])
+                vnames.append("{}_{}_{}".format(vname, start_time, end_time))
         else:
             vids.append(vid_path)
             vnames.append(vname)
@@ -282,20 +270,18 @@ def main(args):
 
     results = []
     bz = args.batch_size
-    # evaluate using batch
     epoch = ceil(len(vnames) / bz)
     for i in tqdm(range(epoch)):
         sid = i * bz
         eid = min((i + 1) * bz, len(vnames))
         prompts = []
-        # load video
         paths = vids[sid:eid]
         image_ids = qids[sid:eid]
         for pi in range(len(paths)):
             final_prompt = copy.deepcopy(prompt)
             if args.asr:
-                max_num_asr = 15  # only use max to 20 asr
-                asr_path = os.path.join(args.asr_path, vnames[pi].split('.')[0] + '.txt')
+                max_num_asr = 15
+                asr_path = os.path.join(args.asr_path, "{}.txt".format(vnames[pi].split('.')[0]))
                 if not os.path.exists(asr_path):
                     final_asr = 'None.'
                 else:
@@ -311,12 +297,11 @@ def main(args):
                             asr = asr + '.'
                         asr = asr.split('\t')
                         real_timestamp_start, real_timestamp_end, caption = float(asr[0]), float(asr[1]), asr[2]
-                        asr = f"{real_timestamp_start:.1f} - {real_timestamp_end:.1f} seconds, {caption} "
+                        asr = "{:.1f} - {:.1f} seconds, {}".format(real_timestamp_start, real_timestamp_end, caption)
                         final_asr += asr
                     if final_asr == '':
                         final_asr = 'None.'
-                final_prompt = f'Transcribed speech: {final_asr} Based on the video content and possible transcribed speech, {final_prompt}'
-                # final_prompt = f'{final_prompt} Transcribed speech: {final_asr}'
+                final_prompt = 'Transcribed speech: {} Based on the video content and possible transcribed speech, {}'.format(final_asr, final_prompt)
             if args.task in ["tvg", "vhd"]:
                 idx = sid + pi
                 prompts.append(final_prompt.format(args.dataset, captions[idx].strip('.')))
@@ -349,15 +334,10 @@ def main(args):
                 print(results[-1]["generated_cap"])
                 print('*' * 50)
 
-            # with open(output_file, 'a') as f:
-            #     print(json.dumps(results[-1]), file=f, flush=True)
-
     if args.timestamp:
         results = merge_seg_caps(results)
-    # save results
     save_result(args, args.output_dir, results, args.split)
 
-    # format results to calculate metrics
     if args.task == "dvc":
         fmt_results = format_dvc(results)
     elif args.task == "tvg":
@@ -365,12 +345,10 @@ def main(args):
     elif args.task == "vhd":
         fmt_results = format_vhd(results, anno_data)
     else:
-        print(f"Not support formatting samples for task {args.task}")
-    # save format results
+        print("Not support formatting samples for task {}".format(args.task))
     save_result(args, args.output_dir, fmt_results, args.split, format=True)
 
     total_time = time.time() - eval_start_time
-    # convert seconds to date
     total_time_str = str(datetime.timedelta(seconds=int(total_time)))
     print('Evaluate time {}'.format(total_time_str))
 
@@ -386,7 +364,7 @@ if __name__ == "__main__":
     parser.add_argument('--video_path', type=str, default='data/YouCook2-BB/YouCook2_asr_denseCap/youcook2_6fps_224/')
     parser.add_argument('--model_type', type=str)
     parser.add_argument('--task',
-                        default='dvc')  # dvc for dense video captioning; tvg for temporal video grounding; vhd for video highlight detection
+                        default='dvc')
     parser.add_argument('--dataset', default='youcook')
     parser.add_argument('--output_dir', default='debug')
     parser.add_argument('--split', default='val')
