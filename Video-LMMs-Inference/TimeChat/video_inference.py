@@ -37,7 +37,7 @@ def parse_args():
     parser.add_argument("--num-beams", type=int, default=1)
     parser.add_argument("--temperature", type=float, default=1.0)
     parser.add_argument("--text-query", default="What is he doing?", help="question the video")
-    parser.add_argument("--video-path", default='example/hotdog.mp4', help='path to the video files directory')
+    parser.add_argument("--video_path", default='example/hotdog.mp4', help='path to the video files directory')
     parser.add_argument(
         "--options",
         nargs="+",
