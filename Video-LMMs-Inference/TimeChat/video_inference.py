@@ -70,7 +70,7 @@ def main():
     print("Initialization finished")
 
     #initialize video dataset
-    video, _ = load_video(video_path = args.video_path, n_frms = 30, sample = 'uniform', return_msg = True)
+    video, _ = load_video(video_path = args.video_path, n_frms = 30, sampling = 'uniform', return_msg = True)
 
     print(video.size())
     C, T, H, W = video.shape
