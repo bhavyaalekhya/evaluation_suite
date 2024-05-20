@@ -54,7 +54,7 @@ def main():
     args = parse_args()
     args.cfg_path = '/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/eval_configs/timechat.yaml'
     cfg = Config(args)
-    print(cfg.datasets_cfg.webvid.vid_processor.train)
+    print(cfg.datasets_cfg.webvid)
     DIR = 'ckpt/TimeChat-7b'
     MODEL_DIR = f'{DIR}/timechat_7b.pth'
     model_config = cfg.model_cfg
