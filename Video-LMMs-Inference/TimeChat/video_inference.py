@@ -52,6 +52,7 @@ def main():
     #initialize chat
     print('Initializing Chat')
     args = parse_args()
+    args.cfg_path = '/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/eval_configs/timechat.yaml'
     cfg = Config(args)
     DIR = 'ckpt/TimeChat-7b'
     MODEL_DIR = f'{DIR}/timechat_7b.pth'

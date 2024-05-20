@@ -31,6 +31,7 @@ from PIL import Image
 import gradio as gr
 
 def parse_args():
+    #python3 inference.py --cfg_path=/data/bhavya/task_verificaiton/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/eval_configs/timechat.yaml --num-beams=1 --temperature=1.0 --test-query='Is the person filling a microwave-safe mug with skimmed milk?' --video-path=/data/bhavya/task_verification/CVVREvaluation/dataset/8_16_360p.mp4
     parser = argparse.ArgumentParser(description="Inference")
     parser.add_argument("--cfg_path", default='eval_configs/timechat.yaml', help='path to configuration file.')
     parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to the model.")
