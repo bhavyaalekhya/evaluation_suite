@@ -70,6 +70,7 @@ def main():
     print("Initialization finished")
 
     #initialize video dataset
+    args.video_path = '/data/rohith/captain_cook/videos/gopro/resolution_360p/8_16_360p.mp4'
     print(args.video_path)
     video, _ = load_video(video_path = args.video_path, n_frms = 30, sampling = 'uniform', return_msg = True)
 
