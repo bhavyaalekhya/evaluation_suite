@@ -36,7 +36,7 @@ def parse_args():
     parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to the model.")
     parser.add_argument("--num-beams", type=int, default=1)
     parser.add_argument("--temperature", type=float, default=1.0)
-    parser.add_argument("--text-query", default="What is he doing?", help="question the video")
+    parser.add_argument("--text_query", default="What is he doing?", help="question the video")
     parser.add_argument("--video_path", default='example/hotdog.mp4', help='path to the video files directory')
     parser.add_argument(
         "--options",
@@ -85,7 +85,7 @@ def main():
     msg = chat.upload_video_without_audio(video_path=args.video_path, conv=chat_state, img_list = img_list, n_frms=96)
 
     #response from chat
-    text_input = "You are given a cooking video from the Captain Cook dataset. Please watch the video and answer the question: Is skimmed milk being poured into the mug? Return the answer in the format of Yes or No."
+    text_input = f"You are given a cooking video from the Captain Cook dataset. Please watch the video and answer the question: {args.text_query} Return the answer in the format of Yes or No."
     print(text_input)
 
     chat.ask(text_input, chat_state)
