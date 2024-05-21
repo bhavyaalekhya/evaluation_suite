@@ -35,7 +35,7 @@ def interpolate_frame_pos_embed(frame_pos_embed_ckpt, new_n_frm=96):
 
 def load_video(video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="uniform", return_msg = False):
     decord.bridge.set_bridge("torch")
-    print(video_path)
+    #print(video_path)
     try:
         vr = VideoReader(uri=video_path, height=height, width=width)
 

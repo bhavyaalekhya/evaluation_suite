@@ -71,7 +71,7 @@ def main():
 
     #initialize video dataset
     args.video_path = '/data/rohith/captain_cook/videos/gopro/resolution_360p/8_16_360p.mp4'
-    print(args.video_path)
+    #print(args.video_path)
     video, _ = load_video(video_path = args.video_path, n_frms = 30, sampling = 'uniform', return_msg = True)
 
     print(video.size())
@@ -85,7 +85,7 @@ def main():
     msg = chat.upload_video_without_audio(video_path=args.video_path, conv=chat_state, img_list = img_list, n_frms=96)
 
     #response from chat
-    text_input = "You are given a cooking video from the Captain Cook dataset. Please watch the video and extract a maximum of 10 significant cooking steps. For each step, determine the starting and ending times and provide a concise description. The format should be: 'start time - end time, brief step description'. For example, ' 90 - 102 seconds, spread margarine on two slices of white bread'."
+    text_input = "You are given a cooking video from the Captain Cook dataset. Please watch the video and answer the question: Is skimmed milk being poured into the mug? Return the answer in the format of Yes or No."
     print(text_input)
 
     chat.ask(text_input, chat_state)
