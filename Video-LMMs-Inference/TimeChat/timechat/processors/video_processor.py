@@ -65,6 +65,7 @@ def load_video(video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="unifor
         else:
             raise NotImplementedError
 
+        print(indices)
         # get_batch -> T, H, W, C
         temp_frms = vr.get_batch(indices)
     except:
