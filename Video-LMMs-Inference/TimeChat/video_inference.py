@@ -3,6 +3,8 @@ import os
 import random
 import json
 import numpy as np
+from sklearn.base import accuracy_score
+from sklearn.metrics import f1_score, precision_score, recall_score
 import torch
 import torch.backends.cudnn as cudnn
 import torchshow as ts
@@ -48,6 +50,103 @@ def parse_args():
     args = parser.parse_args(args=[])
     return args
 
+def load_file(path):
+    with open(path, 'r') as file:
+        op = file.load(path)
+    
+    return op
+
+def gt(video):
+    gt = []
+    steps = video['steps']
+    for step in steps:
+        if step['has_errors']:
+            gt.append(0)
+        else:
+            gt.append(1)
+    return gt 
+
+def accuracy(pred, gt):
+    pred_flat = [label for sublist in pred for label in sublist]
+    gt_flat = [label for sublist in gt for label in sublist]
+    
+    precision = precision_score(gt_flat, pred_flat, average='micro')
+    recall = recall_score(gt_flat, pred_flat, average='micro')
+    f1 = f1_score(gt_flat, pred_flat, average='micro')
+    accuracy = accuracy_score(gt_flat, pred_flat)
+    
+    return {
+        'precision': precision,
+        'recall': recall,
+        'f1_score': f1,
+        'accuracy': accuracy
+    }
+
+def inference(args, chat):
+    args.video_path = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
+    qs = load_file('/data/bhavya/task_verification/Video-LLaVA/questions.json')
+    gt_dict = load_file('/data/bhavya/task_verificaiton/Video-LLaVA/step_annotations.json')
+    prediction = []
+    ground_truth = []
+    #print(args.video_path)
+    for v in os.listdir(args.video_path):
+        video_name = os.path.join(args.video_path, v)
+        name = v.split('_')
+        q_name = name[0] + '_x'
+        g_truth = gt(gt_dict[name[0] + '_' + name[1]])
+        ground_truth.append(g_truth)
+        video, _ = load_video(video_path = video_name, n_frms = 30, sampling = 'uniform', return_msg = True)
+        questions = qs[q_name]['questions']
+        pred = []
+        print(video.size())
+        C, T, H, W = video.shape
+        ts.show(video.transpose(0,1))
+
+        #setup chat system
+        img_list = []
+        chat_state = conv_llava_llama_2.copy()
+        chat_state.system = "You are able to understand the visual content that the user provides. Follow the instructions carefully and explain your answers in detail."
+        msg = chat.upload_video_without_audio(video_path=args.video_path, conv=chat_state, img_list = img_list, n_frms=96)
+
+        #response from chat
+        for q in questions:
+            text_input = f"You are given a cooking video from the Captain Cook dataset. Please watch the video and answer the question: {q} Return the answer in the format of Yes or No."
+            print(text_input)
+
+            chat.ask(text_input, chat_state)
+            num_beams = args.num_beams
+            temperature = args.temperature
+            llm_message = chat.answer(conv=chat_state, img_list = img_list, num_beams = num_beams, temperature = temperature, max_new_tokens = 300, max_length = 2000)[0]
+
+            print(llm_message)
+            output = llm_message.lower()
+            if 'yes' in output:
+                pred.append(1)
+            else:
+                pred.append(0)
+        
+        prediction.append(pred)
+
+    metrics = accuracy(prediction, g_truth)
+
+    print("Accuracy: {accuracy} \n F1: {f1_score} \n Recall: {recall} \n Precision: {precision}".format(
+        accuracy=metrics['accuracy'],
+        f1_score=metrics['f1_score'],
+        recall=metrics['recall'],
+        precision=metrics['precision']
+        )
+    )
+
+    content = "Accuracy: {accuracy} \n F1: {f1_score} \n Recall: {recall} \n Precision: {precision}".format(
+        accuracy=metrics['accuracy'],
+        f1_score=metrics['f1_score'],
+        recall=metrics['recall'],
+        precision=metrics['precision']
+    )
+
+    with open('timechat_metrics.txt', 'w') as file:
+        file.write(content) 
+
 def main():
     #initialize chat
     print('Initializing Chat')
@@ -69,33 +168,7 @@ def main():
     chat = Chat(model, vis_processor, device='cuda: {}'.format(args.gpu_id))
     print("Initialization finished")
 
-    #initialize video dataset
-    args.video_path = '/data/rohith/captain_cook/videos/gopro/resolution_360p/8_16_360p.mp4'
-    #print(args.video_path)
-    video, _ = load_video(video_path = args.video_path, n_frms = 30, sampling = 'uniform', return_msg = True)
-
-    print(video.size())
-    C, T, H, W = video.shape
-    ts.show(video.transpose(0,1))
-
-    #setup chat system
-    img_list = []
-    chat_state = conv_llava_llama_2.copy()
-    chat_state.system = "You are able to understand the visual content that the user provides. Follow the instructions carefully and explain your answers in detail."
-    msg = chat.upload_video_without_audio(video_path=args.video_path, conv=chat_state, img_list = img_list, n_frms=96)
-
-    #response from chat
-    text_input = f"You are given a cooking video from the Captain Cook dataset. Please watch the video and answer the question: {args.text_query} Return the answer in the format of Yes or No."
-    print(text_input)
-
-    chat.ask(text_input, chat_state)
-    num_beams = args.num_beams
-    temperature = args.temperature
-    llm_message = chat.answer(conv=chat_state, img_list = img_list, num_beams = num_beams, temperature = temperature, max_new_tokens = 300, max_length = 2000)[0]
-
-    print(llm_message)
-
-
+    inference(args, chat)
 
 if __name__=='__main__':
     main()
