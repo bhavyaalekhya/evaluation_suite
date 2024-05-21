@@ -168,7 +168,7 @@ conv_llava_llama_2 = Conversation(
 
 
 class Chat:
-    def __init__(self, model, vis_processor, device='cuda:0'):
+    def __init__(self, model, vis_processor, device='cuda'):
         self.device = device
         self.model = model
         self.vis_processor = vis_processor
