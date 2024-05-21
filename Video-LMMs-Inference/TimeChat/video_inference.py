@@ -10,7 +10,7 @@ import torchshow as ts
 from timechat.common.config import Config
 from timechat.common.dist_utils import get_rank
 from timechat.common.registry import registry
-from timechat.conversation.conversation_video import Chat, Conversation, default_conversation,SeparatorStyle, conv_llava_llama_2
+from timechat.conversation.conversation_video import Chat, Conversation, default_conversation, SeparatorStyle, conv_llava_llama_2
 import decord
 import cv2
 import time
@@ -52,7 +52,6 @@ def parse_args():
 def load_file(path):
     with open(path, 'r') as file:
         op = json.load(file)
-    
     return op
 
 def gt(video):
@@ -65,9 +64,16 @@ def gt(video):
             gt.append(1)
     return gt 
 
+def flatten(nested_list):
+    """Utility function to flatten a list of lists."""
+    return [item for sublist in nested_list for item in sublist]
+
 def accuracy(pred, gt):
-    pred_flat = [label for sublist in pred for label in sublist]
-    gt_flat = [label for sublist in gt for label in sublist]
+    if not (all(isinstance(i, list) for i in pred) and all(isinstance(i, list) for i in gt)):
+        raise ValueError("Both pred and gt should be lists of lists")
+    
+    pred_flat = flatten(pred)
+    gt_flat = flatten(gt)
     
     precision = precision_score(gt_flat, pred_flat, average='micro')
     recall = recall_score(gt_flat, pred_flat, average='micro')
@@ -87,27 +93,27 @@ def inference(args, chat):
     gt_dict = load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
     prediction = []
     ground_truth = []
-    #print(args.video_path)
+
     for v in os.listdir(video_dir):
         args.video_path = os.path.join(video_dir, v)
         name = v.split('_')
         q_name = name[0] + '_x'
         g_truth = gt(gt_dict[name[0] + '_' + name[1]])
         ground_truth.append(g_truth)
-        video, _ = load_video(video_path = args.video_path, n_frms = 30, sampling = 'uniform', return_msg = True)
+        video, _ = load_video(video_path=args.video_path, n_frms=30, sampling='uniform', return_msg=True)
         questions = qs[q_name]['questions']
         pred = []
         print(video.size())
         C, T, H, W = video.shape
         ts.show(video.transpose(0,1))
 
-        #setup chat system
+        # Setup chat system
         img_list = []
         chat_state = conv_llava_llama_2.copy()
         chat_state.system = "You are able to understand the visual content that the user provides. Follow the instructions carefully and explain your answers in detail."
-        msg = chat.upload_video_without_audio(video_path=args.video_path, conv=chat_state, img_list = img_list, n_frms=96)
+        msg = chat.upload_video_without_audio(video_path=args.video_path, conv=chat_state, img_list=img_list, n_frms=96)
 
-        #response from chat
+        # Response from chat
         for q in questions:
             text_input = f"You are given a cooking video from the Captain Cook dataset. Please watch the video and answer the question: {q} Return the answer in the format of Yes or No."
             print(text_input)
@@ -115,7 +121,7 @@ def inference(args, chat):
             chat.ask(text_input, chat_state)
             num_beams = args.num_beams
             temperature = args.temperature
-            llm_message = chat.answer(conv=chat_state, img_list = img_list, num_beams = num_beams, temperature = temperature, max_new_tokens = 300, max_length = 5000)[0]
+            llm_message = chat.answer(conv=chat_state, img_list=img_list, num_beams=num_beams, temperature=temperature, max_new_tokens=300, max_length=5000)[0]
 
             print(llm_message)
             output = llm_message.lower()
@@ -123,18 +129,17 @@ def inference(args, chat):
                 pred.append(1)
             else:
                 pred.append(0)
-        
+
         prediction.append(pred)
 
-    metrics = accuracy(prediction, g_truth)
+    metrics = accuracy(prediction, ground_truth)
 
     print("Accuracy: {accuracy} \n F1: {f1_score} \n Recall: {recall} \n Precision: {precision}".format(
         accuracy=metrics['accuracy'],
         f1_score=metrics['f1_score'],
         recall=metrics['recall'],
         precision=metrics['precision']
-        )
-    )
+    ))
 
     content = "Accuracy: {accuracy} \n F1: {f1_score} \n Recall: {recall} \n Precision: {precision}".format(
         accuracy=metrics['accuracy'],
@@ -144,10 +149,10 @@ def inference(args, chat):
     )
 
     with open('timechat_metrics.txt', 'w') as file:
-        file.write(content) 
+        file.write(content)
 
 def main():
-    #initialize chat
+    # Initialize chat
     print('Initializing Chat')
     args = parse_args()
     args.cfg_path = '/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/eval_configs/timechat.yaml'
@@ -169,5 +174,5 @@ def main():
 
     inference(args, chat)
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()
