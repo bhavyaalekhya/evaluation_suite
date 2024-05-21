@@ -84,7 +84,7 @@ def accuracy(pred, gt):
 def inference(args, chat):
     args.video_path = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
     qs = load_file('/data/bhavya/task_verification/Video-LLaVA/questions.json')
-    gt_dict = load_file('/data/bhavya/task_verificaiton/Video-LLaVA/step_annotations.json')
+    gt_dict = load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
     prediction = []
     ground_truth = []
     #print(args.video_path)
