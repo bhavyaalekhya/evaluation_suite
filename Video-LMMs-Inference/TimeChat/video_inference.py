@@ -3,8 +3,7 @@ import os
 import random
 import json
 import numpy as np
-from sklearn.base import accuracy_score
-from sklearn.metrics import f1_score, precision_score, recall_score
+from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 import torch
 import torch.backends.cudnn as cudnn
 import torchshow as ts
