@@ -51,7 +51,7 @@ def parse_args():
 
 def load_file(path):
     with open(path, 'r') as file:
-        op = file.load(path)
+        op = json.load(file)
     
     return op
 
