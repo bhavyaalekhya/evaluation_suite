@@ -90,6 +90,7 @@ def inference(args, chat):
     #print(args.video_path)
     for v in os.listdir(args.video_path):
         video_name = os.path.join(args.video_path, v)
+        print(video_name)
         name = v.split('_')
         q_name = name[0] + '_x'
         g_truth = gt(gt_dict[name[0] + '_' + name[1]])
