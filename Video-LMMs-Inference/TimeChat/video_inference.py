@@ -115,7 +115,7 @@ def inference(args, chat):
             chat.ask(text_input, chat_state)
             num_beams = args.num_beams
             temperature = args.temperature
-            llm_message = chat.answer(conv=chat_state, img_list = img_list, num_beams = num_beams, temperature = temperature, max_new_tokens = 300, max_length = 2000)[0]
+            llm_message = chat.answer(conv=chat_state, img_list = img_list, num_beams = num_beams, temperature = temperature, max_new_tokens = 300, max_length = 5000)[0]
 
             print(llm_message)
             output = llm_message.lower()
