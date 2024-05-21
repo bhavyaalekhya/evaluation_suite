@@ -82,19 +82,19 @@ def accuracy(pred, gt):
     }
 
 def inference(args, chat):
-    args.video_path = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
+    video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
     qs = load_file('/data/bhavya/task_verification/Video-LLaVA/questions.json')
     gt_dict = load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
     prediction = []
     ground_truth = []
     #print(args.video_path)
-    for v in os.listdir(args.video_path):
-        video_name = args.video_path + v
+    for v in os.listdir(video_dir):
+        args.video_path = os.path.join(video_dir, v)
         name = v.split('_')
         q_name = name[0] + '_x'
         g_truth = gt(gt_dict[name[0] + '_' + name[1]])
         ground_truth.append(g_truth)
-        video, _ = load_video(video_path = video_name, n_frms = 30, sampling = 'uniform', return_msg = True)
+        video, _ = load_video(video_path = args.video_path, n_frms = 30, sampling = 'uniform', return_msg = True)
         questions = qs[q_name]['questions']
         pred = []
         print(video.size())
