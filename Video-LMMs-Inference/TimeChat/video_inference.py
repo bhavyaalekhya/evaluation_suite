@@ -60,24 +60,31 @@ def load_file(path):
         op = json.load(file)
     return op
 
-def gt(name, video, normal_annot):
+def gt(name, video, normal_annot, questions):
     gt = []
     steps = video['steps']
     normal = name + '_x'
     n_steps = normal_annot[normal]['steps']
     n_steps_desc = []
-    
+
     for step in n_steps:
         n_steps_desc.append(step['description'])
-    
+
+    video_steps_desc = [step['description'] for step in steps]
+    common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
+
+    # Initialize gt with -1 for each question
+    gt = [-1] * len(questions)
+
     for step in steps:
-        if step['description'] in n_steps_desc:
-            if step['has_errors'] == True:
-                gt.append(0)
+        if step['description'] in common_steps:
+            index = common_steps.index(step['description'])
+            if step['has_errors']:
+                gt[index] = 0
             else:
-                gt.append(1)
-    
-    return gt 
+                gt[index] = 1
+
+    return gt
 
 def flatten(nested_list):
     """Utility function to flatten a list of lists."""
@@ -127,10 +134,11 @@ def inference(args, chat):
         args.video_path = os.path.join(video_dir, v)
         name = v.split('_')
         q_name = name[0] + '_x'
-        g_truth = gt(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot)
-        ground_truth.append(g_truth)
+        
         video, _ = load_video(video_path=args.video_path, n_frms=30, sampling='uniform', return_msg=True)
         questions = qs[q_name]['questions']
+        g_truth = gt(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot, questions)
+        ground_truth.append(g_truth)
         pred = []
         print(video.size())
         C, T, H, W = video.shape
@@ -164,6 +172,8 @@ def inference(args, chat):
 
             else:
                 wandb.log({'video': v})
+
+        prediction.append(pred)
 
     metrics = accuracy(prediction, ground_truth)
 
