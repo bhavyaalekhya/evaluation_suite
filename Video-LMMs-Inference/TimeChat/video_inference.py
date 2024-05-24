@@ -3,6 +3,7 @@ import os
 import random
 import json
 import numpy as np
+import wandb
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 import torch
 import torch.backends.cudnn as cudnn
@@ -31,6 +32,11 @@ from transformers import StoppingCriteria, StoppingCriteriaList
 from PIL import Image
 import gradio as gr
 
+wandb.init(
+    project="Task_Verification",
+    entity="vsbhavyaalekhya"
+)
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Inference")
     parser.add_argument("--cfg_path", default='eval_configs/timechat.yaml', help='path to configuration file.')
@@ -54,14 +60,23 @@ def load_file(path):
         op = json.load(file)
     return op
 
-def gt(video):
+def gt(name, video, normal_annot):
     gt = []
     steps = video['steps']
+    normal = name + '_x'
+    n_steps = normal_annot[normal]['steps']
+    n_steps_desc = []
+    
+    for step in n_steps:
+        n_steps_desc.append(step['description'])
+    
     for step in steps:
-        if step['has_errors']:
-            gt.append(0)
-        else:
-            gt.append(1)
+        if step['description'] in n_steps_desc:
+            if step['has_errors'] == True:
+                gt.append(0)
+            else:
+                gt.append(1)
+    
     return gt 
 
 def flatten(nested_list):
@@ -87,10 +102,24 @@ def accuracy(pred, gt):
         'accuracy': accuracy
     }
 
+def acc(pred, gt):
+    precision = precision_score(gt, pred, average='micro')
+    recall = recall_score(gt, pred, average='micro')
+    f1 = f1_score(gt, pred, average='micro')
+    accuracy = accuracy_score(gt, pred)
+    
+    return {
+        'precision': precision,
+        'recall': recall,
+        'f1_score': f1,
+        'accuracy': accuracy
+    }
+
 def inference(args, chat):
     video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
     qs = load_file('/data/bhavya/task_verification/Video-LLaVA/questions.json')
     gt_dict = load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
+    normal_annot = load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
     prediction = []
     ground_truth = []
 
@@ -98,7 +127,7 @@ def inference(args, chat):
         args.video_path = os.path.join(video_dir, v)
         name = v.split('_')
         q_name = name[0] + '_x'
-        g_truth = gt(gt_dict[name[0] + '_' + name[1]])
+        g_truth = gt(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot)
         ground_truth.append(g_truth)
         video, _ = load_video(video_path=args.video_path, n_frms=30, sampling='uniform', return_msg=True)
         questions = qs[q_name]['questions']
@@ -112,7 +141,6 @@ def inference(args, chat):
         chat_state = conv_llava_llama_2.copy()
         chat_state.system = "You are able to understand the visual content that the user provides. Follow the instructions carefully and explain your answers in detail."
         msg = chat.upload_video_without_audio(video_path=args.video_path, conv=chat_state, img_list=img_list, n_frms=96)
-
         # Response from chat
         for q in questions:
             text_input = f"You are given a cooking video from the Captain Cook dataset. Please watch the video and answer the question: {q} Return the answer in the format of Yes or No."
@@ -130,7 +158,12 @@ def inference(args, chat):
             else:
                 pred.append(0)
 
-        prediction.append(pred)
+            if len(g_truth)==len(pred):
+                video_metrics = acc(gt, pred)
+                wandb.log({'video':v, 'accuracy': video_metrics['accuracy'], 'recall': video_metrics['recall'], 'f1_score': video_metrics['f1_score'], 'precision': video_metrics['precision']})
+
+            else:
+                wandb.log({'video': v})
 
     metrics = accuracy(prediction, ground_truth)
 
@@ -140,6 +173,8 @@ def inference(args, chat):
         recall=metrics['recall'],
         precision=metrics['precision']
     ))
+
+    wandb.log({'value':'total dataset', 'accuracy': metrics['accuracy'], 'recall': metrics['recall'], 'f1_score': metrics['f1_score'], 'precision': metrics['precision']})
 
     content = "Accuracy: {accuracy} \n F1: {f1_score} \n Recall: {recall} \n Precision: {precision}".format(
         accuracy=metrics['accuracy'],
@@ -165,7 +200,7 @@ def main():
     model_cls = registry.get_model_class(model_config.arch)
     model = model_cls.from_config(model_config).to('cuda:{}'.format(args.gpu_id))
     model.eval()
-
+    wandb.watch(model, log="all")
     vis_processor_cfg = cfg.datasets_cfg.webvid.vis_processor.train
     vis_processor = registry.get_processor_class(vis_processor_cfg.name).from_config(vis_processor_cfg)
 
