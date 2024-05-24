@@ -159,7 +159,7 @@ def inference(args, chat):
                 pred.append(0)
 
             if len(g_truth)==len(pred):
-                video_metrics = acc(gt, pred)
+                video_metrics = acc(g_truth, pred)
                 wandb.log({'video':v, 'accuracy': video_metrics['accuracy'], 'recall': video_metrics['recall'], 'f1_score': video_metrics['f1_score'], 'precision': video_metrics['precision']})
 
             else:
