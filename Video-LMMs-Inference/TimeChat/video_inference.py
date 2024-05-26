@@ -108,8 +108,8 @@ def inference(args, chat):
     qs = load_file('/data/bhavya/task_verification/Video-LLaVA/questions.json')
     gt_dict = load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
     normal_annot = load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
-    output_file = './timechat_proc_metrics.txt'
-    op_file = './timechat_metrics.csv'
+    output_file = 'timechat_proc_metrics.txt'
+    op_file = 'timechat_metrics.csv'
     prediction = []
     gt = []
 
