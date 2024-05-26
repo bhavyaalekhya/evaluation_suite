@@ -88,9 +88,9 @@ def flatten(nested_list):
     return [item for sublist in nested_list for item in sublist]
 
 def accuracy(gt_flat, pred_flat):
-    precision = precision_score(gt_flat, pred_flat, average='micro')
-    recall = recall_score(gt_flat, pred_flat, average='micro')
-    f1 = f1_score(gt_flat, pred_flat, average='micro')
+    precision = precision_score(gt_flat, pred_flat)
+    recall = recall_score(gt_flat, pred_flat)
+    f1 = f1_score(gt_flat, pred_flat)
     accuracy = accuracy_score(gt_flat, pred_flat)
     
     return {
