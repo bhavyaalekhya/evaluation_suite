@@ -191,6 +191,8 @@ def inference(args, chat):
     with open(output_file, 'w') as file:
         file.write(content)
 
+    print(f'Metrics saved in {output_file}')
+
 def main():
     # Initialize chat
     print('Initializing Chat')
