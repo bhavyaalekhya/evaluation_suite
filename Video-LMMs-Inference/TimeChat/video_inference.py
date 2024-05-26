@@ -5,6 +5,7 @@ import json
 import numpy as np
 import wandb
 import pandas as pd
+from tqdm import tqdm
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 import torch
 import torch.backends.cudnn as cudnn
@@ -167,11 +168,13 @@ def inference(args, chat):
 
     metrics = accuracy(gt, prediction)
 
-    print("Accuracy: {accuracy} \n F1: {f1_score} \n Recall: {recall} \n Precision: {precision}".format(
+    print("Accuracy: {accuracy} \nF1: {f1_score} \nRecall: {recall} \nPrecision: {precision} \nGround Truth: {gt} \nPredicted: {prediction}".format(
         accuracy=metrics['accuracy'],
         f1_score=metrics['f1_score'],
         recall=metrics['recall'],
-        precision=metrics['precision']
+        precision=metrics['precision'],
+        gt = gt,
+        prediction = prediction
     ))
 
     wandb.log({'value':'total dataset', 'accuracy': metrics['accuracy'], 'recall': metrics['recall'], 'f1_score': metrics['f1_score'], 'precision': metrics['precision']})
