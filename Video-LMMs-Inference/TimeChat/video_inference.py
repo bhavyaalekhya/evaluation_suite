@@ -4,6 +4,7 @@ import random
 import json
 import numpy as np
 import wandb
+import pandas as pd
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 import torch
 import torch.backends.cudnn as cudnn
@@ -60,7 +61,7 @@ def load_file(path):
         op = json.load(file)
     return op
 
-def gt(name, video, normal_annot, questions):
+def ground_truth(name, video, normal_annot, questions):
     gt = []
     steps = video['steps']
     normal = name + '_x'
@@ -72,31 +73,20 @@ def gt(name, video, normal_annot, questions):
 
     video_steps_desc = [step['description'] for step in steps]
     common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
-
-    # Initialize gt with -1 for each question
-    gt = [-1] * len(questions)
+    gt = [0] * len(questions)
 
     for step in steps:
         if step['description'] in common_steps:
             index = common_steps.index(step['description'])
-            if step['has_errors']:
-                gt[index] = 0
-            else:
+            if not step['has_errors']:
                 gt[index] = 1
 
     return gt
 
 def flatten(nested_list):
-    """Utility function to flatten a list of lists."""
     return [item for sublist in nested_list for item in sublist]
 
-def accuracy(pred, gt):
-    if not (all(isinstance(i, list) for i in pred) and all(isinstance(i, list) for i in gt)):
-        raise ValueError("Both pred and gt should be lists of lists")
-    
-    pred_flat = flatten(pred)
-    gt_flat = flatten(gt)
-    
+def accuracy(gt_flat, pred_flat):
     precision = precision_score(gt_flat, pred_flat, average='micro')
     recall = recall_score(gt_flat, pred_flat, average='micro')
     f1 = f1_score(gt_flat, pred_flat, average='micro')
@@ -109,26 +99,19 @@ def accuracy(pred, gt):
         'accuracy': accuracy
     }
 
-def acc(pred, gt):
-    precision = precision_score(gt, pred, average='micro')
-    recall = recall_score(gt, pred, average='micro')
-    f1 = f1_score(gt, pred, average='micro')
-    accuracy = accuracy_score(gt, pred)
-    
-    return {
-        'precision': precision,
-        'recall': recall,
-        'f1_score': f1,
-        'accuracy': accuracy
-    }
+def data_file(data, filename):
+    df = pd.DataFrame(data)
+    df.to_csv(filename, sep=',', mode='a+')
 
 def inference(args, chat):
     video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
     qs = load_file('/data/bhavya/task_verification/Video-LLaVA/questions.json')
     gt_dict = load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
     normal_annot = load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
+    output_file = './timechat_proc_metrics.txt'
+    op_file = './timechat_metrics.csv'
     prediction = []
-    ground_truth = []
+    gt = []
 
     for v in os.listdir(video_dir):
         args.video_path = os.path.join(video_dir, v)
@@ -137,8 +120,8 @@ def inference(args, chat):
         
         video, _ = load_video(video_path=args.video_path, n_frms=30, sampling='uniform', return_msg=True)
         questions = qs[q_name]['questions']
-        g_truth = gt(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot, questions)
-        ground_truth.append(g_truth)
+        g_truth = ground_truth(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot, questions)
+        gt.append(g_truth)
         pred = []
         print(video.size())
         C, T, H, W = video.shape
@@ -167,7 +150,9 @@ def inference(args, chat):
                 pred.append(0)
 
         if len(g_truth)==len(pred):
-            video_metrics = acc(g_truth, pred)
+            video_metrics = accuracy(g_truth, pred)
+            met = {'v': v, 'a': video_metrics['accuracy'], 'r': video_metrics['recall'], 'p': video_metrics['precision'], 'f1': video_metrics['f1_score'], 'gt': g_truth, 'pred': pred}
+            data_file(met, op_file)
             wandb.log({'video':v, 'accuracy': video_metrics['accuracy'], 'recall': video_metrics['recall'], 'f1_score': video_metrics['f1_score'], 'precision': video_metrics['precision']})
 
         else:
@@ -175,7 +160,12 @@ def inference(args, chat):
 
         prediction.append(pred)
 
-    metrics = accuracy(prediction, ground_truth)
+    gt = flatten(gt)
+    prediction = flatten(prediction)
+    print(gt)
+    print(prediction)
+
+    metrics = accuracy(gt, prediction)
 
     print("Accuracy: {accuracy} \n F1: {f1_score} \n Recall: {recall} \n Precision: {precision}".format(
         accuracy=metrics['accuracy'],
@@ -186,14 +176,16 @@ def inference(args, chat):
 
     wandb.log({'value':'total dataset', 'accuracy': metrics['accuracy'], 'recall': metrics['recall'], 'f1_score': metrics['f1_score'], 'precision': metrics['precision']})
 
-    content = "Accuracy: {accuracy} \n F1: {f1_score} \n Recall: {recall} \n Precision: {precision}".format(
+    content = "Accuracy: {accuracy} \nF1: {f1_score} \nRecall: {recall} \nPrecision: {precision} \nGround Truth: {ground_truth} \nPredicted: {predicted}".format(
         accuracy=metrics['accuracy'],
         f1_score=metrics['f1_score'],
         recall=metrics['recall'],
-        precision=metrics['precision']
+        precision=metrics['precision'],
+        ground_truth = gt,
+        predicted = prediction
     )
 
-    with open('timechat_metrics.txt', 'w') as file:
+    with open(output_file, 'w') as file:
         file.write(content)
 
 def main():
