@@ -128,6 +128,12 @@ def dis(l):
         op = op and l[i]
     return op
     
+def question_index(related_questions):
+    question_to_index = {question['q']: i for i, question in enumerate(related_questions)}
+    for i, question in enumerate(related_questions):
+        for followup in question['followup']:
+            question_to_index[followup] = i
+
 def data_file(data, filename):
     df = pd.DataFrame(data)
     df.to_csv(filename, sep=',', mode='a+')
@@ -160,25 +166,25 @@ def inference(args, chat):
         chat_state = conv_llava_llama_2.copy()
         chat_state.system = "You are able to understand the visual content that the user provides. Follow the instructions carefully and explain your answers in detail."
         msg = chat.upload_video_without_audio(video_path=args.video_path, conv=chat_state, img_list=img_list, n_frms=96)
+        question_to_index = question_index(questions)
         # Response from chat
-        for steps in questions:
-            inp = steps['q']
-            output = ask_question(args, chat, chat_state, img_list, inp)
+        for i, steps in enumerate(tqdm(questions, desc=f"Processing questions for {v}", leave=False)):
+            inp1 = steps['q']
+            output = ask_question(args, chat, chat_state, img_list, inp1)
             print(output)
             if 'yes' in output:
-                if 'followup' in step.keys():
-                    preds = [0]
-                    step = steps['followup']
-                    for follow_up in step:
+                if 'followup' in steps.keys():
+                    preds = [1]  # Initialize with 1 since the main question was answered with 'yes'
+                    for follow_up in steps['followup']:
                         pred2 = ask_question(args, chat, chat_state, img_list, follow_up)
                         print(pred2)
                         preds.append(op_val(pred2))
                     p = dis(preds)
-                    pred.append(p)
+                    pred[question_to_index[inp1]] = p
                 else:
-                    pred.append(0)
+                    pred[question_to_index[inp1]] = 1
             else:
-                pred.append(1)
+                pred[question_to_index[inp1]] = 0
 
         prediction.append(pred)
 
