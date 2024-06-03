@@ -1,0 +1,1846 @@
+{
+    "21_x": {
+        "questions": [
+            {
+                "q": "Is the blender blitzed for 20 seconds?",
+                "followup": [
+                    "Does the person add 1/2 tsp baking powder to the blender?",
+                    "Does the person add 1 banana to the blender?",
+                    "Does the person add an egg to the blender?",
+                    "Is 1 heaped tbsp of flour added to the blender?"
+                ]
+            },
+            {
+                "q": "Did the person melt a small knob of butter in non-stick frying pan over low medium heat?",
+                "followup": [
+                    "Has the person blitzed the blender for 20 seconds?"
+                ]
+            },
+            {
+                "q": "Does the person pour three little puddles straight from blender into frying pan?",
+                "followup": [
+                    "Has the person melted butter in a non-stick frying pan over low medium heat?"
+                ]
+            },
+            {
+                "q": "Is the person cooking the batter for 1 min or until the top starts to bubble?",
+                "followup": [
+                    "Has the person poured three little puddles of batter from the blender into the frying pan?"
+                ]
+            },
+            {
+                "q": "Are the pancakes flipped with a fork or fish slice spatula?",
+                "followup": [
+                    "Is the batter cooked for 1 min or until the top starts to bubble?"
+                ]
+            },
+            {
+                "q": "Are the pancakes cooked for 20-30 seconds extra?",
+                "followup": [
+                    "Did the person flip the pancakes with a for or fish shaped spatula?"
+                ]
+            },
+            {
+                "q": "Are the pancakes transferred to a plate?",
+                "followup": [
+                    "Have the pancakes been cooked for 20-30 seconds more?"
+                ]
+            },
+            {
+                "q": "Are the pancakes served with chopped strawberries?",
+                "followup": [
+                    "Is a strawberry chopped?",
+                    "Are the pancakes transferred to a plate?"
+                ]
+            },
+            {
+                "q": "Is maple syrup splashed on the plate?",
+                "followup": [
+                    "Are the pancakes served with chopped strawberries?"
+                ]
+            }
+        ]
+    },
+    "7_x": {
+        "questions": [
+            {
+                "q": "Is the egg being whisked?",
+                "followup": [
+                    "Are the contents of an egg extracted and added to a microwave-safe bowl?"
+                ]
+            },
+            {
+                "q": "Is the mixture microwaved for 3 minutes while stirring in between?",
+                "followup": [
+                    "Has the egg been whisked?"
+                ]
+            },
+            {
+                "q": "Is 1/2 tbsp of sweet and sour sauce added to the bowl?",
+                "followup": [
+                    "Has the mixture been microwaved for 3 minutes while stirring in between?"
+                ]
+            },
+            {
+                "q": "Is 1 tbsp of salsa is added to the bowl?",
+                "followup": [
+                    "Has the mixture been microwaved for 3 minutes while stirring in between?"
+                ]
+            },
+            {
+                "q": "Does the person sprinkle oregano into the bowl?",
+                "followup": [
+                    "Has the mixture been microwaved for 3 minutes while stirring in between?"
+                ]
+            },
+            {
+                "q": "Are the contents of the bowl mixed well?",
+                "followup": [
+                    "Is 1/2 tbsp of sweet and sour sauce added to the bowl?",
+                    "Is 1 tbsp of salsa is added to the bowl?",
+                    "Does the person sprinkle oregano into the bowl?"
+                ]
+            },
+            {
+                "q": "Does the person pour the egg mixture on top of the tortilla?",
+                "followup": [
+                    "Are the contents of the bowl mixed well?",
+                    "Has an 8-inch tortilla been placed on the cutting board?"
+                ]
+            },
+            {
+                "q": "Does the person sprinkle 1 tbsp of shredded cheddar cheese on top of egg?",
+                "followup": [
+                    "Has the egg mixture been poured on top of the tortilla?"
+                ]
+            },
+            {
+                "q": "Is the tortilla rolled from one end to another into log shape about 1.5 inches thick, tight enough to prevent gaps but not so tight that the filling leaks?",
+                "followup": [
+                    "Has 1 tbsp shredded cheddar cheese been sprinkled on top of the egg?"
+                ]
+            }
+        ]
+    },
+    "23_x": {
+        "questions": [
+            {
+                "q": "Is garlic minced?",
+                "followup": [
+                    "Have 2 cloves of garlic been peeled?"
+                ]
+            },
+            {
+                "q": "Is the 2 cloves minced garlic added to the bowl?",
+                "followup": [
+                    "Is the garlic minced?"
+                ]
+            },
+            {
+                "q": "Are the contents of the bowl whisked?",
+                "followup": [
+                    "Is 1/8 cup soy sauce added to the bowl?",
+                    "Has 1 tablespoon honey been added to the bowl?",
+                    "Has 1 teaspoon cornstarch been added to the bowl?",
+                    "Have 2 cloves of garlic been peeled?",
+                    "Have 2 cloves minced garlic been added to the bowl?",
+                    "Has 1/2 tablespoon of minced ginger been added to the bowl?",
+                    "Has 1/8 teaspoon black pepper been added to the bowl?",
+                    "Has 1/6 cup of water been added to the bowl?"
+                ]
+            },
+            {
+                "q": "Have mushrooms been sliced?",
+                "followup": [
+                    "Have 2 cremini mushrooms been taken?"
+                ]
+            },
+            {
+                "q": "Is 1/3 of bell pepper sliced?",
+                "followup": [
+                    "Has 1 bell pepper been taken?"
+                ]
+            },
+            {
+                "q": "Is the sauce mixture set aside?",
+                "followup": [
+                    "Have the contents of the bowl been whisked?"
+                ]
+            },
+            {
+                "q": "Is 2 tablespoons of olive oil heated in a skillet over medium-high heat?",
+                "followup": [
+                    "Has the sauce mixture been set aside?",
+                    "Have the mushrooms been sliced?",
+                    "Has 1/3 of bell pepper been sliced?",
+                    "Have 5 broccoli florets been taken?"
+                ]
+            },
+            {
+                "q": "Are sliced mushrooms added to the skillet?",
+                "followup": [
+                    "Has 2 tablespoons olive oil been heated in a skillet over medium-high heat?"
+                ]
+            },
+            {
+                "q": "Is broccoli added to the skillet?",
+                "followup": [
+                    "Has 2 tablespoons olive oil been heated in a skillet over medium-high heat?"
+                ]
+            },
+            {
+                "q": "Is the mixture being cooked, stirred often for 4 minutes (turning heat to meadium if medium-high gets too hot)?",
+                "followup": [
+                    "Have sliced mushrooms been added to the skillet?",
+                    "Has broccoli been added to the skillet?"
+                ]
+            },
+            {
+                "q": "Is bell pepper added to the skillet?",
+                "followup": [
+                    "Has the mixture been cooked, stirred often for 4 minutes (turning heat to meadium if medium-high gets too hot)?"
+                ]
+            },
+            {
+                "q": "Is the cooking continuing by stirring often, for next 2-3 minutes, until the vegetables are crisp-tender?",
+                "followup": [
+                    "Has bell pepper been added to the skillet?"
+                ]
+            },
+            {
+                "q": "Is the sauce whisked again to recombine the ingredients?",
+                "followup": [
+                    "Has the cooking continued by stirring often, for next 2-3 minutes, until the vegetables are crisp-tender?"
+                ]
+            },
+            {
+                "q": "Is the sauce poured into the skillet?",
+                "followup": [
+                    "Has the sauce been whisked again to recombine the ingredients?"
+                ]
+            },
+            {
+                "q": "Is the cooking, stirring continued for 1 minute until the sauce thickens?",
+                "followup": [
+                    "Has the sauce been poured into the skillet?"
+                ]
+            }
+        ]
+    },
+    "13_x": {
+        "questions": [
+            {
+                "q": "Is frozen corn thawed by putting it in sieve and running it under cold water?",
+                "followup": [
+                    "Has 2 cups of frozen corn been measured?"
+                ]
+            },
+            {
+                "q": "Is the corn added into a microwave-safe bowl?",
+                "followup": [
+                    "Has frozen corn been thawed by putting it in sieve and running it under cold water"
+                ]
+            },
+            {
+                "q": "Is the corn microwaved for 2 minutes?",
+                "followup": [
+                    "Has the corn been added to a microwave-safe bowl?"
+                ]
+            },
+            {
+                "q": "Is 1 teaspoon of softened butter added?",
+                "followup": [
+                    "Has the corn been microwaved for 2 minutes previously?"
+                ]
+            },
+            {
+                "q": "Is 1 teaspoon of pepper powder added to the bowl?",
+                "followup": [
+                    "Has the corn been microwaved for 2 minutes previously?"
+                ]
+            },
+            {
+                "q": "Are the contents in the bowl stirred?",
+                "followup": [
+                    "Has 1 teaspoon of black pepper been added to the bowl previously?",
+                    "Has 1 teaspoon of softened butter already been added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is the corn microwaved for 3 more minutes?",
+                "followup": [
+                    "Have the contents of the bowl been stirred before microwaving for 3 more minutes?"
+                ]
+            },
+            {
+                "q": "Is lime juice added to the bowl?",
+                "followup": [
+                    "Has the lime juice from 1/3 lime been extracted already?",
+                    "Has the corn been microwaved for 3 more minutes before adding the lime juice?"
+                ]
+            },
+            {
+                "q": "Is 1 teaspoon of salt been added to the bowl?",
+                "followup": [
+                    "Has the corn been microwaved for 3 more minutes before adding the lime juice?"
+                ]
+            },
+            {
+                "q": "Are the contents of the bowl mixed well?",
+                "followup": [
+                    "Has lime juice been added to the bowl before mixing?",
+                    "Has 1 teaspoon of salt been added to bowl before mixing?"
+                ]
+            }
+        ]
+    },
+    "18_x": {
+        "questions": [
+            {
+                "q": "Is a large pan being heated on medium heat?",
+                "followup": [
+                    "Has one clove of garlic peeled?",
+                    "Has 1 medium zucchini been spiralized into thin noodles using a spiralizer?"
+                ]
+            },
+            {
+                "q": "Is 1 tablespoon of softened butter melted?",
+                "followup": [
+                    "Has a large pan been heated on medium heat before adding butter?"
+                ]
+            },
+            {
+                "q": "Is 1 large minced garlic clove added to the pan?",
+                "followup": [
+                    "Has 1 tablespoon of softened butter melted before adding the minced garlic?"
+                ]
+            },
+            {
+                "q": "Is the garlic cooked until fragrant, about 1 minute and not burnt?",
+                "followup": [
+                    "Has the garlic been added to the pan?"
+                ]
+            },
+            {
+                "q": "Is 1/6 cup grated parmesan cheese added to the pan?",
+                "followup": [
+                    "Has the garlic been cooked until fragrant, about 1 minute and not burnt before adding parmesan cheese?"
+                ]
+            },
+            {
+                "q": "Is pepper added to season the dish?",
+                "followup": [
+                    "Has the garlic been cooked until fragrant, about 1 minute and not burnt before adding pepper?"
+                ]
+            },
+            {
+                "q": "Is salt added to season the dish?",
+                "followup": [
+                    "Has the garlic been cooked until fragrant, about 1 minute and not burnt before adding salt?"
+                ]
+            },
+            {
+                "q": "Are the zucchini noodles added to the dish?",
+                "followup": [
+                    "Has the garlic been cooked until fragrant, about 1 minute and not burnt before adding zucchini noodles?"
+                ]
+            },
+            {
+                "q": "Are the zoodles cooked for 2 minutes, until they are done?",
+                "followup": [
+                    "Has 1/6 cup grated parmesan cheese been added to the pan?",
+                    "Has pepper been added to season the dish?",
+                    "Has salt been added to season the dish?",
+                    "Have the zucchini noodles been added to the dish?"
+                ]
+            },
+            {
+                "q": "Is the pan removed from heat?",
+                "followup": [
+                    "Have the zoodles been cooked until they are done (for about 2 minutes)?"
+                ]
+            },
+            {
+                "q": "Is more parmesan cheese added (if desired)?",
+                "followup": [
+                    "Has the pan been removed from heat?"
+                ]
+            }
+        ]
+    },
+    "12_x": {
+        "questions": [
+            {
+                "q": "Is the tomato gently dried using a paper/tea towel?",
+                "followup": [
+                    "Has the tomato rinsed before drying it?"
+                ]
+            },
+            {
+                "q": "Is one tomato sliced into about 1/2 inch thick slices?",
+                "followup": [
+                    "Has the tomato been dried with paper/tea towel before slicing?"
+                ]
+            },
+            {
+                "q": "Are the slices of tomato placed on a platter ensuring that they form one layer?",
+                "followup": [
+                    "Before placing on a platter, has the tomato been sliced into 1/2 inch thick slices?"
+                ]
+            },
+            {
+                "q": "Are the tomato slices seasoned with salt?",
+                "followup": [
+                    "Have the tomato slices been placed on a platter before seasoning with salt?"
+                ]
+            },
+            {
+                "q": "Is mozzarella cheese sprinkled on the tomato slices throughout the platter?",
+                "followup": [
+                    "Have the tomato slices been placed on a platter before sprinkling mozzarella cheese?"
+                ]
+            },
+            {
+                "q": "Is the platter seasoned with 1/4 teaspoon black pepper?",
+                "followup": [
+                    "Have the tomato slices been placed on a platter before seasoning with black pepper?"
+                ]
+            },
+            {
+                "q": "Is the platter garnished with italian seasoning?",
+                "followup": [
+                    "Have the tomato slices been placed on a platter before garnishing with italian seasoning?"
+                ]
+            },
+            {
+                "q": "Is the platter drizzled with extra-virgin olive oil about 1 tablespoon?",
+                "followup": [
+                    "Have the tomato slices been seasoned with salt before drizzling platter with olive oil?",
+                    "Have the tomato slices been sprinkled with mozzarella cheese before drizzling platter with olive oil?",
+                    "Has the platter been seasoned with black pepper before drizzling platter with olive oil?",
+                    "Has the platter been garnished with italian seasoning before drizzling platter with olive oil?"
+                ]
+            }
+        ]
+    },
+    "8_x": {
+        "questions": [
+            {
+                "q": "Are the contents of the mug microwaved for 1 minute?",
+                "followup": [
+                    "Has a microwave-safe mug been filled with skimmed milk before microwaving for 1 minute?"
+                ]
+            },
+            {
+                "q": "Is 1/5 teaspoon cinnamon added to the mug?",
+                "followup": [
+                    "Have the contents of the mug been microwaved foe 1 minute before adding cinnamon?"
+                ]
+            },
+            {
+                "q": "Is 1 teaspoon of white sugar added to the mug?",
+                "followup": [
+                    "Have the contents of the mug been microwaved foe 1 minute before adding white sugar?"
+                ]
+            },
+            {
+                "q": "Are 2 pieces of chocolate added to the mug?",
+                "followup": [
+                    "Have the contents of the mug been microwaved foe 1 minute before adding pieces of chocolate?"
+                ]
+            },
+            {
+                "q": "Are the contents of the mug mixed?",
+                "followup": [
+                    "Has 1/5 teaspoon cinnamon been added to the mug before mixing the contents?",
+                    "Has 1 teaspoon of white sugar been added to the mug before mixing the contents?",
+                    "Have 2 pieces of chocolate been added to the mug before mixing the contents?"
+                ]
+            },
+            {
+                "q": "Are the contents of mug heated for 1 minute and served?",
+                "followup": [
+                    "Have the contents of the mug been mixed before heating for 1 minute and serving?"
+                ]
+            }
+        ]
+    },
+    "15_x": {
+        "questions": [
+            {
+                "q": "Is the garlic minced?",
+                "followup": [
+                    "Have 4 large garlic cloves been peeled before mincing?"
+                ]
+            },
+            {
+                "q": "Are the tomatoes chopped roughly (any chunks)?",
+                "followup": [
+                    "Has one tomato been taken before chopping roughly?"
+                ]
+            },
+            {
+                "q": "Are the tomatoes purees without any water in a blender/mixer?",
+                "followup": [
+                    "Have the tomatoes been chopped roughly before making puree?"
+                ]
+            },
+            {
+                "q": "Is 3 tbsp oil heated in a pan over medium heat?",
+                "followup": [
+                    "Has the garlic been minced?",
+                    "Have the tomatoes been pureed without any water in a blender/mixer?"
+                ]
+            },
+            {
+                "q": "Is 1/4 tsp mustard added to the pan?",
+                "followup": [
+                    "Has 3 tbsp of oil been heated in a pan over medium heat before adding mustard?"
+                ]
+            },
+            {
+                "q": "Is 1/2 tsp of cumin seeds added to the pan?",
+                "followup": [
+                    "Has 3 tbsp of oil been heated in a pan over medium heat before adding cumin seeds?"
+                ]
+            },
+            {
+                "q": "Is minced garlic added when mustard and cumin seeds begin to sizzle?",
+                "followup": [
+                    "Has 1/4 tsp of mustard added to the pan?",
+                    "Has 1/2 tsp cumin seeds been added to the pan?"
+                ]
+            },
+            {
+                "q": "Does the person lower the heat?",
+                "followup": [
+                    "Has the person already added minced garlic when mustard and cumin seeds start to sizzle?"
+                ]
+            },
+            {
+                "q": "Is the garlic sauteed for 2-3 minutes?",
+                "followup": [
+                    "Has the person lowered the heat before sauteeing?"
+                ]
+            },
+            {
+                "q": "Is 2 tbsp of red chili powder added to the pan?",
+                "followup": [
+                    "Has the garlic been sauteed for 2-3 minutes before adding red chili powder?"
+                ]
+            },
+            {
+                "q": "Are the contents of the pan mixed well?",
+                "followup": [
+                    "Has the person added 2 tbsp red chili powder added to the pan before mixing?"
+                ]
+            },
+            {
+                "q": "Is tomato puree added to the pan?",
+                "followup": [
+                    "Have the contents of the pan been mixed well before adding tomato puree?"
+                ]
+            },
+            {
+                "q": "Is 1/2 tsp salt added to the pan?",
+                "followup": [
+                    "Have the contents of the pan been mixed well before adding salt?"
+                ]
+            },
+            {
+                "q": "Is the tomato puree mixed well with the contents in the pan?",
+                "followup": [
+                    "Has the person added tomato puree to the pan?",
+                    "Has the person added salt to the pan?"
+                ]
+            },
+            {
+                "q": "Is the mixture simmered over low heat for 5 minutes or until the mixture becomes thick?",
+                "followup": [
+                    "Has the tomaro puree in the pan been mixed well with contents in pan before simmering?"
+                ]
+            },
+            {
+                "q": "Is the pan taken off the heat?",
+                "followup": [
+                    "Has the mixture been simmered over low heat for 5 minutes or until the mixture becomes thick?"
+                ]
+            },
+            {
+                "q": "Are the contents transferred to a serving bowl?",
+                "followup": [
+                    "Has the pan been taken off the heat before transferring to a serving bowl?"
+                ]
+            }
+        ]
+    },
+    "28_x": {
+        "questions": [
+            {
+                "q": "Is the avocado cut into thin slices?",
+                "followup": [
+                    "Has the person taken 1 ripe avocado?"
+                ]
+            },
+            {
+                "q": "Is excess water drained from the can?",
+                "followup": [
+                    "Has the person opened a can of tuna?"
+                ]
+            },
+            {
+                "q": "Is chopped scallion added to the bowl?",
+                "followup": [
+                    "Has the person chopped 1 scallion?"
+                ]
+            },
+            {
+                "q": "Are the avocado slices placed on each leaf?",
+                "followup": [
+                    "Has the person laid out two large lettuce leaves?",
+                    "Has the person cut avocado into thin slices before placing on leaf?"
+                ]
+            },
+            {
+                "q": "Is 1 can drained tuna added to the bowl?",
+                "followup": [
+                    "Has excess water been drained from the can before adding to the bowl?"
+                ]
+            },
+            {
+                "q": "Are the contents of the bowl mixed?",
+                "followup": [
+                    "Has 1/4 cup mayonnaise been added to the bowl before mixing?",
+                    "Is 1 can drained tuna been added to the bowl before mixing?",
+                    "Is 1 tsp sriracha sauce been added to the bowl?",
+                    "Has chopped scallion been added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is 1/4 tsp salt used to season the bowl?",
+                "followup": [
+                    "Have the contents of the bowl been mixed before seasoning?"
+                ]
+            },
+            {
+                "q": "Is 1/4 tsp pepper used to season the bowl?",
+                "followup": [
+                    "Have the contents of the bowl been mixed before seasoning?"
+                ]
+            },
+            {
+                "q": "Are the lettuce leaves topped with the tuna mixture?",
+                "followup": [
+                    "Are the avocado slices placed on each leaf?",
+                    "Has the mixture been seasoned with 1/4 tsp pepper?",
+                    "has the mixture been seasoned with 1/4 tsp salt?"
+                ]
+            },
+            {
+                "q": "Are the lettuce wraps rolled?",
+                "followup": [
+                    "Have the lettuce leaves been topped with tuna mixture?"
+                ]
+            },
+            {
+                "q": "Is the wrap secured with a toothpick?",
+                "followup": [
+                    "Have the lettuce wraps been rolled before securing with toothpick?"
+                ]
+            }
+        ]
+    },
+    "29_x": {
+        "questions": [
+            {
+                "q": "Are cut cherry tomatoes added to a bowl?",
+                "followup": [
+                    "Have 1/4 cup of cherry tomatoes been cut into halves before adding to the bowl?"
+                ]
+            },
+            {
+                "q": "Are 2 slices of baguette brushed with olive oil on both sides?",
+                "followup": [
+                    "Has the person sliced two 1/2 inch thick rounds from a baguette before brushing with olive oil?"
+                ]
+            },
+            {
+                "q": "Are the contents combined in a bowl?",
+                "followup": [
+                    "Has the person added 1/8 cup shredded mozzarella to the bowl?",
+                    "Has the person added 1/4 tsp salt to the bowl?",
+                    "Has the person added 1/4 tsp pepper to the bowl?",
+                    "Has 1/16 cup of basil been added to the bowl?",
+                    "Has the person added cut cherry tomatoes to the bowl?"
+                ]
+            },
+            {
+                "q": "Has the person toasted both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy and transferred to a plate?",
+                "followup": [
+                    "Have the 2 slices of baguette been brushed with olive oil on both sides before toasting?"
+                ]
+            },
+            {
+                "q": "Is the mixture spooned from the bowl onto the bread?",
+                "followup": [
+                    "Have the contents of the bowl been combined?",
+                    "Has the person toasted both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy and transferred to a plate?"
+                ]
+            }
+        ]
+    },
+    "27_x": {
+        "questions": [
+            {
+                "q": "Is the cheese melted by microwaving the cup for 30 secs?",
+                "followup": [
+                    "Has 1/3 cup cheddar cheese been added to a microwave-safe cup?"
+                ]
+            },
+            {
+                "q": "Is the chopped pepper placed in the microwave-safe bowl?",
+                "followup": [
+                    "Has 1/4 red bell pepper been chopped into tiny bits?"
+                ]
+            },
+            {
+                "q": "Is the bowl microwaved, covered for 2 minutes?",
+                "followup": [
+                    "Has 1 tablespoon of water been added to the bowl?",
+                    "Has the chopped pepper been places in the microwave-safe bowl?"
+                ]
+            },
+            {
+                "q": "Are the cheese and red bell peppper mixed in the bowl?",
+                "followup": [
+                    "Has the cheese been melted by microwaving the cup for 30 secs?",
+                    "Has the bowl been microwaved, covered for 2 minutes?"
+                ]
+            },
+            {
+                "q": "Is a 1/2 tbsp of softened butter added to the bowl?",
+                "followup": [
+                    "Are the cheese and red bell peppper mixed in the bowl?"
+                ]
+            },
+            {
+                "q": "Is 1/4 teaspoon salt added to the bowl?",
+                "followup": [
+                    "Are the cheese and red bell peppper mixed in the bowl?"
+                ]
+            },
+            {
+                "q": "Is 1/4 teaspoon pepper added to the bowl?",
+                "followup": [
+                    "Are the cheese and red bell peppper mixed in the bowl?"
+                ]
+            },
+            {
+                "q": "Are all the ingredients of the bowl mixed well?",
+                "followup": [
+                    "Has a 1/2 tbsp of softened butter been added to the bowl?",
+                    "Has 1/4 teaspoon salt been added to the bowl?",
+                    "Has 1/4 teaspoon pepper been added to the bowl?"
+                ]
+            }
+        ]
+    },
+    "5_x": {
+        "questions": [
+            {
+                "q": "Is the paper filter placed in the dripper?",
+                "followup": [
+                    "Has the filter insert been prepared by folding the paper filter in half to create a semi-circle and in half again to create quarter-circle?",
+                    "Has the dripper been placed on top of a coffee mug?"
+                ]
+            },
+            {
+                "q": "Are the coffee beans ground until the coffee grounds are the consistency of coarse sand for about 20 seconds?",
+                "followup": [
+                    "Have the coffee beans been weighed (0.8oz - 0.12oz)?"
+                ]
+            },
+            {
+                "q": "Is water transferred to a kettle?",
+                "followup": [
+                    "Has 12oz of water been measured?"
+                ]
+            },
+            {
+                "q": "Is the open filter spread in dripper to create a cone?",
+                "followup": [
+                    "Has the paper filter been placed in the dripper?"
+                ]
+            },
+            {
+                "q": "Are the grounds transferred to the filter cone?",
+                "followup": [
+                    "Has the filter been spread open in dripper to create a cone?",
+                    "Have the coffee beans been ground until the coffee grounds are the consistency of coarse sand, for about 20 seconds?"
+                ]
+            },
+            {
+                "q": "Is the water boiled and is the filter assemled while water is boiling?",
+                "followup": [
+                    "Has water been transferred to the kettle?"
+                ]
+            },
+            {
+                "q": "Is the water boiled and is the temperature of the water checked to be between 195-205 degrees Fahrenheit?",
+                "followup": [
+                    "Has the water been boiled?"
+                ]
+            },
+            {
+                "q": "Is a small amount of water poured into the filter to wet the grounds?",
+                "followup": [
+                    "Have the grounds been transferred to the filter?",
+                    "Has the water been boiled and has the temperature of the water been checked to be between 195-205 degrees Fahrenheit?"
+                ]
+            },
+            {
+                "q": "Is the person waiting about 30 seconds for the coffee to bloom (are there small bubbles or foam on the coffee grounds)?",
+                "followup": [
+                    "Has a small amount of water been poured into the filter to wet the grounds?"
+                ]
+            },
+            {
+                "q": "Is the person slowly pouring the rest of water over the grounds in a circular motion and not overfilling beyond the top of paper filter?",
+                "followup": [
+                    "Has the person waited about 30 seconds for the coffee to bloom (are there small bubbles or foam on the coffee grounds)?"
+                ]
+            },
+            {
+                "q": "Is the coffee drained completely into the mug before removing the dripper?",
+                "followup": [
+                    "Has the person slowly poured the rest of water over the grounds in a circular motion and not overfilling beyond the top of paper filter?"
+                ]
+            },
+            {
+                "q": "Are the paper filter and coffee grounds discarded?",
+                "followup": [
+                    "Has the coffee drained completely into the mug before removing the dripper?"
+                ]
+            }
+        ]
+    },
+    "17_x": {
+        "questions": [
+            {
+                "q": "Is the cucumber peeled?",
+                "followup": [
+                    "Has 1 medium sized cucumber been rinsed?"
+                ]
+            },
+            {
+                "q": "Is the cucumber chopped or grated?",
+                "followup": [
+                    "Has the cucumber been peeled?"
+                ]
+            },
+            {
+                "q": "Is 1/4 teaspoon of red chilli powder added to the bowl?",
+                "followup": [
+                    "Has 1 cup of chilled curd been whisked until smooth, in a mixing bowl (used fresh homemade or packaged curd)?"
+                ]
+            },
+            {
+                "q": "Is 1/4 teaspoon of salt added to the bowl?",
+                "followup": [
+                    "Has 1 cup of chilled curd been whisked until smooth, in a mixing bowl (used fresh homemade or packaged curd)?"
+                ]
+            },
+            {
+                "q": "Is 1 tablespoon of chopped cilantro leaves added to the bowl?",
+                "followup": [
+                    "Has 1 cup of chilled curd been whisked until smooth, in a mixing bowl (used fresh homemade or packaged curd)?"
+                ]
+            },
+            {
+                "q": "Is 1 teaspoon of cumin powder added to the bowl?",
+                "followup": [
+                    "Has 1 cup of chilled curd been whisked until smooth, in a mixing bowl (used fresh homemade or packaged curd)?"
+                ]
+            },
+            {
+                "q": "Is 1/2 teaspoon of chaat masala powder added to the bowl?",
+                "followup": [
+                    "Has 1 cup of chilled curd been whisked until smooth, in a mixing bowl (used fresh homemade or packaged curd)?"
+                ]
+            },
+            {
+                "q": "Is chopped or grated cucumber added to the whisked curd?",
+                "followup": [
+                    "Has 1 cup of chilled curd been whisked until smooth, in a mixing bowl (used fresh homemade or packaged curd)?",
+                    "Has the garlic been cooked until fragrant, about 1 minute and not burnt before adding zucchini noodles?"
+                ]
+            },
+            {
+                "q": "Are all the ingredients combined in the bowl?",
+                "followup": [
+                    "Has 1/4 teaspoon of red chilli powder been added to the bowl?",
+                    "Has 1/4 teaspoon of salt been added to the bowl?",
+                    "Has 1 tablespoon of chopped cilantro leaves been added to the bowl?",
+                    "Has 1 teaspoon of cumin powder been added to the bowl?",
+                    "Has chopped or grated cucumber been added to the whisked curd?",
+                    "Has 1/2 teaspoon of chaat masala powder been added to the bowl?"
+                ]
+            }
+        ]
+    },
+    "2_x": {
+        "questions": [
+            {
+                "q": "Is 1/8 garlic clove cut?",
+                "followup": [
+                    "Has 1 garlic clove been peeled?"
+                ]
+            },
+            {
+                "q": "Is an onion cut into two pieces?",
+                "followup": [
+                    "Has a medium onion been peeled?"
+                ]
+            },
+            {
+                "q": "Is 1/8 garlic clove minced?",
+                "followup": [
+                    "Has 1/8 garlic clove been cut?"
+                ]
+            },
+            {
+                "q": "Is 1/8 of a medium onion sliced?",
+                "followup": [
+                    "Has the onion been cut into two pieces?"
+                ]
+            },
+            {
+                "q": "Is the plate topped with carrots, onion, garlic and 1/4 tsp pepper powder?",
+                "followup": [
+                    "Has 1/8 garlic been minced?",
+                    "Has 1/8 onion been sliced?",
+                    "Have 5 meatballs been placed in a microwave-safe plate?",
+                    "Has a 1/4 medium carrot been cut into short thin strips?"
+                ]
+            },
+            {
+                "q": "Is the sauce poured over the meatballs?",
+                "followup": [
+                    "Has 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce been mixed in a small bowl?",
+                    "Has the plate been topped with carrots, onion, garlic and 1/4 tsp pepper powder?"
+                ]
+            },
+            {
+                "q": "Is the plate covered and microwaved on high for 1.5 minutes?",
+                "followup": [
+                    "Has the sauce been poured over the meatballs?"
+                ]
+            },
+            {
+                "q": "Are the contents in the microwave stirred with a spoon?",
+                "followup": [
+                    "Has the plate been microwaved, covered on high for 1.5 minutes?"
+                ]
+            },
+            {
+                "q": "Is the plate covered and microwaved on high for 1.5 minutes?",
+                "followup": [
+                    "Have the contents in the microwave been stirred with a spoon?"
+                ]
+            },
+            {
+                "q": "Are the contents in the microwave stirred with a spoon?",
+                "followup": [
+                    "Has the plate been microwaved, covered on high for 1.5 minutes?"
+                ]
+            },
+            {
+                "q": "Is the plate microwaved for 1 more minute?",
+                "followup": [
+                    "Have the contents in the microwave been stirred with a spoon?"
+                ]
+            }
+        ]
+    },
+    "22_x": {
+        "questions": [
+            {
+                "q": "Is chopped cilantro added to the bowl?",
+                "followup": [
+                    "Has 2 tbsp of cilantro been chopped?"
+                ]
+            },
+            {
+                "q": "Is the tomato cut into two pieces?",
+                "followup": [
+                    "Has a tomato been taken?"
+                ]
+            },
+            {
+                "q": "Are the contents of the bowl being beaten?",
+                "followup": [
+                    "Has chopped cilantro been added to the bowl?",
+                    "Has one egg been cracked in the bowl?",
+                    "Has 1/2 tsp ground black pepper been added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is 1 tbsp of oil heated in a non-stick frying pan?",
+                "followup": [
+                    "Has a tomato been cut into two pieces?",
+                    "Have the contents of the bowl been beaten?"
+                ]
+            },
+            {
+                "q": "Are the tomatoes cooked cut-side down until they start to soften and colour?",
+                "followup": [
+                    "Has 1 tbsp oil been heated in a non-stick frying pan?"
+                ]
+            },
+            {
+                "q": "Are the tomatoes scooped from the pan?",
+                "followup": [
+                    "Have the tomatoes been cooked cut-side down until they start to soften and colour?"
+                ]
+            },
+            {
+                "q": "Are the tomatoes put on serving plate?",
+                "followup": [
+                    "Have the tomatoes been scooped from the pan?"
+                ]
+            },
+            {
+                "q": "Is the egg mixture poured into the pan?",
+                "followup": [
+                    "Have the tomatoes been put on a plate?"
+                ]
+            },
+            {
+                "q": "Is the egg stirred gently with a wooden spoon so that the egg sets on the base of the pan moves to enable the uncooked egg to flow into the space?",
+                "followup": [
+                    "Has the egg mixture been poured into the pan?"
+                ]
+            },
+            {
+                "q": "Is the stirring stopped when its nearly cooked to allow it to set into an omelette?",
+                "followup": [
+                    "Has the egg been stirred gently with a wooden spoon so that the egg sets on the base of the pan moves to enable the uncooked egg to flow into the space?"
+                ]
+            },
+            {
+                "q": "Is the omelette transferred to the plate and served with tomatoes?",
+                "followup": [
+                    "Has the stirring been stopped when its nearly cooked to allow it to set into an omelette?"
+                ]
+            }
+        ]
+    },
+    "1_x": {
+        "questions": [
+            {
+                "q": "Is the bottom piece of the English muffin lined with lettuce?",
+                "followup": [
+                    "Has the English muffin been cut into two pieces with a knife?"
+                ]
+            },
+            {
+                "q": "Is 1 egg poured into the ramekin cup?",
+                "followup": [
+                    "Has a 6-oz. ramekin cup been coated with cooking spray?"
+                ]
+            },
+            {
+                "q": "Is the ramekin cup microwaved uncovered on high for 30 seconds?",
+                "followup": [
+                    "Has 1 egg been poured into the ramekin cup?"
+                ]
+            },
+            {
+                "q": "Is the ramekin cup stirred?",
+                "followup": [
+                    "Has the ramekin cup been microwaved uncovered on high for 30 seconds?"
+                ]
+            },
+            {
+                "q": "Is the cup continued to microwave for 15-30 more seconds or until the egg is almost set?",
+                "followup": [
+                    "Has the ramekin cup been stirred before continuing microwaving?"
+                ]
+            },
+            {
+                "q": "Is the cup topped with 1 tablespoon of salsa?",
+                "followup": [
+                    "Has the cup continued to microwave for 15-30 more seconds or until the egg is almost set?"
+                ]
+            },
+            {
+                "q": "Is 1 tablespoon of cheese sprinkled on cup?",
+                "followup": [
+                    "Has the cup been topped with 1 tablespoon of salsa?"
+                ]
+            },
+            {
+                "q": "Is the cup microwaved for 10 seconds just until the cheese melts?",
+                "followup": [
+                    "Has 1 tablespoon of cheese been sprinkled on cup?"
+                ]
+            },
+            {
+                "q": "Is the egg from the cup placed over the lettuce?",
+                "followup": [
+                    "Has the bottom piece of the English muffin been lined with lettuce?",
+                    "Has the cup been microwaved just until the cheese melts for about 10 seconds?"
+                ]
+            },
+            {
+                "q": "Is the top of the English muffin replaced?",
+                "followup": [
+                    "Has the egg from the cup been placed over the lettuce?"
+                ]
+            }
+        ]
+    },
+    "9_x": {
+        "questions": [
+            {
+                "q": "Is butter rolled around in the mug to coat it?",
+                "followup": [
+                    "Has 1 tablespoon of softened butter been melted in the microwave for about 30 seconds?"
+                ]
+            },
+            {
+                "q": "Is one egg whisked with a fork until well blended in the mug?",
+                "followup": [
+                    "Has butter been rolled around in the mug to coat it?"
+                ]
+            },
+            {
+                "q": "Is 1/4 teaspoon vanilla extract added to the mug?",
+                "followup": [
+                    "Has one egg been whisked with a form until well blended in the mug?"
+                ]
+            },
+            {
+                "q": "Is 1/4 teaspoon cinnamon sprinkled over the mug?",
+                "followup": [
+                    "Has one egg been whisked with a form until well blended in the mug?"
+                ]
+            },
+            {
+                "q": "Is the mug stirred?",
+                "followup": [
+                    "Has 1/4 teaspoon vanilla extract been added to the mug?",
+                    "Has 1/4 teaspoon cinnamon been sprinkled over the mug?"
+                ]
+            },
+            {
+                "q": "Are bread pieces added to the egg mixture in the mug and pressed the bread down into the egg?",
+                "followup": [
+                    "Has the mug been stirred?",
+                    "Has 1 slice of bread been cut or torn into bite size pieces?"
+                ]
+            },
+            {
+                "q": "Is the cup microwaved on high for 90 seconds until the egg is cooked through?",
+                "followup": [
+                    "Have bread pieces been added to the egg mixture in the mug and pressed the bread down into the egg?"
+                ]
+            },
+            {
+                "q": "Are the contents of the mug put on a plate?",
+                "followup": [
+                    "Has the cup been microwaved on high for 90 seconds until the egg is cooked through?"
+                ]
+            },
+            {
+                "q": "Are the contents cut on a plate and served?",
+                "followup": [
+                    "Have the contents of the mug been put on a plate?"
+                ]
+            }
+        ]
+    },
+    "3_x": {
+        "questions": [
+            {
+                "q": "Is 1/8 teaspoon of salt measured and added to the mug?",
+                "followup": [
+                    "Has a microwavable mug been taken?"
+                ]
+            },
+            {
+                "q": "Is 4 tablespoons of flour measured and added to the mug?",
+                "followup": [
+                    "Has a microwavable mug been taken?"
+                ]
+            },
+            {
+                "q": "Is 1/16 teaspoon of baking soda measured and added to the mug?",
+                "followup": [
+                    "Has a microwavable mug been taken?"
+                ]
+            },
+            {
+                "q": "Is 1/8 teaspoon of baking powder measured and added to the mug?",
+                "followup": [
+                    "Has a microwavable mug been taken?"
+                ]
+            },
+            {
+                "q": "Are the contents of the mug stirred well?",
+                "followup": [
+                    "Has 1/8 teaspoon of salt been measured and added to the mug?",
+                    "Has 4 tablespoons of flour been measured and added to the mug?",
+                    "Has 1/16 teaspoon of baking soda been measured and added to the mug?",
+                    "Has 1/8 teaspoon of baking powder been measured and added to the mug?"
+                ]
+            },
+            {
+                "q": "Is 1 tablespoon of olive oil added to the mug?",
+                "followup": [
+                    "Have the contents of the mug been stirred well?"
+                ]
+            },
+            {
+                "q": "Is 3 tablespoons of milk added to the mug?",
+                "followup": [
+                    "Have the contents of the mug been stirred well?"
+                ]
+            },
+            {
+                "q": "Are the contents of the mug mixed thoroughly?",
+                "followup": [
+                    "Has 1 tablespoon of olive oil been added to the mug?",
+                    "Has 3 tablespoons of milk been added to the mug?"
+                ]
+            },
+            {
+                "q": "Is 1 tablespoon of marinara sauce taken?",
+                "followup": [
+                    "Have the contents of the mug been mixed thoroughly?"
+                ]
+            },
+            {
+                "q": "Is marinara sauce spread around the surface of the batter?",
+                "followup": [
+                    "Has the person taken 1 tablespoon of marinara sauce?"
+                ]
+            },
+            {
+                "q": "Is 1 generous tablespoon of mozzarella cheese sprinkled on top of the sauce?",
+                "followup": [
+                    "Has marinara sauce been spread around the surface of the batter?"
+                ]
+            },
+            {
+                "q": "Is dried Italian herbs sprinkled inside the mug?",
+                "followup": [
+                    "Has 1 generous tablespoon of mozzarella cheese been sprinkled on top of the sauce?"
+                ]
+            },
+            {
+                "q": "Is the cup microwaved for 1 minute 20 seconds or until it rises and the toppings are bubbling?",
+                "followup": [
+                    "Has dried Italian herbs been sprinkled inside the mug?"
+                ]
+            }
+        ]
+    },
+    "26_x": {
+        "questions": [
+            {
+                "q": "Are the flour, sugar and baking powder whisked to combine the mixture in the bowl?",
+                "followup": [
+                    "Has 1.5 tbsp of sugar been measured and added to mixing bowl?",
+                    "Has 2 tbsp of flour been measured and added to mixing bowl?",
+                    "Has 1/4 tsp of baking powder been measured and added to mixing bowl?",
+                    "Has a pinch of salt been measured and added to mixing bowl?"
+                ]
+            },
+            {
+                "q": "Is the lined mug set aside?",
+                "followup": [
+                    "Has the paper cupcake liner been placed inside the mug?"
+                ]
+            },
+            {
+                "q": "Is 2 tbsp of water measured and added to the bowl?",
+                "followup": [
+                    "Have the flour, sugar and baking powder been whisked to combine the mixture in the bowl?"
+                ]
+            },
+            {
+                "q": "Is 2 tbsp of vegetable oil measured and added to the bowl?",
+                "followup": [
+                    "Have the flour, sugar and baking powder been whisked to combine the mixture in the bowl?"
+                ]
+            },
+            {
+                "q": "Is 1/4 tsp vanilla extract measured and added to the bowl?",
+                "followup": [
+                    "Have the flour, sugar and baking powder been whisked to combine the mixture in the bowl?"
+                ]
+            },
+            {
+                "q": "Is the batter whisked until no lumps are remaining?",
+                "followup": [
+                    "Has 2 tbsp of water been measured and added to the bowl?",
+                    "Has 2 tbsp of vegetable oil been measured and added to the bowl?",
+                    "Has 1/4 tsp vanilla extract been measured and added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is the batter poured into prepared mug?",
+                "followup": [
+                    "Has the batter been whisked until no lumps are remaining?",
+                    "Has the lined mug set been aside?"
+                ]
+            },
+            {
+                "q": "Is the mug and batter microwaved on high power for 60 seconds and check if the cake is done by inserting and toothpick into the center of the cake and then removing it, if wet batter clings to the toothpick is it microwaved for an additional 5 seconds, if the toothpick comes out clean contiue?",
+                "followup": [
+                    "Has the batter been poured into prepared mug?"
+                ]
+            },
+            {
+                "q": "Is the mug inverted to release the cake onto a plate?",
+                "followup": [
+                    "Has the mug and batter microwaved on high power for 60 seconds and check if the cake is done by inserting and toothpick into the center of the cake and then removing it, if wet batter clings to the toothpick is it microwaved for an additional 5 seconds, if the toothpick comes out clean contiue?"
+                ]
+            },
+            {
+                "q": "Is the cake allowed to cool until it is no longer hot to touch?",
+                "followup": [
+                    "Has th mug been inverted to release the cake onto a plate?"
+                ]
+            },
+            {
+                "q": "Is the paper liner carefully removed?",
+                "followup": [
+                    "Has the cake been allowed to cool until it is no longer hot to touch?"
+                ]
+            },
+            {
+                "q": "Are 4 spoonfuls of chocolate frosting scooped into a zip-top bag while the cake is cooling?",
+                "followup": [
+                    "Has the paper liner been carefully removed?"
+                ]
+            },
+            {
+                "q": "Is the zip-top bag sealed to remove as much air as possible?",
+                "followup": [
+                    "Have 4 spoonfuls of chocolate frosting been scooped into a zip-top bag while the cake is cooling?"
+                ]
+            },
+            {
+                "q": "Is scissors used to cut one corner from the bag to create a small opening 1/4 inch in diameter?",
+                "followup": [
+                    "Has the zip-top bag been sealed to remove as much air as possible?"
+                ]
+            },
+            {
+                "q": "Is the frosting squeezed through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake?",
+                "followup": [
+                    "Has scissors been used to cut one corner from the bag to create a small opening 1/4 inch in diameter?"
+                ]
+            }
+        ]
+    },
+    "25_x": {
+        "questions": [
+            {
+                "q": "Is the tofu patted dry with a towel?",
+                "followup": [
+                    "Has 1/4 block or 3 ounces of fresh tofu been cut into large cubes (about 1in x 1in)?"
+                ]
+            },
+            {
+                "q": "Are the tofu cubes added to the pan?",
+                "followup": [
+                    "Has the tofu been patted dry with a towel?"
+                ]
+            },
+            {
+                "q": "Is the heated turned on to medium?",
+                "followup": [
+                    "Have the tofu cubes been added to the pan?",
+                    "Has 1/4 tsp salt been added to the pan?",
+                    "Is 1 tablespoon of olive oil been added to a non-stick pan?"
+                ]
+            },
+            {
+                "q": "Are the tofu cubes cooked for 5 to 6 minutes until lightly browned?",
+                "followup": [
+                    "Has the heat been turned on to medium?"
+                ]
+            },
+            {
+                "q": "Is the pan removed briefly from the heat to reduce spitting?",
+                "followup": [
+                    "Have the tofu cubes been cooked for 5 to 6 minutes until lightly browned?"
+                ]
+            },
+            {
+                "q": "Is the tofu flipped with tongs?",
+                "followup": [
+                    "Has the pan been removed briefly from the heat to reduce spitting?"
+                ]
+            },
+            {
+                "q": "Is the heat returned to medium?",
+                "followup": [
+                    "Has the tofu been flipped with tongs?"
+                ]
+            },
+            {
+                "q": "Is the tofu cooked until it turns brown?",
+                "followup": [
+                    "Has the heat been turned to medium?"
+                ]
+            },
+            {
+                "q": "Is the pan briefly removed from the heat again?",
+                "followup": [
+                    "Has tofu been cooked until it turned brown?"
+                ]
+            },
+            {
+                "q": "Is 1 tablespoon soy sauce drizzled on the pan(watch for spitting)?",
+                "followup": [
+                    "Has the pan been briefly removed from the heat again?"
+                ]
+            },
+            {
+                "q": "Is 1 tablespoons seasame oil drizzled on the pan?",
+                "followup": [
+                    "Has the pan been briefly removed from the heat again?"
+                ]
+            },
+            {
+                "q": "Is the pan returned to low heat?",
+                "followup": [
+                    "Has 1 tablespoon soy sauce been drizzled on the pan(watch for spitting)?",
+                    "Has 1 tablespoons seasame oil been drizzled on the pan?"
+                ]
+            },
+            {
+                "q": "Is the pan cooked for 2 minutes?",
+                "followup": [
+                    "Has the pan returned to low heat?"
+                ]
+            },
+            {
+                "q": "Is the tofu flipped on the pan?",
+                "followup": [
+                    "Has the tofu been cooked for 2 minutes?"
+                ]
+            },
+            {
+                "q": "Is the tofu cooked in pan for 2 minutes until the colour is darkened?",
+                "followup": [
+                    "Has the tofu been flipped on the pan?"
+                ]
+            },
+            {
+                "q": "Is the tofu transferred to a serving dish?",
+                "followup": [
+                    "Has the tofu been cooked for 2 minutes until the colour is darkened?"
+                ]
+            }
+        ]
+    },
+    "10_x": {
+        "questions": [
+            {
+                "q": "Is a butter knife to scoop nut butter from the jar?",
+                "followup": [
+                    "Has an 8-inch flour tortilla been placed on cutting board?"
+                ]
+            },
+            {
+                "q": "Is the nut butter spread onto the tortilla leacing 1/2 inch uncovered at the edges?",
+                "followup": [
+                    "Has a butter knife been used to scoop nut butter from the jar?"
+                ]
+            },
+            {
+                "q": "Is the knife cleaned by wiping it with a paper towel?",
+                "followup": [
+                    "Has the nut butter been spread onto the tortilla leacing 1/2 inch uncovered at the edges?"
+                ]
+            },
+            {
+                "q": "Is the knife used to scoop jelly from the jar?",
+                "followup": [
+                    "Has the knife been cleaned by wiping it with a paper towel?"
+                ]
+            },
+            {
+                "q": "Is jelly spread over the nut butter?",
+                "followup": [
+                    "Has knife been used to scoop jelly from the jar?"
+                ]
+            },
+            {
+                "q": "Is the knife cleaned by wiping it with a paper towel?",
+                "followup": [
+                    "Has the jelly been spread over the nut butter?"
+                ]
+            },
+            {
+                "q": "Is the tortilla rolled from one end to other into a log shape, about 1.5 inch thick, tight enough to prevent gaps but not so tight that filling leaks?",
+                "followup": [
+                    "Has the knife been cleaned by wiping with a paper towel?"
+                ]
+            },
+            {
+                "q": "Is the rolled tortilla secured by inserting 5 toothpicks about 1 inch apart?",
+                "followup": [
+                    "Has the tortilla been rolled from one end to other into a log shape, about 1.5 inch thick, tight enough to prevent gaps but not so tight that filling leaks?"
+                ]
+            },
+            {
+                "q": "Are the ends of tortilla trimmed with butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll?",
+                "followup": [
+                    "Has the rolled tortilla been secured by inserting 5 toothpicks about 1 inch apart?"
+                ]
+            },
+            {
+                "q": "Are the ends of tortilla discared?",
+                "followup": [
+                    "Have the ends of tortilla been trimmed with butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll?"
+                ]
+            },
+            {
+                "q": "Is floss slid under the tortilla perpendicular to the length of the roll?",
+                "followup": [
+                    "Have the ends of tortilla been trimmed with butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll?"
+                ]
+            },
+            {
+                "q": "Is the floss placed halfway between toothpicks?",
+                "followup": [
+                    "Has floss been slid under the tortilla perpendicular to the length of the roll?"
+                ]
+            },
+            {
+                "q": "Are the floss's two ends crossed over the tortilla roll's top?",
+                "followup": [
+                    "Has the floss been placed halfway between toothpicks?"
+                ]
+            },
+            {
+                "q": "Are the ends of the floss pulled in opposite direction to slice?",
+                "followup": [
+                    "Have the floss's two ends been crossed over the tortilla roll's top?"
+                ]
+            },
+            {
+                "q": "Is slicing continued with floss to create 1 more pinwheel?",
+                "followup": [
+                    "Have the ends of the floss been pulled in opposite direction to slice?"
+                ]
+            },
+            {
+                "q": "Is the slicing continued with floss to create 1 more pinwheel?",
+                "followup": [
+                    "Has slicing been continued with floss to create 1 more pinwheel?"
+                ]
+            },
+            {
+                "q": "Is the slicing continued with floss to create 1 more pinwheel?",
+                "followup": [
+                    "Has slicing been continued with floss to create 1 more pinwheel?"
+                ]
+            },
+            {
+                "q": "Are the pinwheels placed on a plate?",
+                "followup": [
+                    "Has slicing been continued with floss to create 1 more pinwheel?"
+                ]
+            }
+        ]
+    },
+   "4_x": {
+        "questions": [
+            {
+                "q": "Is 1/4 medium onion sliced into pieces?",
+                "followup": [
+                    "Has 1 medium onion been peeled?"
+                ]
+            },
+            {
+                "q": "Is 1 garlic clove chopped on a cutting board?",
+                "followup": [
+                    "Has 1 garlic clove been peeled?"
+                ]
+            },
+            {
+                "q": "Are the all the vegetables put in a microwave-safe bowl?",
+                "followup": [
+                    "Has 1/4 medium onion been sliced into pieces?",
+                    "Has 1 garlic clove been chopped on a cutting board?"
+                ]
+            },
+            {
+                "q": "Are the noodles added to the bowl?",
+                "followup": [
+                    "Have the noodles been removed from the package(break noodles/ keep them as a block)?",
+                    "Have all the vegetables been put in a microwave-safe bowl?"
+                ]
+            },
+            {
+                "q": "Are the noodles covered with water?",
+                "followup": [
+                    "Have the noodles been added to bowl?"
+                ]
+            },
+            {
+                "q": "Is the bowl covered with a lid or paper towel to prevent splattering?",
+                "followup": [
+                    "Have the noodles been covered with water?"
+                ]
+            },
+            {
+                "q": "Is the ramen microwaved for 4 minutes?",
+                "followup": [
+                    "Has the bowl been covered with a lid or paper towel to prevent splattering?"
+                ]
+            },
+            {
+                "q": "Are the noodles left to sit for about 1 minute after microwave stops?",
+                "followup": [
+                    "Has the ramen been microwaved for 4 minutes?"
+                ]
+            },
+            {
+                "q": "Is basil added to the bowl?",
+                "followup": [
+                    "Has the ramen been microwaved for 4 minutes?"
+                ]
+            },
+            {
+                "q": "Is chopped cilantro added to the bowl?",
+                "followup": [
+                    "Has the ramen been microwaved for 4 minutes?"
+                ]
+            },
+            {
+                "q": "Is the flavour packet mixed in the bowl?",
+                "followup": [
+                    "Have the noodles left to sit for about 1 minute after microwave stops?",
+                    "Has basil added to the bowl?",
+                    "Has chopped cilantro added to the bowl?"
+                ]
+            },
+            {
+                "q": "Are the noodles stirred with a spoon or fork until the flavouring dissolves?",
+                "followup": [
+                    "Has the flavour packet been mixed in the bowl?"
+                ]
+            }
+        ]
+    },
+    "20_x": {
+        "questions": [
+            {
+                "q": "Are the mushrooms patted dry with a paper towel?",
+                "followup": [
+                    "Have 3 mushrooms been rinsed under cold water?"
+                ]
+            },
+            {
+                "q": "Are the garlic cloves minced?",
+                "followup": [
+                    "Have 2 garlic cloves been peeled?"
+                ]
+            },
+            {
+                "q": "Are the mushroom stems pulled out?",
+                "followup": [
+                    "Have the mushrooms been patted dry with a paper towel?"
+                ]
+            },
+            {
+                "q": "Are the mushrooms sliced?",
+                "followup": [
+                    "Have the stems of mushroom been pulled out?"
+                ]
+            },
+            {
+                "q": "Is 1 tbsp of olive oil heated in a large skillet over medium-high heat?",
+                "followup": [
+                    "Have the garlic cloves been minced?",
+                    "Have the mushrooms been sliced?",
+                    "Has 1 shallot been chopped?"
+                ]
+            },
+            {
+                "q": "Are mushrooms added once the pan is hot?",
+                "followup": [
+                    "Has 1 tbsp of olive oil been heated in a large skillet over medium-high heat?"
+                ]
+            },
+            {
+                "q": "Are the mushrooms cooked for 3-5 minutes stirring often until they start to soften and brown?",
+                "followup": [
+                    "Have mushrooms been added once the pan is hot?"
+                ]
+            },
+            {
+                "q": "Is chopped shallot added to the pan?",
+                "followup": [
+                    "Have the mushrooms been cooked for 3-5 minutes stirring often until they start to soften and brown?"
+                ]
+            },
+            {
+                "q": "Is the mixture cooked often stirred for 1 minute?",
+                "followup": [
+                    "Has chopped shallot been added to the pan?"
+                ]
+            },
+            {
+                "q": "Is 1/4 tbsp balsamic vinegar added to the pan?",
+                "followup": [
+                    "Has the mixture been cooked often stirred for 1 minute?"
+                ]
+            },
+            {
+                "q": "Are 2 cloves of minced garlic added to the pan?",
+                "followup": [
+                    "Has the mixture been cooked often stirred for 1 minute?"
+                ]
+            },
+            {
+                "q": "Is the mixture cooked often stirred for 1 minute?",
+                "followup": [
+                    "Has 1/4 tbsp balsamic vinegar been added to the pan?",
+                    "have 2 cloves of minced garlic been added to the pan?"
+                ]
+            },
+            {
+                "q": "Is pepper used to season the pan to taste?",
+                "followup": [
+                    "Has the mixture been cooked often stirred for 1 minute?"
+                ]
+            },
+            {
+                "q": "Is salt used to season the pan?",
+                "followup": [
+                    "Has the mixture been cooked often stirred for 1 minute?"
+                ]
+            },
+            {
+                "q": "Are the contents of the pan transferred to a serving dish?",
+                "followup": [
+                    "Has pepper been used to season the pan to taste?",
+                    "Has salt been used to season the pan?"
+                ]
+            }
+        ]
+    },
+    "16_x": {
+        "questions": [
+            {
+                "q": "Is peeled garlic minced?",
+                "followup": [
+                    "Have 2 cloves of garlic been peeled?"
+                ]
+            },
+            {
+                "q": "Is the egg mixture whisked in the bowl?",
+                "followup": [
+                    "Has 1 tbsp milk added to the bowl?",
+                    "Has one egg been cracked in the bowl?",
+                    "Has 1/3 tsp of salt been added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is 2 tbsp oil heated in a heavy-bottomed or non-stick pan on medium heat?",
+                "followup": [
+                    "Has tsp cilantro been chopped?",
+                    "Has the egg mixture been whisked in the bowl?",
+                    "Has one green chilli been chopped?",
+                    "Has 1/4 medium been chopped?",
+                    "Has 1/4 tomato been chopped?",
+                    "Has peeled garlic been minced?"
+                ]
+            },
+            {
+                "q": "Is 1/3 tsp salt added to the pan?",
+                "followup": [
+                    "Has 2 tbsp oil been heated in a heavy-bottomed or non-stick pan on medium heat?"
+                ]
+            },
+            {
+                "q": "Are chopped onions added to the pan?",
+                "followup": [
+                    "Has 2 tbsp oil been heated in a heavy-bottomed or non-stick pan on medium heat?"
+                ]
+            },
+            {
+                "q": "Are the onions sauteed on medium heat until they are soft and translucent?",
+                "followup": [
+                    "Has 1/3 tsp salt been added to the pan?",
+                    "Have chopped onions been added to the pan?"
+                ]
+            },
+            {
+                "q": "Is garlic added to the pan?",
+                "followup": [
+                    "Have the onions been sauteed on medium heat until they are soft and translucent?"
+                ]
+            },
+            {
+                "q": "Is chilli added to the pan?",
+                "followup": [
+                    "Have the onions been sauteed on medium heat until they are soft and translucent?"
+                ]
+            },
+            {
+                "q": "Is the mixture cooked for 1 minute by mixing everything?",
+                "followup": [
+                    "Has chilli been added to the pan?",
+                    "Has garlic been added to the pan?"
+                ]
+            },
+            {
+                "q": "Is 1/8 tsp turmeric added to the pan?",
+                "followup": [
+                    "Has the mixture been cooked for 1 minute by mixing everything?"
+                ]
+            },
+            {
+                "q": "Are tomatoes added to the pan?",
+                "followup": [
+                    "Has the mixture been cooked for 1 minute by mixing everything?"
+                ]
+            },
+            {
+                "q": "Is everything covered and cooked for 1 minute until the tomatoes softened?",
+                "followup": [
+                    "Has 1/8 tsp turmeric been added to the pan?",
+                    "Have tomatoes been added to the pan?"
+                ]
+            },
+            {
+                "q": "Are the whisked eggs slowly poured into the pan?",
+                "followup": [
+                    "Has everything been covered and cooked for 1 minute until the tomatoes softened?"
+                ]
+            },
+            {
+                "q": "Is the mixture continued to be mixed with spatula for 3 minutes until the eggs are almost cooked?",
+                "followup": [
+                    "Have the whisked eggs been slowly poured into the pan?"
+                ]
+            },
+            {
+                "q": "Is the dish garnished with 1 tbsp of chopped cilantro and served?",
+                "followup": [
+                    "Has the mixture been continued to be mixed with spatula for 3 minutes until the eggs are almost cooked?"
+                ]
+            }
+        ]
+    }
+}

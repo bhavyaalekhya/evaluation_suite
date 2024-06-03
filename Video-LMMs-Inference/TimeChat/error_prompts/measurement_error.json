@@ -1,0 +1,1613 @@
+{
+    "23_x": {
+        "questions": [
+            {
+                "q": "Does the bowl have soy sauce added?",
+                "followup": [
+                    "Is 1/8 cup of soy sauce being added?"
+                ]
+            },
+            {
+                "q": "Is the sauce mixture being set aside?"
+            },
+            {
+                "q": "Does the bowl have honey added?",
+                "followup": [
+                    "Is 1 tablespoon of honey being added?"
+                ]
+            },
+            {
+                "q": "Is the mixture being cooked, stirring often, for 4 minutes?"
+            },
+            {
+                "q": "Does the bowl have cornstarch added?",
+                "followup": [
+                    "Is 1 teaspoon of cornstarch being added?"
+                ]
+            },
+            {
+                "q": "Does the bowl have minced garlic added?",
+                "followup": [
+                    "Are 2 cloves of minced garlic being added?"
+                ]
+            },
+            {
+                "q": "Is the sauce being poured into the skillet?"
+            },
+            {
+                "q": "Is garlic being peeled?",
+                "followup": [
+                    "Are 2 cloves being peeled?"
+                ]
+            },
+            {
+                "q": "Do sliced mushrooms get added to the skillet?"
+            },
+            {
+                "q": "Are mushrooms being sliced?"
+            },
+            {
+                "q": "Are the contents of the bowl being whisked?"
+            },
+            {
+                "q": "Does the skillet have bell pepper added?"
+            },
+            {
+                "q": "Is garlic being minced?"
+            },
+            {
+                "q": "Does the bell pepper get sliced?",
+                "followup": [
+                    "Is 1/3 of the bell pepper being sliced?"
+                ]
+            },
+            {
+                "q": "Is the mixture being cooked, stirring, for 1 minute until the sauce thickens?"
+            },
+            {
+                "q": "Does the skillet have broccoli added?"
+            },
+            {
+                "q": "Is olive oil being heated in a skillet over medium-high heat?",
+                "followup": [
+                    "Are 2 tablespoons of olive oil being used?"
+                ]
+            },
+            {
+                "q": "Does the bowl have minced ginger added?",
+                "followup": [
+                    "Is 1/2 tablespoon of minced ginger being added?"
+                ]
+            },
+            {
+                "q": "Does the bowl have black pepper added?",
+                "followup": [
+                    "Is 1/8 teaspoon of black pepper being added?"
+                ]
+            },
+            {
+                "q": "Does the bowl have water added?",
+                "followup": [
+                    "Is 1/6 cup of water being added?"
+                ]
+            },
+            {
+                "q": "Are cremini mushrooms being taken?",
+                "followup": [
+                    "Are 2 cremini mushrooms being taken?"
+                ]
+            },
+            {
+                "q": "Is bell pepper being taken?",
+                "followup": [
+                    "Is 1 bell pepper being taken?"
+                ]
+            },
+            {
+                "q": "Is the sauce being whisked again to recombine the ingredients?"
+            },
+            {
+                "q": "Are broccoli florets being taken?",
+                "followup": [
+                    "Are 5 broccoli florets being taken?"
+                ]
+            },
+            {
+                "q": "Is the mixture being continued to cook, stirring often, for 2-3 minutes until vegetables are crisp-tender?"
+            }
+        ]
+    },
+    "29_x": {
+        "questions": [
+            {
+                "q": "Does the bowl have shredded mozzarella added?",
+                "followup": [
+                    "Is 1/8 cup of shredded mozzarella being added?"
+                ]
+            },
+            {
+                "q": "Does the bowl have salt added?",
+                "followup": [
+                    "Is 1/4 tsp of salt being added?"
+                ]
+            },
+            {
+                "q": "Are thick rounds being sliced from a baguette?",
+                "followup": [
+                    "Are the slices two 1/2 inch sized and slanted?"
+                ]
+            },
+            {
+                "q": "Is the mixture from the bowl being spooned onto the bread?"
+            },
+            {
+                "q": "Does the bowl have pepper added?",
+                "followup": [
+                    "Is 1/4 tsp of pepper being added?"
+                ]
+            },
+            {
+                "q": "Does the bowl have basil added?",
+                "followup": [
+                    "Is 1/16 cup of basil being added?"
+                ]
+            },
+            {
+                "q": "Are the contents of the bowl being combined?"
+            },
+            {
+                "q": "Is baguette being brushed with olive oil on both sides?",
+                "followup": [
+                    "Are there 2 slices of baguette being used?"
+                ]
+            },
+            {
+                "q": "Are cherry tomatoes being cut into halves?",
+                "followup": [
+                    "Is 1/4 cup of cherry tomatoes being cut into halves?"
+                ]
+            },
+            {
+                "q": "Are the cut cherry tomatoes being added to a bowl?"
+            },
+            {
+                "q": "Are both sides of the slices being toasted on the pan for 2 to 3 minutes until lightly charred and crispy? Are the slices being transferred to a plate after toasting?"
+            }
+        ]
+    },
+    "27_x": {
+        "questions": [
+            {
+                "q": "Does the bowl have softened butter added?",
+                "followup": [
+                    "Is 1/2 tablespoon of softened butter being added?"
+                ]
+            },
+            {
+                "q": "Does the bowl have salt added?",
+                "followup": [
+                    "Is 1/4 teaspoon of salt being added?"
+                ]
+            },
+            {
+                "q": "Does a microwave-safe cup have cheddar cheese added?",
+                "followup": [
+                    "Is 1/3 cup of cheddar cheese being added?"
+                ]
+            },
+            {
+                "q": "Are the cheese and red bell pepper being mixed in the bowl?"
+            },
+            {
+                "q": "Is the bowl being microwaved, covered, for 2 minutes?"
+            },
+            {
+                "q": "Does the bowl have pepper added?",
+                "followup": [
+                    "Is 1/4 teaspoon of pepper being added?"
+                ]
+            },
+            {
+                "q": "Does the bowl have water added?",
+                "followup": [
+                    "Is the amount of water being added equal to 1 tablespoon?"
+                ]
+            },
+            {
+                "q": "Is a red bell pepper being chopped into tiny bits?",
+                "followup": [
+                    "Did the person use 1/4 of a red bell pepper to chop?"
+                ]
+            },
+            {
+                "q": "Are the chopped peppers being placed in the microwave-safe bowl?"
+            },
+            {
+                "q": "Is the cheese being melted by microwaving the cup for 30 seconds and checking, then microwaving for 10 seconds more if needed?"
+            },
+            {
+                "q": "Are all the ingredients in the bowl being mixed well?"
+            }
+        ]
+    },
+    "5_x": {
+        "questions": [
+            {
+                "q": "Does the coffee bloom for about 30 seconds? Are there small bubbles or foam on the coffee grounds during this step?"
+            },
+            {
+                "q": "Is water being poured into the filter to wet the grounds?",
+                "followup": [
+                    "Is a small amount of water being poured?"
+                ]
+            },
+            {
+                "q": "Are the grounds transferred to the filter cone?"
+            },
+            {
+                "q": "Is the filter spread open in the dripper to create a cone?"
+            },
+            {
+                "q": "Is the paper filter placed in the dripper?"
+            },
+            {
+                "q": "Is the rest of the water slowly poured over the grounds in a circular motion, without overfilling beyond the top of the paper filter?"
+            },
+            {
+                "q": "Is the filter insert prepared by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle?"
+            },
+            {
+                "q": "Are the paper filter and coffee grounds discarded?"
+            },
+            {
+                "q": "Is the water boiled while assembling the filter cone?"
+            },
+            {
+                "q": "Are the coffee beans weighed?",
+                "followup": [
+                    "Is the amount of coffee beans between 0.8 oz and 1.2 oz?"
+                ]
+            },
+            {
+                "q": "Is the coffee allowed to drain completely into the mug before removing the dripper?"
+            },
+            {
+                "q": "Are the coffee beans ground until the coffee grounds are the consistency of coarse sand for about 20 seconds?"
+            },
+            {
+                "q": "Is the water measured?",
+                "followup": [
+                    "Is the amount of water 12 ounces of cold water?"
+                ]
+            },
+            {
+                "q": "Is the dripper placed on top of a coffee mug?"
+            },
+            {
+                "q": "Is the water transferred to a kettle?"
+            },
+            {
+                "q": "Once the water has boiled, is the temperature of the water checked?"
+            }
+        ]
+    },
+    "17_x": {
+        "questions": [
+            {
+                "q": "Does the bowl have red chili powder added?",
+                "followup": [
+                    "Is 1/4 teaspoon of red chili powder being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is the cucumber being peeled?"
+            },
+            {
+                "q": "Is fresh homemade or packaged curd whisked in a mixing bowl until smooth?",
+                "followup": [
+                    "Is 1 cup of chilled curd being whisked?"
+                ]
+            },
+            {
+                "q": "Does the bowl have salt added?",
+                "followup": [
+                    "Is 1/4 teaspoon of salt being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is the cucumber being chopped or grated?"
+            },
+            {
+                "q": "Are all the ingredients combined in the bowl?"
+            },
+            {
+                "q": "Does the bowl have chopped cilantro leaves added?",
+                "followup": [
+                    "Is 1 tablespoon of chopped cilantro leaves being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Does the bowl have cumin powder added?",
+                "followup": [
+                    "Is 1 teaspoon of cumin powder being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is the cucumber rinsed?",
+                "followup": [
+                    "Is 1 medium sized cucumber being used in this step?"
+                ]
+            },
+            {
+                "q": "Is the chopped or grated cucumber added to the whisked curd?"
+            },
+            {
+                "q": "Does the bowl have chaat masala powder added?",
+                "followup": [
+                    "Is 1/2 teaspoon of chaat masala powder being added to the bowl?"
+                ]
+            }
+        ]
+    },
+    "2_x": {
+        "questions": [
+            {
+                "q": "Is a garlic clove peeled?",
+                "followup": [
+                    "Is 1 garlic clove being peeled?"
+                ]
+            },
+            {
+                "q": "Are the sauces poured over the meatballs?"
+            },
+            {
+                "q": "Is a garlic clove cut?",
+                "followup": [
+                    "Is 1/8 of a garlic clove being cut?"
+                ]
+            },
+            {
+                "q": "Is a medium onion peeled?",
+                "followup": [
+                    "Is 1 medium onion being peeled?"
+                ]
+            },
+            {
+                "q": "Are the contents stirred in the microwave with a spoon?"
+            },
+            {
+                "q": "Is a medium onion sliced?",
+                "followup": [
+                    "Is 1/8 of a medium onion being sliced?"
+                ]
+            },
+            {
+                "q": "Are the contents stirred in the microwave with a spoon?"
+            },
+            {
+                "q": "Is the plate microwaved, covered, on high for 1.5 minutes?"
+            },
+            {
+                "q": "Are meatballs placed on a microwave-safe plate?",
+                "followup": [
+                    "Are 5 meatballs being placed?"
+                ]
+            },
+            {
+                "q": "Is a medium carrot cut into short, thin strips?",
+                "followup": [
+                    "Does the person use 1/4 of a medium carrot?"
+                ]
+            },
+            {
+                "q": "Are sweet-and-sour sauce and soy sauce mixed in a small bowl?",
+                "followup": [
+                    "Is 1/4 cup of sweet-and-sour sauce being used?",
+                    "Is 1/2 teaspoon of soy sauce being used?"
+                ]
+            },
+            {
+                "q": "Is the plate topped with the carrots, onion, garlic, and pepper powder?",
+                "followup": [
+                    "Is the plate topped with 1/4 teaspoon of pepper powder?"
+                ]
+            },
+            {
+                "q": "Is the plate microwaved, covered, on high for 1.5 minutes?"
+            },
+            {
+                "q": "Is the plate microwaved for 1 more minute?"
+            },
+            {
+                "q": "Is a garlic clove minced?",
+                "followup": [
+                    "Is 1/8 of a garlic clove being minced?"
+                ]
+            },
+            {
+                "q": "Is an onion cut?",
+                "followup": [
+                    "Is the onion cut into two pieces?"
+                ]
+            }
+        ]
+    },
+    "22_x": {
+        "questions": [
+            {
+                "q": "Is oil being heated in a non-stick frying pan?",
+                "followup": [
+                    "Is 1 tablespoon of oil being heated in a non-stick frying pan?"
+                ]
+            },
+            {
+                "q": "Are tomatoes being put on a serving plate?"
+            },
+            {
+                "q": "Is cilantro being chopped?",
+                "followup": [
+                    "Is 2 tablespoons of cilantro being chopped?"
+                ]
+            },
+            {
+                "q": "Is the mixture being stirred gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space?"
+            },
+            {
+                "q": "Is an egg being cracked in a bowl?",
+                "followup": [
+                    "Is one egg being cracked in a bowl?"
+                ]
+            },
+            {
+                "q": "Are the tomatoes being cooked cut-side down until they start to soften and color?"
+            },
+            {
+                "q": "Is the egg mixture being poured into the pan?"
+            },
+            {
+                "q": "Is the chopped cilantro being added to the bowl?"
+            },
+            {
+                "q": "Is the omelette being transferred to the plate and served with the tomatoes?"
+            },
+            {
+                "q": "Are the tomatoes being scooped from the pan?"
+            },
+            {
+                "q": "Is the stirring being stopped when it's nearly cooked to allow it to set into an omelette?"
+            },
+            {
+                "q": "Is the tomato being cut into two pieces?"
+            },
+            {
+                "q": "Is a tomato being taken?"
+            },
+            {
+                "q": "Are the contents of the bowl being beaten?"
+            },
+            {
+                "q": "Is ground black pepper being added to the bowl?",
+                "followup": [
+                    "Is 1/2 teaspoon of ground black pepper being added to the bowl?"
+                ]
+            }
+        ]
+    },
+    "1_x": {
+        "questions": [
+            {
+                "q": "Is an egg poured into the ramekin cup?",
+                "followup": [
+                    "Is 1 egg being poured into the ramekin cup?"
+                ]
+            },
+            {
+                "q": "Does the egg from the cup get placed over the lettuce?"
+            },
+            {
+                "q": "Does a 6-oz. ramekin cup get coated with cooking spray?"
+            },
+            {
+                "q": "Is the ramekin cup microwaved uncovered on high for 30 seconds?"
+            },
+            {
+                "q": "Is cheese sprinkled on the cup?",
+                "followup": [
+                    "Is 1 tablespoon of cheese being sprinkled on the cup?"
+                ]
+            },
+            {
+                "q": "Is the cup topped with salsa?",
+                "followup": [
+                    "Is the cup topped with 1 tablespoon of salsa?"
+                ]
+            },
+            {
+                "q": "Is the top of the English muffin replaced?"
+            },
+            {
+                "q": "Does microwaving continue for 15-30 more seconds or until the egg is almost set?"
+            },
+            {
+                "q": "Does the bottom piece of the English muffin get lined with lettuce?"
+            },
+            {
+                "q": "Is the cup microwaved just until the cheese melts for about 10 seconds?"
+            },
+            {
+                "q": "Is the ramekin cup stirred?"
+            },
+            {
+                "q": "Is the English muffin cut?",
+                "followup": [
+                    "Is the muffin cut into two pieces with a knife?"
+                ]
+            }
+        ]
+    },
+    "3_x": {
+        "questions": [
+            {
+                "q": "Is salt being measured and added to the mug?",
+                "followup": [
+                    "Is 1/8 teaspoon of salt being measured and added to the mug?"
+                ]
+            },
+            {
+                "q": "Do dried Italian herbs get sprinkled inside the mug?"
+            },
+            {
+                "q": "Is marinara sauce being taken?",
+                "followup": [
+                    "Is 1 tablespoon of marinara sauce being taken?"
+                ]
+            },
+            {
+                "q": "Is marinara sauce spread around the surface of the batter?"
+            },
+            {
+                "q": "Is the mug microwaved for 1 minute 20 seconds, or until it rises and the toppings are bubbling?"
+            },
+            {
+                "q": "Is flour being measured and added to the mug?",
+                "followup": [
+                    "Are 4 tablespoons of flour being measured and added to the mug?"
+                ]
+            },
+            {
+                "q": "Is olive oil added to the mug?",
+                "followup": [
+                    "Is 1 tablespoon of olive oil being added to the mug?"
+                ]
+            },
+            {
+                "q": "Is baking soda being measured and added to the mug?",
+                "followup": [
+                    "Is 1/16 teaspoon of baking soda being measured and added to the mug?"
+                ]
+            },
+            {
+                "q": "Is a microwavable mug taken?"
+            },
+            {
+                "q": "Are the contents of the mug mixed thoroughly, even if there are some lumps?"
+            },
+            {
+                "q": "Are the contents in the mug stirred well?"
+            },
+            {
+                "q": "Is mozzarella cheese sprinkled on top of the sauce?",
+                "followup": [
+                    "Is 1 generous tablespoon of mozzarella cheese being sprinkled on top of the sauce?"
+                ]
+            },
+            {
+                "q": "Is baking powder being measured and added to the mug?",
+                "followup": [
+                    "Is 1/8 teaspoon of baking powder being measured and added to the mug?"
+                ]
+            },
+            {
+                "q": "Does milk get added to the mug?",
+                "followup": [
+                    "Are 3 tablespoons of milk being added to the mug?"
+                ]
+            }
+        ]
+    },
+    "26_x": {
+        "questions": [
+            {
+                "q": "Is the batter whisked until no lumps remain?"
+            },
+            {
+                "q": "Is the paper liner carefully removed?"
+            },
+            {
+                "q": "Is water measured and added to the bowl?",
+                "followup": [
+                    "Are 2 tablespoons of water being measured and added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is sugar measured and added to the mixing bowl?",
+                "followup": [
+                    "Are 1.5 tablespoons of sugar being measured and added to the mixing bowl?"
+                ]
+            },
+            {
+                "q": "While the cake is cooling, does preparation for piping the frosting get done?",
+                "followup": [
+                    "Are 4 spoonfuls of chocolate frosting being scooped into a zip-top bag?"
+                ]
+            },
+            {
+                "q": "Is flour measured and added to the mixing bowl?",
+                "followup": [
+                    "Are 2 tablespoons of flour being measured and added to the mixing bowl?"
+                ]
+            },
+            {
+                "q": "Is vegetable oil measured and added to the bowl?",
+                "followup": [
+                    "Are 2 teaspoons of vegetable oil being measured and added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is the lined mug set aside?"
+            },
+            {
+                "q": "Does the frosting get squeezed through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake?"
+            },
+            {
+                "q": "Is the paper cupcake liner placed inside the mug?"
+            },
+            {
+                "q": "Is baking powder measured and added to the bowl?",
+                "followup": [
+                    "Is 1/4 teaspoon of baking powder being measured and added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is the cake allowed to cool until it is no longer hot to the touch?"
+            },
+            {
+                "q": "Do scissors get used to cut one corner from the bag to create a small opening?",
+                "followup": [
+                    "Is the opening about 1/4 inch in diameter?"
+                ]
+            },
+            {
+                "q": "Is the batter poured into the prepared mug?"
+            },
+            {
+                "q": "Is the mixture of flour, sugar, and baking powder whisked to combine in the bowl?"
+            },
+            {
+                "q": "Is the mug inverted to release the cake onto a plate?"
+            },
+            {
+                "q": "Is a pinch of salt measured and added to the mixing bowl?"
+            },
+            {
+                "q": "Is the zip-top bag sealed, removing as much air as possible?"
+            },
+            {
+                "q": "Are the mug and batter microwaved on high power for 60 seconds? Does the cake get checked for doneness by inserting a toothpick into the center of the cake and then removing it? If wet batter clings to the toothpick, does it get microwaved for an additional 5 seconds? If the toothpick comes out clean, does it continue?"
+            },
+            {
+                "q": "Is vanilla extract measured and added to the bowl?",
+                "followup": [
+                    "Is 1/4 teaspoon of vanilla extract being measured and added to the bowl?"
+                ]
+            }
+        ]
+    },
+    "25_x": {
+        "questions": [
+            {
+                "q": "Is fresh tofu being cut into large cubes?",
+                "followup": [
+                    "Is 1/4 block or 3 ounces of fresh tofu being cut?",
+                    "Is the tofu cut into large cubes about 1 inch by 1 inch?"
+                ]
+            },
+            {
+                "q": "Is the heat turned on to medium?"
+            },
+            {
+                "q": "Is soy sauce drizzled on the pan?",
+                "followup": [
+                    "Is 1 tablespoon of soy sauce being drizzled on the pan and watched for spitting?"
+                ]
+            },
+            {
+                "q": "Is sesame oil drizzled on the pan?",
+                "followup": [
+                    "Is 1 tablespoon of sesame oil being drizzled on the pan?"
+                ]
+            },
+            {
+                "q": "Are the tofu cubes added to the pan?"
+            },
+            {
+                "q": "Is the pan briefly removed from the heat to reduce spitting?"
+            },
+            {
+                "q": "Is the tofu flipped on the pan?"
+            },
+            {
+                "q": "Is the pan briefly removed from the heat again?"
+            },
+            {
+                "q": "Is the tofu transferred to a serving dish?"
+            },
+            {
+                "q": "Is the pan returned to low heat?"
+            },
+            {
+                "q": "Is the tofu flipped with tongs?"
+            },
+            {
+                "q": "Is salt added to the pan?",
+                "followup": [
+                    "Is 1/4 teaspoon of salt being added to the pan?"
+                ]
+            },
+            {
+                "q": "Is the heat returned to medium?"
+            },
+            {
+                "q": "Does the pan cook for 2 minutes until the color is darkened?"
+            },
+            {
+                "q": "Does the pan cook for 2 minutes?"
+            },
+            {
+                "q": "Is the tofu cooked until it turns brown?"
+            },
+            {
+                "q": "Is olive oil added to a non-stick pan?",
+                "followup": [
+                    "Is 1 tablespoon of olive oil being added to a non-stick pan?"
+                ]
+            },
+            {
+                "q": "Does the tofu cook for 5 to 6 minutes until the cubes are lightly browned on the bottom?"
+            },
+            {
+                "q": "Is the tofu patted dry with a towel?"
+            }
+        ]
+    },
+    "10_x": {
+        "questions": [
+            {
+                "q": "Is slicing with floss being continued to create another pinwheel?"
+            },
+            {
+                "q": "Are the ends of the tortilla being discarded?"
+            },
+            {
+                "q": "Is slicing with floss being continued to create another pinwheel?"
+            },
+            {
+                "q": "Is the knife being cleaned by wiping it with a paper towel?"
+            },
+            {
+                "q": "Are the floss's two ends being crossed over the top of the tortilla roll?"
+            },
+            {
+                "q": "Is floss being slid under the tortilla, perpendicular to the length of the roll?"
+            },
+            {
+                "q": "Is jelly being spread over the nut butter?"
+            },
+            {
+                "q": "Are the floss ends being pulled in opposite directions to slice?"
+            },
+            {
+                "q": "Are the pinwheels being placed on a plate?"
+            },
+            {
+                "q": "Is the rolled tortilla being secured by inserting toothpicks?",
+                "followup": [
+                    "Is the rolled tortilla being secured by inserting 5 toothpicks about 1 inch apart?"
+                ]
+            },
+            {
+                "q": "Is a knife being used to scoop jelly from the jar?"
+            },
+            {
+                "q": "Is nut butter being spread onto the tortilla, leaving an uncovered edge?",
+                "followup": [
+                    "Is nut butter being spread onto the tortilla, leaving 1/2 inch uncovered at the edges?"
+                ]
+            },
+            {
+                "q": "Is a butter knife being used to scoop nut butter from the jar?"
+            },
+            {
+                "q": "Is slicing with floss being continued to create another pinwheel?"
+            },
+            {
+                "q": "Are the ends of the tortilla roll being trimmed with the butter knife, leaving a margin between the last toothpick and the end of the roll?",
+                "followup": [
+                    "Are the ends of the tortilla roll being trimmed with the butter knife, leaving a 1/2 inch margin?"
+                ]
+            },
+            {
+                "q": "Is an 8-inch flour tortilla being placed on a cutting board?",
+                "followup": [
+                    "Is an 8-inch flour tortilla being placed on the cutting board?"
+                ]
+            },
+            {
+                "q": "Is the tortilla being rolled from one end to the other into a log shape?",
+                "followup": [
+                    "Is the tortilla being rolled from one end to the other into a log shape, about 1.5 inches thick?"
+                ]
+            },
+            {
+                "q": "Is the floss being placed halfway between the toothpicks?"
+            },
+            {
+                "q": "Is the knife being cleaned by wiping it with a paper towel?"
+            }
+        ]
+    },
+    "4_x": {
+        "questions": [
+            {
+                "q": "Is the flavor packet being mixed into the bowl?"
+            },
+            {
+                "q": "Are the noodles being stirred with a spoon or fork until the flavoring dissolves?"
+            },
+            {
+                "q": "Are the noodles being removed from the package, either broken or kept as a block?"
+            },
+            {
+                "q": "Is the ramen being microwaved for 4 minutes?"
+            },
+            {
+                "q": "Is a medium onion being sliced?",
+                "followup": [
+                    "Is 1/4 of a medium onion being sliced into pieces?"
+                ]
+            },
+            {
+                "q": "Is a medium onion being peeled?",
+                "followup": [
+                    "Is 1 medium onion being peeled?"
+                ]
+            },
+            {
+                "q": "Are the noodles being let sit for about 1 minute after the microwave stops?"
+            },
+            {
+                "q": "Is the bowl being covered with a lid or paper towel to prevent splattering?"
+            },
+            {
+                "q": "Is basil being added to the bowl?"
+            },
+            {
+                "q": "Are garlic cloves being chopped on a cutting board?",
+                "followup": [
+                    "Is 1 garlic clove being chopped on a cutting board?"
+                ]
+            },
+            {
+                "q": "Are the noodles being added to the bowl?"
+            },
+            {
+                "q": "Is chopped cilantro being added to the bowl?"
+            },
+            {
+                "q": "Are all the vegetables being put in a microwave-safe bowl?"
+            },
+            {
+                "q": "Is garlic clove being peeled?",
+                "followup": [
+                    "Is 1 garlic clove being peeled?"
+                ]
+            },
+            {
+                "q": "Are the noodles being covered with water?"
+            }
+        ]
+    },
+    "20_x": {
+        "questions": [
+            {
+                "q": "Are the rinsed mushrooms being patted dry with a paper towel?"
+            },
+            {
+                "q": "Are the mushrooms being rinsed under cold water?",
+                "followup": [
+                    "Are 3 mushrooms being rinsed under cold water?"
+                ]
+            },
+            {
+                "q": "Is the pan being cooked, often stirring, for 1 minute?"
+            },
+            {
+                "q": "Are the mushrooms being added once the pan is hot?"
+            },
+            {
+                "q": "Is chopped shallot being added to the pan?"
+            },
+            {
+                "q": "Are the mushrooms being sliced?"
+            },
+            {
+                "q": "Are garlic cloves being minced?"
+            },
+            {
+                "q": "Is a shallot being chopped?",
+                "followup": [
+                    "Is 1 shallot being chopped?"
+                ]
+            },
+            {
+                "q": "Is the pan being cooked for 3-5 minutes, stirring often, until the mushrooms start to soften and brown?"
+            },
+            {
+                "q": "Are the mushroom stems being pulled out?"
+            },
+            {
+                "q": "Is olive oil being heated in a large skillet over medium-high heat?",
+                "followup": [
+                    "Is 1 tablespoon of olive oil being heated in a large skillet over medium-high heat?"
+                ]
+            },
+            {
+                "q": "Are the contents of the pan being transferred to a serving dish?"
+            },
+            {
+                "q": "Is the pan being cooked, often stirring, for 1 minute?"
+            },
+            {
+                "q": "Are garlic cloves being peeled?",
+                "followup": [
+                    "Are 2 garlic cloves being peeled?"
+                ]
+            },
+            {
+                "q": "Is balsamic vinegar being added to the pan?",
+                "followup": [
+                    "Is 1/4 tablespoon of balsamic vinegar being added to the pan?"
+                ]
+            },
+            {
+                "q": "Is minced garlic being added to the pan?",
+                "followup": [
+                    "Are 2 cloves of minced garlic being added to the pan?"
+                ]
+            },
+            {
+                "q": "Is the pan being seasoned with pepper to taste?"
+            },
+            {
+                "q": "Is the pan being seasoned with salt?"
+            }
+        ]
+    },
+    "16_x": {
+        "questions": [
+            {
+                "q": "Is cilantro being chopped?",
+                "followup": [
+                    "Is 1 teaspoon of cilantro being chopped?"
+                ]
+            },
+            {
+                "q": "Is the egg mixture being whisked in the bowl?"
+            },
+            {
+                "q": "Is garlic being added to the pan?"
+            },
+            {
+                "q": "Is a green chili being chopped?",
+                "followup": [
+                    "Is 1 green chili being chopped?"
+                ]
+            },
+            {
+                "q": "Is chili being added to the pan?"
+            },
+            {
+                "q": "Is a medium onion being chopped?",
+                "followup": [
+                    "Is 1/4 of a medium onion being chopped?"
+                ]
+            },
+            {
+                "q": "Is salt being added to the bowl?",
+                "followup": [
+                    "Is 1/3 teaspoon of salt being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is everything being cooked for 1 minute, mixing everything?"
+            },
+            {
+                "q": "Are the onions being sautéed on medium heat until they are soft and translucent?"
+            },
+            {
+                "q": "Is one egg being cracked in the bowl?"
+            },
+            {
+                "q": "Is turmeric being added to the pan?",
+                "followup": [
+                    "Is 1/8 teaspoon of turmeric being added to the pan?"
+                ]
+            },
+            {
+                "q": "Is a tomato being chopped?",
+                "followup": [
+                    "Is 1/4 of a tomato being chopped?"
+                ]
+            },
+            {
+                "q": "Is the pan being cooked covered for 1 minute or until the tomatoes soften?"
+            },
+            {
+                "q": "Is everything being kept mixing with a spatula for 3 minutes or until the eggs are almost cooked?"
+            },
+            {
+                "q": "Are the whisked eggs being slowly poured into the pan?"
+            },
+            {
+                "q": "Is oil being heated in a heavy-bottomed or nonstick pan on medium heat?",
+                "followup": [
+                    "Are 2 tablespoons of oil being heated?"
+                ]
+            },
+            {
+                "q": "Is the dish being garnished with chopped cilantro and served?",
+                "followup": [
+                    "Is 1 tablespoon of chooped cilantro being used for garnishing?"
+                ]
+            },
+            {
+                "q": "Are tomatoes being added to the pan?"
+            },
+            {
+                "q": "Are garlic cloves being peeled?",
+                "followup": [
+                    "Are 2 garlic cloves being peeled?"
+                ]
+            },
+            {
+                "q": "Is milk being added to the bowl?",
+                "followup": [
+                    "Is 1 tablespoon of milk being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is salt being added to the pan?",
+                "followup": [
+                    "Is 1/3 teaspoon of salt being added to the pan?"
+                ]
+            },
+            {
+                "q": "Are chopped onions being added to the pan?"
+            },
+            {
+                "q": "Are peeled garlic cloves being minced?"
+            }
+        ]
+    },
+    "8_x": {
+        "questions": [
+            {
+                "q": "Are the contents of the mug being heated for 1 minute and served?"
+            },
+            {
+                "q": "Is cinnamon being added to the mug?",
+                "followup": [
+                    "Is 1/5 teaspoon of cinnamon being added to the mug?"
+                ]
+            },
+            {
+                "q": "Are the contents of the mug being mixed?"
+            },
+            {
+                "q": "Is white sugar being added to the mug?",
+                "followup": [
+                    "Is 1 teaspoon of white sugar being added to the mug?"
+                ]
+            },
+            {
+                "q": "Is a microwave-safe mug being filled with skimmed milk?"
+            },
+            {
+                "q": "Are the contents of the mug being microwaved for 1 minute?"
+            },
+            {
+                "q": "Are pieces of chocolate being added to the mug?",
+                "followup": [
+                    "Are 2 pieces of chocolate being added to the mug?"
+                ]
+            }
+        ]
+    },
+    "9_x": {
+        "questions": [
+            {
+                "q": "Is the dish being microwaved on high for 90 seconds until the egg is cooked through?"
+            },
+            {
+                "q": "Are bread pieces being added to the egg mixture in the mug, pressing the bread down into the egg?"
+            },
+            {
+                "q": "Is the mug being stirred?"
+            },
+            {
+                "q": "In a large mug, is butter being melted in the microwave for about 30 seconds?",
+                "followup": [
+                    "Is 1 tablespoon of softened butter being used?"
+                ]
+            },
+            {
+                "q": "Is cinnamon being sprinkled over the egg?",
+                "followup": [
+                    "Is 1/4 teaspoon of cinnamon being sprinkled over the egg?"
+                ]
+            },
+            {
+                "q": "Is the dish being cut and served?"
+            },
+            {
+                "q": "Are the contents of the mug being put on a plate?"
+            },
+            {
+                "q": "Is the butter being rolled around in the mug to coat it?"
+            },
+            {
+                "q": "Is bread being cut or torn into bite-size pieces?",
+                "followup": [
+                    "Is 1 slice of bread being used in the step?"
+                ]
+            },
+            {
+                "q": "Is vanilla extract being added to the mug?",
+                "followup": [
+                    "Is 1/4 teaspoon of vanilla extract being added to the mug?"
+                ]
+            },
+            {
+                "q": "In the mug, is egg being whisked with a fork until well blended?",
+                "followup": [
+                    "Is one egg being whisked?"
+                ]
+            }
+        ]
+    },
+    "28_x": {
+        "questions": [
+            {
+                "q": "Are avocado slices being placed on each leaf?"
+            },
+            {
+                "q": "Is the dish being seasoned with pepper?",
+                "followup": [
+                    "Is 1/4 teaspoon of pepper being seasoned on the bowl?"
+                ]
+            },
+            {
+                "q": "Is mayonnaise being added to the bowl?",
+                "followup": [
+                    "Is 1/4 cup of mayonnaise being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is excess water being drained from the can?"
+            },
+            {
+                "q": "Are large lettuce leaves being laid out?",
+                "followup": [
+                    "Are 2 large lettuce leaves being laid out?"
+                ]
+            },
+            {
+                "q": "Are the lettuce wraps being rolled up?"
+            },
+            {
+                "q": "Are the contents of the bowl being mixed?"
+            },
+            {
+                "q": "Are lettuce leaves being topped with the tuna mixture?"
+            },
+            {
+                "q": "Is chopped scallion being added to the bowl?"
+            },
+            {
+                "q": "Is drained tuna being added to the bowl?",
+                "followup": [
+                    "Is 1 can of drained tuna being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is a ripe avocado being taken?",
+                "followup": [
+                    "Is 1 ripe avocado being taken?"
+                ]
+            },
+            {
+                "q": "Is a can of tuna being opened?"
+            },
+            {
+                "q": "Is the wrap being secured with a toothpick?"
+            },
+            {
+                "q": "Is the bowl being seasoned with salt?",
+                "followup": [
+                    "Is the bowl being seasoned with 1/4 teaspoon of salt?"
+                ]
+            },
+            {
+                "q": "Is Sriracha sauce being added to the bowl?",
+                "followup": [
+                    "Is 1 teaspoon of Sriracha sauce being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is a scallion being chopped?",
+                "followup": [
+                    "Is 1 scallion being chopped?"
+                ]
+            },
+            {
+                "q": "Is the avocado being cut into thin slices?"
+            }
+        ]
+    },
+    "15_x": {
+        "questions": [
+            {
+                "q": "Is mustard being added to the pan?",
+                "followup": [
+                    "Is 1/4 teaspoon of mustard being added to the pan?"
+                ]
+            },
+            {
+                "q": "Is the garlic being minced?"
+            },
+            {
+                "q": "Are cumin seeds being added to the pan?",
+                "followup": [
+                    "Is 1/2 teaspoon of cumin seeds being added to the pan?"
+                ]
+            },
+            {
+                "q": "Is tomato puree being added to the pan?"
+            },
+            {
+                "q": "Is the pan being taken off the heat?"
+            },
+            {
+                "q": "Is the tomato puree being mixed well with the contents in the pan?"
+            },
+            {
+                "q": "Are large garlic cloves being peeled?",
+                "followup": [
+                    "Are 4 large garlic cloves being peeled?"
+                ]
+            },
+            {
+                "q": "Is salt being added to the pan?",
+                "followup": [
+                    "Is 1/2 teaspoon of salt being added to the pan?"
+                ]
+            },
+            {
+                "q": "Is red chili powder being added to the pan?",
+                "followup": [
+                    "Are 2 tablespoons of red chili powder being added to the pan?"
+                ]
+            },
+            {
+                "q": "Is the garlic being sautéed for 2-3 minutes?"
+            },
+            {
+                "q": "Is a tomato being taken?"
+            },
+            {
+                "q": "Are tomatoes being pureed without any water in a blender/mixer?"
+            },
+            {
+                "q": "Is the heat being lowered?"
+            },
+            {
+                "q": "When mustard and cumin seeds begin to sizzle, is minced garlic being added?"
+            },
+            {
+                "q": "Is the mixture being allowed to simmer over low heat for 5 minutes or until it becomes thick?"
+            },
+            {
+                "q": "Is oil being heated in a pan over medium heat?",
+                "followup": [
+                    "Are 3 tablespoons of oil being heated in a pan over medium heat?"
+                ]
+            },
+            {
+                "q": "Is a tomato being chopped roughly (any size chunks are fine)?"
+            },
+            {
+                "q": "Is it being transferred to a serving bowl?"
+            },
+            {
+                "q": "Are the contents of the pan being mixed well?"
+            }
+        ]
+    },
+    "12_x": {
+        "questions": [
+            {
+                "q": "Is tomato being sliced into thick slices?",
+                "followup": [
+                    "Is one tomato being sliced?",
+                    "Is the tomato sliced into 1/2 inch thick slices?"
+                ]
+            },
+            {
+                "q": "Are the thick slices of tomatoes being placed on a platter, ensuring they only make a single layer?"
+            },
+            {
+                "q": "Is a drizzle of extra-virgin olive oil being added over the entire platter?",
+                "followup": [
+                    "Is about 1 tablespoon of extra-virgin olive oil being added over the entire platter?"
+                ]
+            },
+            {
+                "q": "Is the tomato being gently dried with a paper/tea towel?"
+            },
+            {
+                "q": "Are the tomato slices being seasoned with salt?"
+            },
+            {
+                "q": "Is mozzarella cheese being sprinkled on top of the tomato throughout the platter?"
+            },
+            {
+                "q": "Is a tomato being rinsed?"
+            },
+            {
+                "q": "Is the platter being seasoned with black pepper?",
+                "followup": [
+                    "Is the platter being seasoned with 1/4 teaspoon of black pepper?"
+                ]
+            },
+            {
+                "q": "Is the platter being garnished with Italian seasoning?"
+            }
+        ]
+    },
+    "18_x": {
+        "questions": [
+            {
+                "q": "Is the dish being cooked for 2 minutes or until the zoodles are done?"
+            },
+            {
+                "q": "Is grated parmesan cheese being added?",
+                "followup": [
+                    "Is 1/6 cup of grated parmesan cheese being added?"
+                ]
+            },
+            {
+                "q": "Is the dish being seasoned with pepper to taste?"
+            },
+            {
+                "q": "Is more parmesan being topped if desired?"
+            },
+            {
+                "q": "Is a large pan being heated on medium heat?"
+            },
+            {
+                "q": "Is the dish being removed from heat?"
+            },
+            {
+                "q": "Is the dish being seasoned with salt?"
+            },
+            {
+                "q": "Is minced garlic being added to the pan?",
+                "followup": [
+                    "Is 1 large garlic clove being minced?"
+                ]
+            },
+            {
+                "q": "Are garlic cloves being peeled?",
+                "followup": [
+                    "Is 1 garlic clove being peeled?"
+                ]
+            },
+            {
+                "q": "Are the zucchini noodles being added?"
+            },
+            {
+                "q": "Is the garlic being cooked until fragrant (about 1 minute) and being careful not to burn the garlic?"
+            },
+            {
+                "q": "Is a medium zucchini being spiralized into thin noodles using a spiralizer?",
+                "followup": [
+                    "Is 1 medium zucchini being spiralized?"
+                ]
+            },
+            {
+                "q": "Is butter being melted?",
+                "followup": [
+                    "Is 1 tablespoon of softened butter being melted?"
+                ]
+            }
+        ]
+    },
+    "21_x": {
+        "questions": [
+            {
+                "q": "Is baking powder being added to a blender?",
+                "followup": [
+                    "Is 1/2 teaspoon of baking powder being added to a blender?"
+                ]
+            },
+            {
+                "q": "Are the pancakes being served with chopped strawberries?"
+            },
+            {
+                "q": "Is a small knob of butter being melted in a non-stick frying pan over low-medium heat?"
+            },
+            {
+                "q": "Is maple syrup being splashed on the plate?"
+            },
+            {
+                "q": "Is banana added to the blender?",
+                "followup": [
+                    "Is 1 banana being added to a blender?"
+                ]
+            },
+            {
+                "q": "Is the dish being cooked for 1 minute or until the tops start to bubble?"
+            },
+            {
+                "q": "Is the blender being blitzed for 20 seconds?"
+            },
+            {
+                "q": "Are the pancakes being flipped with a fork or a fish slice spatula?"
+            },
+            {
+                "q": "Is an egg being added to the blender?",
+                "followup": [
+                    "Is 1 egg being added to a blender?"
+                ]
+            },
+            {
+                "q": "Is the dish being cooked for 20-30 seconds more?"
+            },
+            {
+                "q": "Are three little puddles being poured straight from the blender into the frying pan?"
+            },
+            {
+                "q": "Is a heaped tablespoon of flour being added to the blender?",
+                "followup": [
+                    "Is 1 heaped tablespoon of flour being added?"
+                ]
+            },
+            {
+                "q": "Is a strawberry being chopped?",
+                "followup": [
+                    "Is 1 strawberry being chopped?"
+                ]
+            },
+            {
+                "q": "Is the dish being transferred to a plate?"
+            }
+        ]
+    },
+    "7_x": {
+        "questions": [
+            {
+                "q": "Is the egg being whisked?"
+            },
+            {
+                "q": "Is the dish being microwaved for 3 minutes, stirring in between?"
+            },
+            {
+                "q": "Is sweet and sour sauce being added to the bowl?",
+                "followup": [
+                    "Is 1/2 tablespoon of sweet and sour sauce being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is shredded cheddar cheese being sprinkled on top of the egg?",
+                "followup": [
+                    "Is 1 tablespoon of shredded cheddar cheese being sprinkled on top of the egg?"
+                ]
+            },
+            {
+                "q": "Are the contents of the bowl being mixed well?"
+            },
+            {
+                "q": "Is the contents of an egg being extracted and added to a microwave-safe bowl?"
+            },
+            {
+                "q": "Is the tortilla being rolled from one end to another into a log shape, tight enough to prevent gaps but not so tight that the filling leaks?",
+                "followup": [
+                    "Is the tortilla being rolled from one end to another into a log shape about 1.5 inches thick?"
+                ]
+            },
+            {
+                "q": "Is the egg mixture being poured on top of the tortilla?"
+            },
+            {
+                "q": "Is salsa being added to the bowl?",
+                "followup": [
+                    "Is 1 tablespoon of salsa being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is a tortilla being placed on a cutting board?",
+                "followup": [
+                    "Is the tortilla being used 8-inches in diameter?"
+                ]
+            },
+            {
+                "q": "Is oregano being sprinkled in the bowl?"
+            }
+        ]
+    },
+    "13_x": {
+        "questions": [
+            {
+                "q": "Is lime juice being added to the bowl?"
+            },
+            {
+                "q": "Is frozen corn being measured?",
+                "followup": [
+                    "Are 2 cups of frozen corn being measured?"
+                ]
+            },
+            {
+                "q": "Is pepper powder being added to the bowl?",
+                "followup": [
+                    "Is 1 teaspoon of pepper powder being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is lime juice being extracted from a lime?",
+                "followup": [
+                    "Is lime juice being extracted from 1/3 of a lime?"
+                ]
+            },
+            {
+                "q": "Is the corn being added into a microwave-safe bowl?"
+            },
+            {
+                "q": "Are the contents of the bowl being mixed well?"
+            },
+            {
+                "q": "Is the corn being microwaved for 2 minutes?"
+            },
+            {
+                "q": "Is the corn being microwaved for 3 more minutes?"
+            },
+            {
+                "q": "Is the bowl being stirred?"
+            },
+            {
+                "q": "Is salt being added to the bowl?",
+                "followup": [
+                    "Is 1 teaspoon of salt being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is the frozen corn being thawed by putting it in a sieve and running it under cold water?"
+            },
+            {
+                "q": "Is softened butter being added?",
+                "followup": [
+                    "Is 1 teaspoon of softened butter being added?"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1349 @@
+{
+    "21_x": {
+        "questions": [
+            {
+                "q": "Does adding baking powder require heating?"
+            },
+            {
+                "q": "Is the person using heat while serving the dish?"
+            },
+            {
+                "q": "To melt the butter, is heat required in the recipe?",
+                "followup": [
+                    "Is the butter melted on low-medium heat?"
+                ]
+            },
+            {
+                "q": "While splashing maple syrup on the plate, is temperature involved?"
+            },
+            {
+                "q": "To add banana to the blender, does the person warm it?"
+            },
+            {
+                "q": "Is the person cooking the pancakes?",
+                "followup": [
+                    "Is the person cooking for 1 min or until the top starts to bubble?"
+                ]
+            },
+            {
+                "q": "Does blitzing the blender require temperature control?"
+            },
+            {
+                "q": "While flipping the pancakes, does the person use any heating methods?"
+            },
+            {
+                "q": "Does adding egg to the blender require heating?"
+            },
+            {
+                "q": "While cooking for extra 20-30 seconds, does the person change the heat?"
+            },
+            {
+                "q": "Is there a modification in the heat being provided to the pan while batter is being poured into it?"
+            },
+            {
+                "q": "Does the person warm the flour before adding to the blender?"
+            },
+            {
+                "q": "While chopping the strawberry, is there any temperature control involved in the video?"
+            },
+            {
+                "q": "To transfer the dish to a plate, is the person heating the plate?"
+            }
+        ]
+    },
+    "7_x": {
+        "questions": [
+            {
+                "q": "Does whisking the egg use heat in the step?"
+            },
+            {
+                "q": "Is the person heating mixture in the step?",
+                "followup": [
+                    "Is the person microwaving the mixture for 3 minutes while stirring in between?"
+                ]
+            },
+            {
+                "q": "Does adding sweet and sour sauce involve heating?"
+            },
+            {
+                "q": "While sprinkling shredded cheese on top of egg, is the egg heated?"
+            },
+            {
+                "q": "While mixing the contents of the bowl, is it heated?"
+            },
+            {
+                "q": "Does the step extracting and adding contents of egg to a microwave-safe bowl involve heating?"
+            },
+            {
+                "q": "Is the tortilla being toasted before rolling it into log shape?"
+            },
+            {
+                "q": "Does the person heat the egg while pouring egg mixture on the tortilla?"
+            },
+            {
+                "q": "Is the person using any heat while adding salsa to the bowl?"
+            },
+            {
+                "q": "Does placing 8 inch tortilla on cutting board involve heating?"
+            },
+            {
+                "q": "Does sprinkling oregano in the bowl involve heating?"
+            }
+        ]
+    },
+    "23_x": {
+        "questions": [
+            {
+                "q": "Does adding 1/8th cup of soy sauce require any heating?"
+            },
+            {
+                "q": "Does setting aside the sauce mixture require heating?"
+            },
+            {
+                "q": "Does adding 1 tablespoon honey to the bowl require any heating?"
+            },
+            {
+                "q": "While stirring for 4 minutes, is the pan on medium-high?",
+                "followup": [
+                    "Is the heat turned down to medium if it is too hot?"
+                ]
+            },
+            {
+                "q": "Does adding 1 teaspoon cornstarch to the bowl require any heat?"
+            },
+            {
+                "q": "While mincing garlic and adding to the bowl is it being heated?"
+            },
+            {
+                "q": "While pouring the sauce into skillet is heat being used?"
+            },
+            {
+                "q": "To peel 2 cloves of garlic is heat being used?"
+            },
+            {
+                "q": "Does adding sliced mushrooms to the skillet require heat?"
+            },
+            {
+                "q": "Are mushrooms heated to slice them?"
+            },
+            {
+                "q": "While whisking the contents of the bowl, are the contents heated?"
+            },
+            {
+                "q": "Are bell peppers heated while adding to the skillet?"
+            },
+            {
+                "q": "Does mincing garlic require temperature change in the video?"
+            },
+            {
+                "q": "While slicing 1/3 bell pepper is heat being used?"
+            },
+            {
+                "q": "Is heat being used while cooking, stirring, for 1 minute until the sauce thickens"
+            },
+            {
+                "q": "Is adding broccoli to the skillet require heat?"
+            },
+            {
+                "q": "Is heat being used for warming 2 tablespoons of olive oil?",
+                "followup": [
+                    "Is the olive oil being heated over medium-high heat?"
+                ]
+            },
+            {
+                "q": "Does adding 1/2 tablespoon minced ginger require heating?"
+            },
+            {
+                "q": "Does adding 1/8 teaspoon black pepper require heating?"
+            },
+            {
+                "q": "Does adding 1/6 cup of water require heating?"
+            },
+            {
+                "q": "While taking 2 cremini mushrooms, are they warmed?"
+            },
+            {
+                "q": "While taking 1 bell pepper, is it heated?"
+            },
+            {
+                "q": "Does whisking the sauce to recombine the ingredients use heat?"
+            },
+            {
+                "q": "Does taking broccoli florets involve being heated in the video?"
+            },
+            {
+                "q": "While cooking, stirring often for 2-3 minutes until all the vegetables are crisp-tender, is heat being used?"
+            }
+        ]
+    },
+    "13_x": {
+        "questions": [
+            {
+                "q": "While adding lime juice to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While measuring 2 cups of frozen corn, is any temperature control required?"
+            },
+            {
+                "q": "While adding 1 teaspoon of pepper powder to the bowl, is any heating required?"
+            },
+            {
+                "q": "While extracting lime juice from 1/3 lime, is any heating involved?"
+            },
+            {
+                "q": "While adding the corn into a microwave-safe bowl, is any heating required?"
+            },
+            {
+                "q": "While mixing the contents of the bowl, is any heating involved?"
+            },
+            {
+                "q": "While microwaving the corn for 2 minutes, is the person using heat?",
+                "followup": [
+                    "Is the corn microwaved on medium-high heat for 2 minutes?"
+                ]
+            },
+            {
+                "q": "While microwaving the corn for 3 more minutes, is the person using heat?",
+                "followup": [
+                    "Is the corn microwaved on medium-high heat for 3 more minutes?"
+                ]
+            },
+            {
+                "q": "While stirring the bowl, is any heating involved?"
+            },
+            {
+                "q": "While adding 1 teaspoon of salt to the bowl, is any heating required?"
+            },
+            {
+                "q": "While thawing the frozen corn by putting it in a sieve and running it under cold water, is any heating involved?"
+            },
+            {
+                "q": "While adding 1 teaspoon of softened butter, is any heating required?"
+            }
+        ]
+    },
+    "29_x": {
+        "questions": [
+            {
+                "q": "While adding 1/8 cup shredded mozzarella to a bowl, is any heating involved?"
+            },
+            {
+                "q": "While adding 1/4 tsp salt to a bowl, is any heating required?"
+            },
+            {
+                "q": "While slicing two 1/2 inch thick rounds from a baguette (slice slanted), is any heating involved?"
+            },
+            {
+                "q": "While spooning the mixture from the bowl onto the bread, is any heating required?"
+            },
+            {
+                "q": "While adding 1/4 tsp pepper to a bowl, is any heating involved?"
+            },
+            {
+                "q": "While adding 1/16 cup basil to a bowl, is any heating required?"
+            },
+            {
+                "q": "While combining the contents of the bowl, is any heating involved?"
+            },
+            {
+                "q": "While brushing 2 slices of baguette with olive oil on both sides, is any heating involved?"
+            },
+            {
+                "q": "While cutting 1/4 cup of cherry tomatoes into halves, is any heating required?"
+            },
+            {
+                "q": "While adding the cut cherry tomatoes to a bowl, is any heating involved?"
+            },
+            {
+                "q": "While toasting both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy, is the person using heat?",
+                "followup": [
+                    "Are the slices toasted on medium-high heat for 2 to 3 minutes?"
+                ]
+            }
+        ]
+    },
+    "27_x": {
+        "questions": [
+            {
+                "q": "While adding 1/2 tbsp softened butter to the bowl, is any heating involved?",
+                "followup": [
+                    "Is the butter softened at room temperature or using low heat?"
+                ]
+            },
+            {
+                "q": "While adding 1/4 teaspoon salt to the bowl, is any heating required?"
+            },
+            {
+                "q": "While adding 1/3 cup cheddar cheese to a microwave-safe cup, is any heating involved?"
+            },
+            {
+                "q": "While mixing the cheese and red bell pepper in the bowl, is any heating required?"
+            },
+            {
+                "q": "While microwaving the bowl, covered, for 2 minutes, is the person using heat?",
+                "followup": [
+                    "Is the bowl microwaved on medium-high heat for 2 minutes?"
+                ]
+            },
+            {
+                "q": "While adding 1/4 teaspoon pepper to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While adding 1 tablespoon of water to the bowl, is any heating required?"
+            },
+            {
+                "q": "While chopping 1/4 red bell pepper into tiny bits, is any heating involved?"
+            },
+            {
+                "q": "While placing the chopped pepper in the microwave-safe bowl, is any heating required?"
+            },
+            {
+                "q": "While melting the cheese by microwaving the cup for 30 seconds, is the person using heat?",
+                "followup": [
+                    "Is the cheese microwaved on medium-high heat for 30 seconds, and checked for additional 10 seconds if needed?"
+                ]
+            },
+            {
+                "q": "While mixing all the ingredients of the bowl well, is any heating involved?"
+            }
+        ]
+    },
+    "5_x": {
+        "questions": [
+            {
+                "q": "While waiting about 30 seconds for the coffee to bloom, is any heating involved?"
+            },
+            {
+                "q": "While pouring a small amount of water into the filter to wet the grounds, is any heating required?"
+            },
+            {
+                "q": "While transferring the grounds to the filter cone, is any heating involved?"
+            },
+            {
+                "q": "While spreading open the filter in the dripper to create a cone, is any heating involved?"
+            },
+            {
+                "q": "While placing the paper filter in the dripper, is any heating required?"
+            },
+            {
+                "q": "While slowly pouring the rest of the water over the grounds in a circular motion, is any heating involved?",
+                "followup": [
+                    "Is the water poured at a temperature between 195-205 degrees Fahrenheit (91-96 degrees Celsius)?"
+                ]
+            },
+            {
+                "q": "While preparing the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle, is any heating involved?"
+            },
+            {
+                "q": "While discarding the paper filter and coffee grounds, is any heating required?"
+            },
+            {
+                "q": "While boiling the water, is the person using heat?"
+            },
+            {
+                "q": "While weighing the coffee beans (0.8oz-0.12oz), is any heating involved?"
+            },
+            {
+                "q": "While letting the coffee drain completely into the mug before removing the dripper, is any heating required?"
+            },
+            {
+                "q": "While grinding the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds, is any heating involved?"
+            },
+            {
+                "q": "While measuring 12 ounces of cold water, is any heating required?"
+            },
+            {
+                "q": "While placing the dripper on top of a coffee mug, is any heating involved?"
+            },
+            {
+                "q": "While transferring water to a kettle, is any heating required?"
+            },
+            {
+                "q": "Once the water has boiled, is checking the temperature of the water necessary?",
+                "followup": [
+                    "Is the water temperature between 195-205 degrees Fahrenheit (91-96 degrees Celsius)?"
+                ]
+            }
+        ]
+    },
+    "17_x": {
+        "questions": [
+            {
+                "q": "While adding 1/4 teaspoon of red chilli powder to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While peeling the cucumber, is any heating required?"
+            },
+            {
+                "q": "While whisking 1 cup of chilled curd until smooth, is any heating involved?"
+            },
+            {
+                "q": "While adding 1/4 teaspoon salt to the bowl, is any heating required?"
+            },
+            {
+                "q": "While chopping or grating the cucumber, is any heating involved?"
+            },
+            {
+                "q": "While combining all the ingredients in the bowl, is any heating required?"
+            },
+            {
+                "q": "While adding 1 tablespoon of chopped cilantro leaves to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While adding 1 teaspoon of cumin powder to the bowl, is any heating required?"
+            },
+            {
+                "q": "While rinsing 1 medium sized cucumber, is any heating involved?"
+            },
+            {
+                "q": "While adding the chopped or grated cucumber to the whisked curd, is any heating required?"
+            },
+            {
+                "q": "While adding 1/2 teaspoon of chaat masala powder to the bowl, is any heating involved?"
+            }
+        ]
+    },
+    "2_x": {
+        "questions": [
+            {
+                "q": "While peeling 1 garlic clove, is any heating involved?"
+            },
+            {
+                "q": "While pouring the sauces over the meatballs, is any heating required?"
+            },
+            {
+                "q": "While cutting 1/8 garlic clove, is any heating involved?"
+            },
+            {
+                "q": "While peeling one medium onion, is any heating required?"
+            },
+            {
+                "q": "While stirring the contents in the microwave with a spoon, is any heating involved?"
+            },
+            {
+                "q": "While slicing 1/8 medium onion, is any heating required?"
+            },
+            {
+                "q": "While stirring the contents in the microwave with a spoon, is any heating involved?"
+            },
+            {
+                "q": "While microwaving the plate, covered, on high for 1.5 minutes, is the person using heat?",
+                "followup": [
+                    "Is the plate microwaved on high heat for 1.5 minutes?"
+                ]
+            },
+            {
+                "q": "While placing 5 meatballs in a microwave-safe plate, is any heating involved?"
+            },
+            {
+                "q": "While cutting 1/4 medium carrot into short, thin strips, is any heating required?"
+            },
+            {
+                "q": "While mixing 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl, is any heating involved?"
+            },
+            {
+                "q": "While topping the plate with the carrots, onion, garlic and 1/4 tsp pepper powder, is any heating required?"
+            },
+            {
+                "q": "While microwaving the plate, covered, on high for 1.5 minutes, is the person using heat?",
+                "followup": [
+                    "Is the plate microwaved on high heat for 1.5 minutes?"
+                ]
+            },
+            {
+                "q": "While microwaving for 1 more minute, is the person using heat?",
+                "followup": [
+                    "Is the plate microwaved on high heat for 1 more minute?"
+                ]
+            },
+            {
+                "q": "While mincing 1/8 garlic clove, is any heating involved?"
+            },
+            {
+                "q": "While cutting the onion into two pieces, is any heating required?"
+            }
+        ]
+    },
+    "22_x": {
+        "questions": [
+            {
+                "q": "While heating 1 tbsp oil in a non-stick frying pan, is the person using heat?",
+                "followup": [
+                    "Is the oil heated on medium-high heat until hot?"
+                ]
+            },
+            {
+                "q": "While putting tomatoes on a serving plate, is any heating involved?"
+            },
+            {
+                "q": "While chopping 2 tbsp cilantro, is any heating required?"
+            },
+            {
+                "q": "While stirring gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space, is the person using heat?"
+            },
+            {
+                "q": "While cracking one egg in a bowl, is any heating involved?"
+            },
+            {
+                "q": "While cooking the tomatoes cut-side down until they start to soften and color, is the person using heat?",
+                "followup": [
+                    "Are the tomatoes cooked on medium-high heat until they start to soften and color?"
+                ]
+            },
+            {
+                "q": "While pouring the egg mixture into the pan, is any heating involved?"
+            },
+            {
+                "q": "While adding the chopped cilantro to the bowl, is any heating required?"
+            },
+            {
+                "q": "While transferring the omelette to the plate and serving with the tomatoes, is any heating involved?"
+            },
+            {
+                "q": "While scooping the tomatoes from the pan, is any heating required?"
+            },
+            {
+                "q": "While stopping stirring when it's nearly cooked to allow it to set into an omelette, is the person using heat?"
+            },
+            {
+                "q": "While cutting the tomato into two pieces, is any heating required?"
+            },
+            {
+                "q": "While taking a tomato, is any heating involved?"
+            },
+            {
+                "q": "While beating the contents of the bowl, is any heating required?"
+            },
+            {
+                "q": "While adding 1/2 tsp ground black pepper to the bowl, is any heating required?"
+            }
+        ]
+    },
+    "1_x": {
+        "questions": [
+            {
+                "q": "While pouring 1 egg into the ramekin cup, is any heating involved?"
+            },
+            {
+                "q": "While placing the egg from the cup over the lettuce, is any heating required?"
+            },
+            {
+                "q": "While coating a 6-oz. ramekin cup with cooking spray, is any heating involved?"
+            },
+            {
+                "q": "While microwaving the ramekin cup uncovered on high for 30 seconds, is the person using heat?",
+                "followup": [
+                    "Is the ramekin cup microwaved on high heat for 30 seconds?"
+                ]
+            },
+            {
+                "q": "While sprinkling 1 tablespoon of cheese on cup, is any heating involved?"
+            },
+            {
+                "q": "While topping the cup with 1 tablespoon of salsa, is any heating required?"
+            },
+            {
+                "q": "While replacing the top of the English muffin, is any heating involved?"
+            },
+            {
+                "q": "While continuing to microwave for 15-30 more seconds or until the egg is almost set, is the person using heat?",
+                "followup": [
+                    "Is the ramekin cup microwaved on high heat for 15-30 more seconds until the egg is almost set?"
+                ]
+            },
+            {
+                "q": "While lining the bottom piece of the English muffin with lettuce, is any heating involved?"
+            },
+            {
+                "q": "While microwaving just until cheese melts, about 10 seconds, is the person using heat?",
+                "followup": [
+                    "Is the cup microwaved on high heat just until the cheese melts, about 10 seconds?"
+                ]
+            },
+            {
+                "q": "While stirring the ramekin cup, is any heating involved?"
+            },
+            {
+                "q": "While cutting the English muffin into two pieces with a knife, is any heating required?"
+            }
+        ]
+    },
+    "9_x": {
+        "questions": [
+            {
+                "q": "While microwaving on high for 90 seconds until the egg is cooked through, is the person using heat?",
+                "followup": [
+                    "Is the egg microwaved on high heat for 90 seconds until it is cooked through?"
+                ]
+            },
+            {
+                "q": "While adding bread pieces to the egg mixture in the mug and pressing the bread down into the egg, is any heating involved?"
+            },
+            {
+                "q": "While stirring the mug, is any heating involved?"
+            },
+            {
+                "q": "While melting 1 tablespoon of softened butter in a large mug in the microwave for about 30 seconds, is the person using heat?",
+                "followup": [
+                    "Is the butter microwaved on high heat for about 30 seconds until melted?"
+                ]
+            },
+            {
+                "q": "While sprinkling 1/4 teaspoon cinnamon over the egg, is any heating involved?"
+            },
+            {
+                "q": "While cutting the contents on the plate and serving, is any heating required?"
+            },
+            {
+                "q": "While putting the mug's contents on a plate, is any heating involved?"
+            },
+            {
+                "q": "While rolling the butter around in the mug to coat it, is any heating required?"
+            },
+            {
+                "q": "While cutting or tearing 1 slice of bread into bite-size pieces, is any heating involved?"
+            },
+            {
+                "q": "While adding 1/4 teaspoon vanilla extract to the mug, is any heating required?"
+            },
+            {
+                "q": "While whisking one egg with a fork in the mug until well blended, is any heating involved?"
+            }
+        ]
+    },
+    "3_x": {
+        "questions": [
+            {
+                "q": "While measuring 1/8 teaspoon of salt and adding it to the mug, is any heating involved?"
+            },
+            {
+                "q": "While sprinkling dried Italian herbs inside the mug, is any heating required?"
+            },
+            {
+                "q": "While taking 1 tablespoon of marinara sauce, is any heating involved?"
+            },
+            {
+                "q": "While spreading marinara sauce around the surface of the batter, is any heating required?"
+            },
+            {
+                "q": "While microwaving for 1 minute 20 seconds, or until it rises and the toppings are bubbling, is the person using heat?",
+                "followup": [
+                    "Is the mug microwaved on high heat for 1 minute 20 seconds until it rises and the toppings are bubbling?"
+                ]
+            },
+            {
+                "q": "While measuring 4 tablespoons of flour and adding it to the mug, is any heating involved?"
+            },
+            {
+                "q": "While adding 1 tablespoon of olive oil to the mug, is any heating required?"
+            },
+            {
+                "q": "While measuring 1/16 teaspoon of baking soda and adding it to the mug, is any heating involved?"
+            },
+            {
+                "q": "While taking a microwavable mug, is any heating required?"
+            },
+            {
+                "q": "While mixing the contents of the mug thoroughly, is any heating involved?"
+            },
+            {
+                "q": "While stirring the contents in the mug well, is any heating required?"
+            },
+            {
+                "q": "While sprinkling 1 generous tablespoon of mozzarella cheese on top of the sauce, is any heating involved?"
+            },
+            {
+                "q": "While measuring 1/8 teaspoon of baking powder and adding it to the mug, is any heating involved?"
+            },
+            {
+                "q": "While adding 3 tablespoons of milk to the mug, is any heating required?"
+            }
+        ]
+    },
+    "26_x": {
+        "questions": [
+            {
+                "q": "While whisking the batter until no lumps remain, is any heating involved?"
+            },
+            {
+                "q": "While carefully removing the paper liner, is any heating required?"
+            },
+            {
+                "q": "While measuring and adding 2 tbsp water to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While measuring and adding 1.5 tbsp sugar to the mixing bowl, is any heating involved?"
+            },
+            {
+                "q": "While scooping 4 spoonfuls of chocolate frosting into a zip-top bag to prepare for piping, is any heating involved?"
+            },
+            {
+                "q": "While measuring and adding 2 tbsp flour to the mixing bowl, is any heating involved?"
+            },
+            {
+                "q": "While measuring and adding 2 tsp vegetable oil to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While setting aside the lined mug, is any heating required?"
+            },
+            {
+                "q": "While squeezing the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake, is any heating involved?"
+            },
+            {
+                "q": "While placing the paper cupcake liner inside the mug, is any heating required?"
+            },
+            {
+                "q": "While measuring and adding 1/4 tsp baking powder to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While allowing to cool until it is no longer hot to the touch, is any heating involved?"
+            },
+            {
+                "q": "While using scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter, is any heating required?"
+            },
+            {
+                "q": "While pouring batter into the prepared mug, is any heating involved?"
+            },
+            {
+                "q": "While whisking to combine the mixture of flour, sugar, and baking powder in the bowl, is any heating involved?"
+            },
+            {
+                "q": "While inverting the mug to release the cake onto a plate, is any heating required?"
+            },
+            {
+                "q": "While measuring and adding a pinch of salt to the mixing bowl, is any heating involved?"
+            },
+            {
+                "q": "While sealing the zip-top bag, removing as much air as possible, is any heating required?"
+            },
+            {
+                "q": "While microwaving the mug and batter on high power for 60 seconds and checking if the cake is done by inserting a toothpick into the center of the cake and then removing it, is the person using heat?",
+                "followup": [
+                    "Is the mug microwaved on high power for 60 seconds, with additional 5-second intervals if needed?"
+                ]
+            },
+            {
+                "q": "While measuring and adding 1/4 tsp vanilla extract to the bowl, is any heating involved?"
+            }
+        ]
+    },
+    "25_x": {
+        "questions": [
+            {
+                "q": "While cutting 1/4 block or 3 ounces of fresh tofu into large cubes (about 1 in x 1 in), is any heating involved?"
+            },
+            {
+                "q": "While turning on the heat to medium, is the person using heat?",
+                "followup": [
+                    "Is the heat turned on to medium?"
+                ]
+            },
+            {
+                "q": "While drizzling 1 tablespoon soy sauce on the pan, is any heating involved?",
+                "followup": [
+                    "Is the pan hot while drizzling the soy sauce?"
+                ]
+            },
+            {
+                "q": "While drizzling with 1 tablespoon sesame oil on the pan, is any heating involved?",
+                "followup": [
+                    "Is the pan hot while drizzling the sesame oil?"
+                ]
+            },
+            {
+                "q": "While adding the tofu cubes to the pan, is any heating involved?",
+                "followup": [
+                    "Is the pan hot while adding the tofu cubes?"
+                ]
+            },
+            {
+                "q": "While briefly removing the pan from the heat to reduce spitting, is any heating involved?"
+            },
+            {
+                "q": "While flipping tofu on the pan, is any heating involved?",
+                "followup": [
+                    "Is the tofu flipped on medium heat?"
+                ]
+            },
+            {
+                "q": "While briefly removing from the heat again, is any heating involved?"
+            },
+            {
+                "q": "While transferring to a serving dish, is any heating required?"
+            },
+            {
+                "q": "While returning to low heat, is the person using heat?",
+                "followup": [
+                    "Is the heat turned to low?"
+                ]
+            },
+            {
+                "q": "While flipping the tofu with tongs, is any heating involved?",
+                "followup": [
+                    "Is the tofu flipped on low heat?"
+                ]
+            },
+            {
+                "q": "While adding 1/4 tsp salt to the pan, is any heating involved?"
+            },
+            {
+                "q": "While returning the heat to medium, is the person using heat?",
+                "followup": [
+                    "Is the heat turned to medium?"
+                ]
+            },
+            {
+                "q": "While cooking the pan for 2 minutes until the colour is darkened, is the person using heat?",
+                "followup": [
+                    "Is the pan cooked on medium heat for 2 minutes until the colour is darkened?"
+                ]
+            },
+            {
+                "q": "While cooking the pan for 2 minutes, is the person using heat?",
+                "followup": [
+                    "Is the pan cooked on medium heat for 2 minutes?"
+                ]
+            },
+            {
+                "q": "While cooking until tofu turns brown, is the person using heat?",
+                "followup": [
+                    "Is the tofu cooked on medium heat until it turns brown?"
+                ]
+            },
+            {
+                "q": "While adding 1 tablespoon of olive oil to a non-stick pan, is any heating involved?"
+            },
+            {
+                "q": "While cooking for 5 to 6 minutes until tofu cubes are lightly browned on the bottom, is the person using heat?",
+                "followup": [
+                    "Are the tofu cubes cooked on medium heat for 5 to 6 minutes until lightly browned on the bottom?"
+                ]
+            },
+            {
+                "q": "While patting tofu dry with a towel, is any heating involved?"
+            }
+        ]
+    },
+    "10_x": {
+        "questions": [
+            {
+                "q": "While continuing slicing with floss to create 1 more pinwheel, is any heating involved?"
+            },
+            {
+                "q": "While discarding ends of the tortilla, is any heating required?"
+            },
+            {
+                "q": "While continuing slicing with floss to create 1 more pinwheel, is any heating involved?"
+            },
+            {
+                "q": "While cleaning the knife by wiping with a paper towel, is any heating involved?"
+            },
+            {
+                "q": "While crossing the floss's two ends over the tortilla roll's top, is any heating required?"
+            },
+            {
+                "q": "While sliding floss under the tortilla, perpendicular to the length of the roll, is any heating involved?"
+            },
+            {
+                "q": "While spreading jelly over the nut butter, is any heating required?"
+            },
+            {
+                "q": "While pulling the floss ends in opposite directions to slice, is any heating involved?"
+            },
+            {
+                "q": "While placing the pinwheels on a plate, is any heating involved?"
+            },
+            {
+                "q": "While securing the rolled tortilla by inserting 5 toothpicks about 1 inch apart, is any heating involved?"
+            },
+            {
+                "q": "While using the knife to scoop jelly from the jar, is any heating involved?"
+            },
+            {
+                "q": "While spreading nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges, is any heating required?"
+            },
+            {
+                "q": "While using a butter knife to scoop nut butter from the jar, is any heating involved?"
+            },
+            {
+                "q": "While continuing slicing with floss to create 1 more pinwheel, is any heating involved?"
+            },
+            {
+                "q": "While trimming the ends of the tortilla roll with the butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll, is any heating involved?"
+            },
+            {
+                "q": "While placing an 8-inch flour tortilla on the cutting board, is any heating required?"
+            },
+            {
+                "q": "While rolling the tortilla from one end to the other into a log shape, about 1.5 inches thick, is any heating involved?"
+            },
+            {
+                "q": "While placing the floss halfway between toothpicks, is any heating required?"
+            },
+            {
+                "q": "While cleaning the knife by wiping it with a paper towel, is any heating involved?"
+            }
+        ]
+    },
+    "4_x": {
+        "questions": [
+            {
+                "q": "While mixing in the flavour packet to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While stirring noodles with a spoon or fork until the flavouring dissolves, is any heating required?"
+            },
+            {
+                "q": "While removing the noodles from the package (Break Noodles / Keep them as a block), is any heating involved?"
+            },
+            {
+                "q": "While microwaving the ramen for 4 minutes, is the person using heat?",
+                "followup": [
+                    "Is the ramen microwaved on high heat for 4 minutes?"
+                ]
+            },
+            {
+                "q": "While slicing 1/4 medium onion into pieces, is any heating required?"
+            },
+            {
+                "q": "While peeling 1 medium onion, is any heating involved?"
+            },
+            {
+                "q": "While letting the noodles sit for about 1 minute after the microwave stops, is any heating involved?"
+            },
+            {
+                "q": "While covering with a lid (or paper towel) to prevent splattering, is any heating required?"
+            },
+            {
+                "q": "While adding basil to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While chopping 1 garlic clove on a cutting board, is any heating required?"
+            },
+            {
+                "q": "While adding the noodles to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While adding chopped cilantro to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While putting all the vegetables in a microwave-safe bowl, is any heating involved?"
+            },
+            {
+                "q": "While peeling 1 garlic clove, is any heating involved?"
+            },
+            {
+                "q": "While covering the noodles with water, is any heating required?"
+            }
+        ]
+    },
+    "20_x": {
+        "questions": [
+            {
+                "q": "While patting rinsed mushrooms dry with a paper towel, is any heating involved?"
+            },
+            {
+                "q": "While rinsing 3 mushrooms under cold water, is any heating required?"
+            },
+            {
+                "q": "While cooking the pan, often stirring, for 1 minute, is the person using heat?",
+                "followup": [
+                    "Is the pan cooked on medium-high heat, often stirring, for 1 minute?"
+                ]
+            },
+            {
+                "q": "While adding the mushrooms once the pan is hot, is any heating involved?",
+                "followup": [
+                    "Is the pan hot before adding the mushrooms?"
+                ]
+            },
+            {
+                "q": "While adding chopped shallot to the pan, is any heating involved?"
+            },
+            {
+                "q": "While slicing the mushrooms, is any heating required?"
+            },
+            {
+                "q": "While mincing garlic cloves, is any heating required?"
+            },
+            {
+                "q": "While chopping 1 shallot, is any heating required?"
+            },
+            {
+                "q": "While cooking for 3-5 minutes, stirring often, until mushrooms start to soften and brown, is the person using heat?",
+                "followup": [
+                    "Are the mushrooms cooked on medium-high heat for 3-5 minutes, stirring often, until they start to soften and brown?"
+                ]
+            },
+            {
+                "q": "While pulling out mushroom stems, is any heating involved?"
+            },
+            {
+                "q": "While heating 1 tbsp olive oil in a large skillet over medium-high heat, is the person using heat?",
+                "followup": [
+                    "Is the olive oil heated on medium-high heat?"
+                ]
+            },
+            {
+                "q": "While transferring the contents of the pan to a serving dish, is any heating required?"
+            },
+            {
+                "q": "While cooking the pan, often stirring, for 1 minute, is the person using heat?",
+                "followup": [
+                    "Is the pan cooked on medium-high heat, often stirring, for 1 minute?"
+                ]
+            },
+            {
+                "q": "While peeling 2 garlic cloves, is any heating required?"
+            },
+            {
+                "q": "While adding 1/4 tbsp balsamic vinegar to the pan, is any heating involved?"
+            },
+            {
+                "q": "While adding 2 cloves of minced garlic to the pan, is any heating involved?"
+            },
+            {
+                "q": "While seasoning the pan with pepper to taste, is any heating required?"
+            },
+            {
+                "q": "While seasoning the pan with salt, is any heating required?"
+            }
+        ]
+    },
+    "16_x": {
+        "questions": [
+            {
+                "q": "While chopping 1 tsp cilantro, is any heating involved?"
+            },
+            {
+                "q": "While whisking the egg mixture in the bowl, is any heating required?"
+            },
+            {
+                "q": "While adding garlic to the pan, is any heating involved?"
+            },
+            {
+                "q": "While chopping 1 green chilli, is any heating required?"
+            },
+            {
+                "q": "While adding chilli to the pan, is any heating involved?"
+            },
+            {
+                "q": "While chopping 1/4 medium onion, is any heating required?"
+            },
+            {
+                "q": "While adding 1/3 tsp salt to the bowl, is any heating required?"
+            },
+            {
+                "q": "While cooking for 1 minute, mixing everything, is the person using heat?",
+                "followup": [
+                    "Is the mixture cooked on medium heat for 1 minute?"
+                ]
+            },
+            {
+                "q": "While sautéing the onions on medium heat until they are soft and translucent, is the person using heat?",
+                "followup": [
+                    "Are the onions sautéed on medium heat until they are soft and translucent?"
+                ]
+            },
+            {
+                "q": "While cracking one egg in the bowl, is any heating involved?"
+            },
+            {
+                "q": "While adding 1/8 tsp of turmeric to the pan, is any heating involved?"
+            },
+            {
+                "q": "While chopping 1/4 tomato, is any heating required?"
+            },
+            {
+                "q": "While cooking covered for 1 minute or until the tomatoes soften, is the person using heat?",
+                "followup": [
+                    "Are the tomatoes cooked covered on medium heat for 1 minute or until they soften?"
+                ]
+            },
+            {
+                "q": "While mixing with a spatula for 3 minutes or until the eggs are almost cooked, is the person using heat?",
+                "followup": [
+                    "Are the eggs cooked on medium heat for 3 minutes while mixing with a spatula until almost cooked?"
+                ]
+            },
+            {
+                "q": "While slowly pouring the whisked eggs into the pan, is any heating involved?"
+            },
+            {
+                "q": "While heating 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat, is the person using heat?",
+                "followup": [
+                    "Is the oil heated on medium heat in a heavy-bottomed or nonstick pan?"
+                ]
+            },
+            {
+                "q": "While garnishing with 1 tbsp chopped cilantro and serving, is any heating required?"
+            },
+            {
+                "q": "While adding tomatoes to the pan, is any heating involved?"
+            },
+            {
+                "q": "While peeling 2 garlic cloves, is any heating required?"
+            },
+            {
+                "q": "While adding 1 tbsp milk to the bowl, is any heating required?"
+            },
+            {
+                "q": "While adding 1/3 tsp salt to the pan, is any heating involved?"
+            },
+            {
+                "q": "While adding chopped onions to the pan, is any heating involved?"
+            },
+            {
+                "q": "While mincing peeled garlic cloves, is any heating required?"
+            }
+        ]
+    },
+    "8_x": {
+        "questions": [
+            {
+                "q": "While heating the contents of the mug for 1 minute and serving, is the person using heat?",
+                "followup": [
+                    "Are the contents of the mug heated on high heat for 1 minute?"
+                ]
+            },
+            {
+                "q": "While adding 1/5 teaspoon cinnamon to the mug, is any heating involved?"
+            },
+            {
+                "q": "While mixing the contents of the mug, is any heating required?"
+            },
+            {
+                "q": "While adding 1 teaspoon of white sugar to the mug, is any heating involved?"
+            },
+            {
+                "q": "While filling a microwave-safe mug with skimmed milk, is any heating involved?"
+            },
+            {
+                "q": "While microwaving the contents of the mug for 1 minute, is the person using heat?",
+                "followup": [
+                    "Are the contents of the mug microwaved on high heat for 1 minute?"
+                ]
+            },
+            {
+                "q": "While adding 2 pieces of chocolate to the mug, is any heating involved?"
+            }
+        ]
+    },
+    "28_x": {
+        "questions": [
+            {
+                "q": "While placing avocado slices on each leaf, is any heating involved?"
+            },
+            {
+                "q": "While seasoning 1/4 tsp pepper on the bowl, is any heating required?"
+            },
+            {
+                "q": "While adding 1/4 cup mayonnaise to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While draining excess water from the can, is any heating required?"
+            },
+            {
+                "q": "While laying out 2 large lettuce leaves, is any heating involved?"
+            },
+            {
+                "q": "While rolling up the lettuce wraps, is any heating involved?"
+            },
+            {
+                "q": "While mixing the contents of the bowl, is any heating required?"
+            },
+            {
+                "q": "While topping lettuce leaves with the tuna mixture, is any heating involved?"
+            },
+            {
+                "q": "While adding chopped scallion to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While adding 1 can drained tuna to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While taking 1 ripe avocado, is any heating involved?"
+            },
+            {
+                "q": "While opening a can of tuna, is any heating required?"
+            },
+            {
+                "q": "While securing the wrap with a toothpick, is any heating involved?"
+            },
+            {
+                "q": "While seasoning the bowl with 1/4 tsp salt, is any heating required?"
+            },
+            {
+                "q": "While adding 1 tsp Sriracha sauce to the bowl, is any heating involved?"
+            },
+            {
+                "q": "While chopping 1 scallion, is any heating involved?"
+            },
+            {
+                "q": "While cutting avocado into thin slices, is any heating involved?"
+            }
+        ]
+    },
+    "15_x": {
+        "questions": [
+            {
+                "q": "While adding 1/4 tsp mustard to the pan, is any heating involved?"
+            },
+            {
+                "q": "While mincing the garlic, is any heating required?"
+            },
+            {
+                "q": "While adding 1/2 tsp cumin seeds to the pan, is any heating involved?"
+            },
+            {
+                "q": "While adding tomato puree to the pan, is any heating involved?"
+            },
+            {
+                "q": "While taking the pan off the heat, is any heating involved?"
+            },
+            {
+                "q": "While mixing well the tomato puree with contents in the pan, is any heating required?"
+            },
+            {
+                "q": "While peeling 4 large garlic cloves, is any heating involved?"
+            },
+            {
+                "q": "While adding 1/2 tsp salt to the pan, is any heating involved?"
+            },
+            {
+                "q": "While adding 2 tbsp red chili powder to the pan, is any heating involved?"
+            },
+            {
+                "q": "While sautéing the garlic for 2-3 minutes, is the person using heat?",
+                "followup": [
+                    "Is the garlic sautéed on medium heat for 2-3 minutes?"
+                ]
+            },
+            {
+                "q": "While taking 1 tomato, is any heating involved?"
+            },
+            {
+                "q": "While pureeing tomatoes without any water in a blender/mixer, is any heating involved?"
+            },
+            {
+                "q": "While lowering the heat, is the person using heat?",
+                "followup": [
+                    "Is the heat lowered to low?"
+                ]
+            },
+            {
+                "q": "When mustard and cumin seeds begin to sizzle, while adding minced garlic, is any heating involved?",
+                "followup": [
+                    "Are the mustard and cumin seeds sizzling on medium heat before adding minced garlic?"
+                ]
+            },
+            {
+                "q": "While allowing the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick, is the person using heat?",
+                "followup": [
+                    "Is the mixture simmered on low heat for 5 minutes or until it becomes thick?"
+                ]
+            },
+            {
+                "q": "While heating 3 tbsp oil in a pan over medium heat, is the person using heat?",
+                "followup": [
+                    "Is the oil heated on medium heat?"
+                ]
+            },
+            {
+                "q": "While chopping tomato roughly (any size chunks are fine), is any heating involved?"
+            },
+            {
+                "q": "While transferring it to a serving bowl, is any heating required?"
+            },
+            {
+                "q": "While mixing well the contents of the pan, is any heating required?"
+            }
+        ]
+    },
+    "12_x": {
+        "questions": [
+            {
+                "q": "While slicing one tomato into about 1/2 inch thick slices, is any heating involved?"
+            },
+            {
+                "q": "While placing the thick slices of tomatoes on a platter, ensuring they only make a single layer, is any heating involved?"
+            },
+            {
+                "q": "While adding a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter, is any heating involved?"
+            },
+            {
+                "q": "While gently drying it with a paper/tea towel, is any heating involved?"
+            },
+            {
+                "q": "While seasoning the tomato slices with salt, is any heating involved?"
+            },
+            {
+                "q": "While sprinkling mozzarella cheese on top of the tomato throughout the platter, is any heating involved?"
+            },
+            {
+                "q": "While rinsing a tomato, is any heating involved?"
+            },
+            {
+                "q": "While seasoning the platter with 1/4 teaspoon black pepper, is any heating involved?"
+            },
+            {
+                "q": "While garnishing the platter with Italian seasoning, is any heating involved?"
+            }
+        ]
+    },
+    "18_x": {
+        "questions": [
+            {
+                "q": "While cooking for 2 minutes or until the zoodles are done, is the person using heat?",
+                "followup": [
+                    "Are the zoodles cooked on medium heat for 2 minutes or until done?"
+                ]
+            },
+            {
+                "q": "While adding 1/6 cup grated parmesan cheese, is any heating involved?"
+            },
+            {
+                "q": "While seasoning with pepper to taste, is any heating involved?"
+            },
+            {
+                "q": "While topping with more parmesan if desired, is any heating involved?"
+            },
+            {
+                "q": "While heating a large pan on medium heat, is the person using heat?",
+                "followup": [
+                    "Is the pan heated on medium heat?"
+                ]
+            },
+            {
+                "q": "While removing from heat, is any heating involved?"
+            },
+            {
+                "q": "While seasoning with salt, is any heating involved?"
+            },
+            {
+                "q": "While adding 1 large minced garlic clove to the pan, is any heating involved?"
+            },
+            {
+                "q": "While peeling 1 garlic clove, is any heating required?"
+            },
+            {
+                "q": "While adding the zucchini noodles, is any heating involved?"
+            },
+            {
+                "q": "While cooking garlic until fragrant (about 1 minute), being careful not to burn it, is the person using heat?",
+                "followup": [
+                    "Is the garlic cooked on medium heat until fragrant for about 1 minute?"
+                ]
+            },
+            {
+                "q": "While spiralizing 1 medium zucchini into thin noodles using a spiralizer, is any heating required?"
+            },
+            {
+                "q": "While melting 1 tablespoon of softened butter, is the person using heat?",
+                "followup": [
+                    "Is the butter melted on low heat until fully melted?"
+                ]
+            }
+        ]
+    }                                                              
+}

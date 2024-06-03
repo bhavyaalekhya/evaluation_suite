@@ -1,0 +1,456 @@
+{
+    "1_x": {
+        "questions": [
+            "Is the person cutting the English muffin into two pieces with a knife?",
+            "Is the person coating a 6-oz. ramekin cup with cooking spray?",
+            "Is the person pouring 1 egg into the ramekin cup?",
+            "Is the person microwaving the ramekin cup uncovered on high for 30 seconds?",
+            "Is the person stirring the ramekin cup?",
+            "Is the person continuing to microwave for 15-30 more seconds or until the egg is almost set?",
+            "Is the person topping the cup with 1 tablespoon of salsa?",
+            "Is the person lining the bottom piece of the English muffin with lettuce?",
+            "Is the person sprinkling 1 tablespoon of cheese on the cup?",
+            "Is the person microwaving just until the cheese melts, about 10 seconds?",
+            "Is the person placing the egg from the cup over the lettuce?",
+            "Is the person replacing the top of the English muffin?"
+        ]
+    },
+    "2_x": {
+        "questions": [
+            "Is the person peeling 1 garlic clove?",
+            "Is the person cutting 1/8 garlic clove?",
+            "Is the person mincing 1/8 garlic clove?",
+            "Is the person mixing 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl?",
+            "Is the person peeling one medium onion?",
+            "Is the person placing 5 meatballs on a microwave-safe plate?",
+            "Is the person cutting the onion into two pieces?",
+            "Is the person cutting 1/4 medium carrot into short, thin strips?",
+            "Is the person slicing 1/8 medium onion?",
+            "Is the person topping the plate with the carrots, onion, garlic, and 1/4 tsp pepper powder?",
+            "Is the person pouring the sauces over the meatballs?",
+            "Is the person microwaving the plate, covered, on high for 1.5 minutes?",
+            "Is the person stirring the contents in the microwave with a spoon?",
+            "Is the person microwaving the plate, covered, on high for another 1.5 minutes?",
+            "Is the person stirring the contents in the microwave with a spoon?",
+            "Is the person microwaving the plate for 1 more minute?"
+        ]
+    },
+    "3_x": {
+        "questions": [
+            "Is the person taking a microwavable mug?",
+            "Is the person measuring 1/16 teaspoon of baking soda and adding it to the mug?",
+            "Is the person measuring 1/8 teaspoon of salt and adding it to the mug?",
+            "Is the person measuring 1/8 teaspoon of baking powder and adding it to the mug?",
+            "Is the person measuring 4 tablespoons of flour and adding it to the mug?",
+            "Is the person stirring the contents in the mug well?",
+            "Is the person adding 3 tablespoons of milk to the mug?",
+            "Is the person adding 1 tablespoon of olive oil to the mug?",
+            "Is the person mixing the contents of the mug thoroughly, even if there are some lumps?",
+            "Is the person taking 1 tablespoon of marinara sauce?",
+            "Is the person spreading marinara sauce around the surface of the batter?",
+            "Is the person sprinkling 1 generous tablespoon of mozzarella cheese on top of the sauce?",
+            "Is the person sprinkling dried Italian herbs inside the mug?",
+            "Is the person microwaving for 1 minute 20 seconds, or until it rises and the toppings are bubbling?"
+        ]
+    },
+    "4_x": {
+        "questions": [
+            "Is the person peeling 1 garlic clove?",
+            "Is the person chopping 1 garlic clove on a cutting board?",
+            "Is the person removing the noodles from the package (breaking the noodles or keeping them as a block)?",
+            "Is the person peeling 1 medium onion?",
+            "Is the person slicing 1/4 medium onion into pieces?",
+            "Is the person putting all the vegetables in a microwave-safe bowl?",
+            "Is the person adding the noodles to the bowl?",
+            "Is the person covering the noodles with water?",
+            "Is the person covering the bowl with a lid (or paper towel) to prevent splattering?",
+            "Is the person microwaving the ramen for 4 minutes?",
+            "Is the person adding basil to the bowl?",
+            "Is the person letting the noodles sit for about 1 minute after the microwave stops?",
+            "Is the person adding chopped cilantro to the bowl?",
+            "Is the person mixing in the flavor packet to the bowl?",
+            "Is the person stirring the noodles with a spoon or fork until the flavoring dissolves?"
+        ]
+    },
+    "5_x": {
+        "questions": [
+            "Is the person measuring 12 ounces of cold water?",
+            "Is the person placing the dripper on top of a coffee mug?",
+            "Is the person weighing the coffee beans (0.8oz-0.12 oz)?",
+            "Is the person grinding the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds?",
+            "Is the person preparing the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle?",
+            "Is the person transferring water to a kettle?",
+            "Is the person placing the paper filter in the dripper?",
+            "Is the person boiling the water? (While the water is boiling, are they assembling the filter cone?)",
+            "Is the person spreading open the filter in the dripper to create a cone?",
+            "Is the person checking the temperature of the water once it has boiled? (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius. If the water is too hot, are they letting it cool briefly?)",
+            "Is the person transferring the grounds to the filter cone?",
+            "Is the person pouring a small amount of water into the filter to wet the grounds?",
+            "Is the person waiting about 30 seconds for the coffee to bloom? (Are they seeing small bubbles or foam on the coffee grounds during this step?)",
+            "Is the person slowly pouring the rest of the water over the grounds in a circular motion? (Are they ensuring not to overfill beyond the top of the paper filter?)",
+            "Is the person letting the coffee drain completely into the mug before removing the dripper?",
+            "Is the person discarding the paper filter and coffee grounds?"
+        ]
+    },
+    "7_x": {
+        "questions": [
+            "Is the person extracting and adding the contents of an egg to a microwave-safe bowl?",
+            "Is the person whisking the egg?",
+            "Is the person placing an 8 inch tortilla on a cutting board?",
+            "Is the person microwaving the egg for 3 minutes, stirring in between?",
+            "Is the person adding 1/2 tablespoon of sweet and sour sauce to the bowl?",
+            "Is the person sprinkling oregano in the bowl?",
+            "Is the person adding 1 tablespoon of salsa to the bowl?",
+            "Is the person mixing the contents of the bowl well?",
+            "Is the person pouring the egg mixture on top of the tortilla?",
+            "Is the person sprinkling 1 tablespoon of shredded cheddar cheese on top of the egg?",
+            "Is the person rolling the tortilla from one end to another into a log shape, about 1.5 inches thick? (Are they rolling it tight enough to prevent gaps but not so tight that the filling leaks?)"
+        ]
+    },
+    "8_x": {
+        "questions": [
+            "Is the person filling a microwave-safe mug with skimmed milk?",
+            "Is the person microwaving the contents of the mug for 1 minute?",
+            "Is the person adding 2 pieces of chocolate to the mug?",
+            "Is the person adding 1/5 teaspoon of cinnamon to the mug?",
+            "Is the person adding 1 teaspoon of white sugar to the mug?",
+            "Is the person mixing the contents of the mug?",
+            "Is the person heating the contents of the mug for 1 minute and serving?"
+        ]    
+    },
+    "9_x": {
+        "questions": [
+            "Is the person cutting or tearing 1 slice of bread into bite-size pieces?",
+            "Is the person melting 1 tablespoon of softened butter in the microwave for about 30 seconds in a large mug?",
+            "Is the person rolling the butter around in the mug to coat it?",
+            "Is the person whisking one egg with a fork until well blended in the mug?",
+            "Is the person sprinkling 1/4 teaspoon of cinnamon over the egg?",
+            "Is the person adding 1/4 teaspoon of vanilla extract to the mug?",
+            "Is the person stirring the contents of the mug?",
+            "Is the person adding bread pieces to the egg mixture in the mug, pressing the bread down into the egg?",
+            "Is the person microwaving on high for 90 seconds until the egg is cooked through?",
+            "Is the person putting the contents of the mug on a plate?",
+            "Is the person cutting the contents on the plate and serving?"
+        ] 
+    },
+    "10_x": {
+        "questions": [
+            "Is the person placing an 8-inch flour tortilla on the cutting board?",
+            "Is the person using a butter knife to scoop nut butter from the jar?",
+            "Is the person spreading nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges?",
+            "Is the person cleaning the knife by wiping it with a paper towel?",
+            "Is the person using the knife to scoop jelly from the jar?",
+            "Is the person spreading jelly over the nut butter?",
+            "Is the person cleaning the knife by wiping it with a paper towel?",
+            "Is the person rolling the tortilla from one end to the other into a log shape, about 1.5 inches thick, tight enough to prevent gaps but not so tight that the filling leaks?",
+            "Is the person securing the rolled tortilla by inserting 5 toothpicks about 1 inch apart?",
+            "Is the person trimming the ends of the tortilla roll with the butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll?",
+            "Is the person discarding the ends of the tortilla?",
+            "Is the person sliding floss under the tortilla, perpendicular to the length of the roll?",
+            "Is the person placing the floss halfway between toothpicks?",
+            "Is the person crossing the floss's two ends over the tortilla roll's top?",
+            "Is the person pulling the floss ends in opposite directions to slice?",
+            "Is the person continuing slicing with floss to create 1 more pinwheel?",
+            "Is the person continuing slicing with floss to create another pinwheel?",
+            "Is the person continuing slicing with floss to create one more pinwheel?",
+            "Is the person placing the pinwheels on a plate?"
+        ]
+    },
+    "12_x": {
+        "questions": [
+            "Is the person rinsing a tomato?",
+            "Is the person gently drying the tomato with a paper/tea towel?",
+            "Is the person slicing one tomato into about 1/2 inch thick slices?",
+            "Is the person placing the thick slices of tomatoes on a platter, ensuring they only make a single layer?",
+            "Is the person sprinkling mozzarella cheese on top of the tomato throughout the platter?",
+            "Is the person seasoning the tomato slices with salt?",
+            "Is the person seasoning the platter with 1/4 teaspoon black pepper?",
+            "Is the person garnishing the platter with Italian seasoning?",
+            "Is the person adding a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter?"
+        ]
+    },
+    "13_x": {
+        "questions": [
+            "Is the person measuring 2 cups of frozen corn?",
+            "Is the person thawing the frozen corn by putting it in a sieve and running it under cold water?",
+            "Is the person adding the corn into a microwave-safe bowl?",
+            "Is the person microwaving the corn for 2 minutes?",
+            "Is the person adding 1 teaspoon of softened butter?",
+            "Is the person adding 1 teaspoon of pepper powder to the bowl?",
+            "Is the person stirring the bowl?",
+            "Is the person microwaving the corn for 3 more minutes?",
+            "Is the person extracting lime juice from 1/3 lime?",
+            "Is the person adding 1 teaspoon of salt to the bowl?",
+            "Is the person adding lime juice to the bowl?",
+            "Is the person mixing the contents of the bowl well?"
+        ]
+    },
+    "15_x": {
+        "questions": [
+            "Is the person peeling 4 large garlic cloves?",
+            "Is the person mincing the garlic?",
+            "Is the person taking 1 tomato?",
+            "Is the person chopping the tomato roughly (any size chunks are fine)?",
+            "Is the person pureeing the tomatoes without any water in a blender/mixer?",
+            "Is the person heating 3 tbsp oil in a pan over medium heat?",
+            "Is the person adding 1/2 tsp cumin seeds to the pan?",
+            "Is the person adding 1/4 tsp mustard to the pan?",
+            "Is the person adding minced garlic when the mustard and cumin seeds begin to sizzle?",
+            "Is the person lowering the heat?",
+            "Is the person sautéing the garlic for 2-3 minutes?",
+            "Is the person adding 2 tbsp red chili powder to the pan?",
+            "Is the person mixing the contents of the pan well?",
+            "Is the person adding tomato puree to the pan?",
+            "Is the person adding 1/2 tsp salt to the pan?",
+            "Is the person mixing the tomato puree well with the contents in the pan?",
+            "Is the person allowing the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick?",
+            "Is the person taking the pan off the heat?",
+            "Is the person transferring the mixture to a serving bowl?"
+        ]
+    },
+    "16_x": {
+        "questions": [
+            "Is the person chopping 1/4 medium onion?",
+            "Is the person chopping 1 tsp cilantro?",
+            "Is the person chopping 1/4 tomato?",
+            "Is the person chopping 1 green chili?",
+            "Is the person peeling 2 garlic cloves?",
+            "Is the person mincing the peeled garlic cloves?",
+            "Is the person cracking one egg in the bowl?",
+            "Is the person adding 1 tbsp milk to the bowl?",
+            "Is the person adding 1/3 tsp salt to the bowl?",
+            "Is the person whisking the egg mixture in the bowl?",
+            "Is the person heating 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat?",
+            "Is the person adding 1/3 tsp salt to the pan?",
+            "Is the person adding chopped onions to the pan?",
+            "Is the person sautéing the onions on medium heat until they are soft and translucent?",
+            "Is the person adding garlic to the pan?",
+            "Is the person adding chili to the pan?",
+            "Is the person cooking for 1 minute, mixing everything?",
+            "Is the person adding 1/8 tsp of turmeric to the pan?",
+            "Is the person adding tomatoes to the pan?",
+            "Is the person cooking covered for 1 minute or until the tomatoes soften?",
+            "Is the person slowly pouring the whisked eggs into the pan?",
+            "Is the person keeping mixing with a spatula for 3 minutes or until the eggs are almost cooked?",
+            "Is the person garnishing with 1 tbsp chopped cilantro and serving?"
+        ]
+    },
+    "17_x": {
+        "questions": [
+            "Is the person whisking 1 cup of chilled curd until smooth in a mixing bowl?",
+            "Is the person adding 1/4 teaspoon of red chili powder to the bowl?",
+            "Is the person rinsing 1 medium sized cucumber?",
+            "Is the person adding 1/2 teaspoon of chaat masala powder to the bowl?",
+            "Is the person peeling the cucumber?",
+            "Is the person adding 1 teaspoon of cumin powder to the bowl?",
+            "Is the person chopping or grating the cucumber?",
+            "Is the person adding 1 tablespoon of chopped cilantro leaves to the bowl?",
+            "Is the person adding 1/4 teaspoon salt to the bowl?",
+            "Is the person adding the chopped or grated cucumber to the whisked curd?",
+            "Is the person combining all the ingredients in the bowl?"
+        ]
+    },
+    "18_x": {
+        "questions": [
+            "Is the person spiralizing 1 medium zucchini into thin noodles using a spiralizer?",
+            "Is the person peeling 1 garlic clove?",
+            "Is the person heating a large pan on medium heat?",
+            "Is the person melting 1 tablespoon of softened butter?",
+            "Is the person adding 1 large minced garlic clove to the pan?",
+            "Is the person cooking the garlic until fragrant (about 1 minute) and being careful not to burn it?",
+            "Is the person adding the zucchini noodles?",
+            "Is the person adding 1/6 cup grated parmesan cheese?",
+            "Is the person seasoning with salt?",
+            "Is the person seasoning with pepper to taste?",
+            "Is the person cooking for 2 minutes or until the zoodles are done?",
+            "Is the person removing the pan from heat?",
+            "Is the person topping with more parmesan if desired?"
+        ]
+    },
+    "20_x": {
+        "questions": [
+            "Is the person rinsing 3 mushrooms under cold water?",
+            "Is the person peeling 2 garlic cloves?",
+            "Is the person chopping 1 shallot?",
+            "Is the person patting rinsed mushrooms dry with a paper towel?",
+            "Is the person pulling out mushroom stems?",
+            "Is the person slicing the mushrooms?",
+            "Is the person mincing garlic cloves?",
+            "Is the person heating 1 tbsp olive oil in a large skillet over medium-high heat?",
+            "Is the person adding the mushrooms once the pan is hot?",
+            "Is the person cooking for 3-5 minutes, stirring often, until mushrooms start to soften and brown?",
+            "Is the person adding chopped shallot to the pan?",
+            "Is the person cooking the pan, often stirring, for 1 minute?",
+            "Is the person adding 2 cloves of minced garlic to the pan?",
+            "Is the person adding 1/4 tbsp balsamic vinegar to the pan?",
+            "Is the person cooking the pan, often stirring, for 1 minute?",
+            "Is the person seasoning with pepper on pan to taste?",
+            "Is the person seasoning the pan with salt?",
+            "Is the person transferring the contents of the pan to a serving dish?"
+        ]    
+    },
+    "21_x": {
+        "questions": [
+            "Is the person adding 1 egg to a blender?",
+            "Is the person adding 1 banana to a blender?",
+            "Is the person adding 1 heaped tbsp of flour to a blender?",
+            "Is the person adding 1/2 tsp of baking powder to a blender?",
+            "Is the person blitzing the blender for 20 seconds?",
+            "Is the person melting a small knob of butter in a non-stick frying pan over low-medium heat?",
+            "Is the person pouring three little puddles straight from the blender into the frying pan?",
+            "Is the person cooking the puddles for 1 minute or until the tops start to bubble?",
+            "Is the person flipping the pancakes with a fork or a fish slice spatula?",
+            "Is the person chopping 1 strawberry?",
+            "Is the person cooking the pancakes for 20-30 seconds more?",
+            "Is the person transferring the pancakes to a plate?",
+            "Is the person serving the pancakes with chopped strawberries?",
+            "Is the person splashing maple syrup on the plate?"
+        ]
+    },
+    "22_x": {
+        "questions": [
+            "Is the person cracking one egg in a bowl?",
+            "Is the person chopping 2 tbsp cilantro?",
+            "Is the person taking a tomato?",
+            "Is the person cutting the tomato into two pieces?",
+            "Is the person adding the chopped cilantro to the bowl?",
+            "Is the person adding 1/2 tsp ground black pepper to the bowl?",
+            "Is the person beating the contents of the bowl?",
+            "Is the person heating 1 tbsp oil in a non-stick frying pan?",
+            "Is the person cooking the tomatoes cut-side down until they start to soften and color?",
+            "Is the person scooping the tomatoes from the pan?",
+            "Is the person putting the tomatoes on a serving plate?",
+            "Is the person pouring the egg mixture into the pan?",
+            "Is the person stirring gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space?",
+            "Is the person stopping stirring when the egg is nearly cooked to allow it to set into an omelette?",
+            "Is the person transferring the omelette to the plate and serving with the tomatoes?"
+        ]
+    },
+    "23_x": {
+        "questions": [
+            "Is the person taking 5 broccoli florets?",
+            "Is the person adding 1/8 teaspoon black pepper to the bowl?",
+            "Is the person adding 1/8 cup soy sauce to the bowl?",
+            "Is the person taking 2 cremini mushrooms?",
+            "Is the person adding 1/6 cup water to the bowl?",
+            "Is the person adding 1 teaspoon cornstarch to the bowl?",
+            "Is the person peeling 2 cloves of garlic?",
+            "Is the person adding 1/2 tablespoon minced ginger to the bowl?",
+            "Is the person mincing garlic?",
+            "Is the person taking 1 bell pepper?",
+            "Is the person adding 2 cloves minced garlic to the bowl?",
+            "Is the person slicing mushrooms?",
+            "Is the person adding 1 tablespoon honey to the bowl?",
+            "Is the person whisking the contents of the bowl?",
+            "Is the person setting aside the sauce mixture?",
+            "Is the person slicing 1/3 of the bell pepper?",
+            "Is the person heating 2 tablespoons olive oil in a skillet over medium-high heat?",
+            "Is the person adding sliced mushrooms to the skillet?",
+            "Is the person adding broccoli to the skillet?",
+            "Is the person cooking, stirring often, for 4 minutes?",
+            "Is the person adding bell pepper to the skillet?",
+            "Is the person continuing cooking, stirring often, for 2-3 minutes, until vegetables are crisp-tender?",
+            "Is the person whisking the sauce again to recombine the ingredients?",
+            "Is the person pouring the sauce into the skillet?",
+            "Is the person cooking, stirring, for 1 minute until the sauce thickens?"
+        ]
+    },
+    "25_x": {
+        "questions": [
+            "Is the person cutting 1/4 block or 3 ounces of fresh tofu into large cubes?",
+            "Is the person patting the tofu dry with a towel?",
+            "Is the person adding 1 tablespoon of olive oil to a non-stick pan?",
+            "Is the person adding the tofu cubes to the pan?",
+            "Is the person adding 1/4 tsp salt to the pan?",
+            "Is the person turning on the heat to medium?",
+            "Is the person cooking for 5 to 6 minutes until tofu cubes are lightly browned on the bottom?",
+            "Is the person briefly removing the pan from the heat to reduce spitting?",
+            "Is the person flipping the tofu with tongs?",
+            "Is the person returning the heat to medium?",
+            "Is the person cooking until the tofu turns brown?",
+            "Is the person briefly removing the pan from the heat again?",
+            "Is the person drizzling 1 tablespoon soy sauce on the pan?",
+            "Is the person drizzling 1 tablespoon sesame oil on the pan?",
+            "Is the person returning to low heat?",
+            "Is the person cooking the pan for 2 minutes?",
+            "Is the person flipping the tofu on the pan?",
+            "Is the person cooking the pan for 2 minutes until the colour is darkened?",
+            "Is the person transferring the tofu to a serving dish?"
+        ]
+    },
+    "26_x": {
+        "questions": [
+            "Is the person measuring and adding 1/4 tsp baking powder to the bowl?",
+            "Is the person placing the paper cupcake liner inside the mug?",
+            "Is the person measuring and adding a pinch of salt to the mixing bowl?",
+            "Is the person measuring and adding 1.5 tbsp sugar to the mixing bowl?",
+            "Is the person setting aside the lined mug?",
+            "Is the person measuring and adding 2 tbsp flour to the mixing bowl?",
+            "Is the person whisking to combine the mixture of flour, sugar, and baking powder in the bowl?",
+            "Is the person measuring and adding 2 tbsp water to the bowl?",
+            "Is the person measuring and adding 1/4 tsp vanilla extract to the bowl?",
+            "Is the person measuring and adding 2 tsp vegetable oil to the bowl?",
+            "Is the person whisking the batter until no lumps remain?",
+            "Is the person pouring the batter into the prepared mug?",
+            "Is the person microwaving the mug and batter on high power for 60 seconds and checking for doneness with a toothpick?",
+            "Is the person inverting the mug to release the cake onto a plate?",
+            "Is the person allowing the cake to cool until it is no longer hot to the touch?",
+            "Is the person then carefully removing the paper liner?",
+            "Is the person scooping 4 spoonfuls of chocolate frosting into a zip-top bag?",
+            "Is the person sealing the zip-top bag, removing as much air as possible?",
+            "Is the person using scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter?",
+            "Is the person squeezing the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake?"
+        ]
+    },
+    "27_x": {
+        "questions": [
+            "Is the person adding 1 tablespoon of water to the bowl?",
+            "Is the person adding 1/3 cup cheddar cheese to a microwave-safe cup?",
+            "Is the person chopping 1/4 red bell pepper into tiny bits?",
+            "Is the person melting the cheese by microwaving the cup for 30 seconds, checking after 30 seconds, and microwaving for 10 seconds more if needed?",
+            "Is the person placing the chopped pepper in the microwave-safe bowl?",
+            "Is the person microwaving the bowl, covered, for 2 minutes?",
+            "Is the person mixing the cheese and red bell pepper in the bowl?",
+            "Is the person adding 1/4 teaspoon salt to the bowl?",
+            "Is the person adding 1/2 tablespoon softened butter to the bowl?",
+            "Is the person adding 1/4 teaspoon pepper to the bowl?",
+            "Is the person mixing all the ingredients of the bowl well?"
+        ]
+    },
+    "28_x": {
+        "questions": [
+            "Is the person taking 1 ripe avocado?",
+            "Is the person opening a can of tuna?",
+            "Is the person draining excess water from the can?",
+            "Is the person laying out 2 large lettuce leaves?",
+            "Is the person cutting the avocado into thin slices?",
+            "Is the person adding 1/4 cup mayonnaise to the bowl?",
+            "Is the person chopping 1 scallion?",
+            "Is the person placing avocado slices on each leaf?",
+            "Is the person adding 1 tsp Sriracha sauce to the bowl?",
+            "Is the person adding chopped scallion to the bowl?",
+            "Is the person adding 1 can drained tuna to the bowl?",
+            "Is the person mixing the contents of the bowl?",
+            "Is the person seasoning the bowl with 1/4 tsp salt?",
+            "Is the person seasoning the bowl with 1/4 tsp pepper?",
+            "Is the person topping the lettuce leaves with the tuna mixture?",
+            "Is the person rolling up the lettuce wraps?",
+            "Is the person securing the wrap with a toothpick?"
+        ]
+    },
+    "29_x": {
+        "questions": [
+            "Is the person adding 1/4 tsp salt to a bowl?",
+            "Is the person slicing two 1/2 inch thick rounds from a baguette (slice slanted)?",
+            "Is the person adding 1/16 cup basil to a bowl?",
+            "Is the person adding 1/8 cup shredded mozzarella to a bowl?",
+            "Is the person brushing 2 slices of baguette with olive oil on both sides?",
+            "Is the person adding 1/4 tsp pepper to a bowl?",
+            "Is the person cutting 1/4 cup of cherry tomatoes into halves?",
+            "Is the person adding the cut cherry tomatoes to the bowl?",
+            "Is the person toasting both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy and transferring the slices to a plate?",
+            "Is the person combining the contents of the bowl?",
+            "Is the person spooning the mixture from the bowl onto the bread?"
+        ]
+    }
+}

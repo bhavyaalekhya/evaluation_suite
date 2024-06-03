@@ -1,0 +1,1698 @@
+{
+    "21_x": {
+        "questions": [
+            {
+                "q": "What cooking tool is being used in the step? Answer from the options: (a. blender b. whisk c. food processor d. none).",
+                "correctans": "blender",
+                "followup": [
+                    "Does the person add baking powder to the blender?"
+                ]
+            },
+            {
+                "q": "Are the pancakes being served with the chopped strawberries?"
+            },
+            {
+                "q": "Which one of the following utensils are being used to melt small knob of butter? Select an answer from the options: a. wok b. toaster c. non-stick frying pan d. skillet",
+                "correctans": "non-stick frying pan",
+                "followup": [
+                    "Is butter added to the pan?"
+                ]
+            },
+            {
+                "q": "Is maple syrup being splashed on the plate?"
+            },
+            {
+                "q": "Which tool is being used in the step? Select from the following options: a. blender b. whisk c. food processor d. knife ",
+                "correctans": "blender",
+                "followup": [
+                    "Does the person add banana to the blender?"
+                ]
+            },
+            {
+                "q": "Is the person cooking for 1 min or until the top starts to bubble?"
+            },
+            {
+                "q": "What tool does the person use for blitzing? Select an answer from the options a. whisk b. fork c. blender d. masher",
+                "correctans": "blender"
+            },
+            {
+                "q": "What are the instruments being used to flip the pancakes? Select an answer from the following a. fork or fish slice spatula b. palette knife c. tongs d. chopsticks",
+                "correctans": "fork or fish slice spatula"
+            },
+            {
+                "q": "What mixing tool is used? Select an answer from the options a. whisk b. mixer c. blender",
+                "correctans": "blender",
+                "followup": [
+                    "Is an egg being added to the blender?"
+                ]
+            },
+            {
+                "q": "Are the pancakes being cooked for 20-30 seconds more?"
+            },
+            {
+                "q": "From what utensil is the batter being poured? Select one: a. bowl, b. blender c. spoon",
+                "correctans": "blender",
+                "followup": [
+                    "Is the batter being poured into a frying pan?"
+                ]
+            },
+            {
+                "q": "For mixing the batter, which tool is used in the video? Select one answer: a. whisk b. blender",
+                "correctans": "blender",
+                "followup": [
+                    "Is flour added to the blender?"
+                ]
+            },
+            {
+                "q": "Are strawberries chopped?"
+            },
+            {
+                "q": "To what plating dish is the item transferred to? Select one: a. bowl b. plate c. tray d. chopping board",
+                "correctans": "plate"
+            }
+        ]
+    },
+    "7_x": {
+        "questions": [
+            {
+                "q": "What tool is being used for the eggs? Select one for the following: a. whisk b. fork",
+                "correctans": "whisk",
+                "followup": [
+                    "Is an egg being whisked?"
+                ]
+            },
+            {
+                "q": "What is the object being used to heat? Answer from one of the options: a. pan b. microwave c. toaster",
+                "correctans": "microwave",
+                "followup": [
+                    "Is the mixture being stirred in between?"
+                ]
+            },
+            {
+                "q": "To what dish is the sauce being added to? Select a single answer from the following: a. plate b. bowl c. glass",
+                "correctans": "bowl",
+                "followup": [
+                    "Is sweet and sour sauce being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is cheddar cheese sprinkled on top of the egg?"
+            },
+            {
+                "q": "What dish are the contents being mixed in? Select one from the following a. bowl b. pot c. cup",
+                "correctans": "bowl"
+            },
+            {
+                "q": "What dish is being used to add contents of the egg? Select one: a. microwave-safe bowl b. steel bowl c. plastic bowl",
+                "correctans": "microwave-safe bowl",
+                "followup": [
+                    "Are the contents of an egg being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is a tortilla being rolled into a log shape that is about 1.5 inch thick?"
+            },
+            {
+                "q": "Is the egg being poured on top of a tortilla?"
+            },
+            {
+                "q": "Which dish in the following options is used for salsa? Select one: a. cup b. mug c. bowl",
+                "correctans": "bowl",
+                "followup": [
+                    "Is salsa being added to the bowl?"
+                ]
+            },
+            {
+                "q": "What is used to place the tortilla? Choose one: a. cutting board b. plate c. wire rack",
+                "correctans": "cutting board",
+                "followup": [
+                    "Is the tortilla being placed on the cutting board?",
+                    "Is a tortilla being used?"
+                ]
+            },
+            {
+                "q": "Where is the oregano being sprinkled? Choose one: a. bowl b. plate",
+                "correctans": "bowl",
+                "followup": [
+                    "Is oregano being sprinkled?"
+                ]
+            }
+        ]
+    },
+    "23_x": {
+        "questions": [
+            {
+                "q": "What dish is being used for the sauce? Choose one: a. bowl b. cup c. mug",
+                "correctans": "bowl",
+                "followup": [
+                    "Is soy sauce being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is the sauce mixture being set aside?"
+            },
+            {
+                "q": "What dish is the mixture in? Choose one: a. bowl b. mug",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1 tbsp honey added to bowl?"
+                ]
+            },
+            {
+                "q": "In what is the mixture being cooked? Choose one: a. pan b. wok c. sheet pan",
+                "correctans": "pan"
+            },
+            {
+                "q": "Which dish is the mixture stored in? Choose one a. bowl b. cup",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1 tsp cornstarch added to the bowl?"
+                ]
+            },
+            {
+                "q": "Which dish is the mixture stored in? Choose one a. bowl b. cup",
+                "correctans": "bowl",
+                "followup": [
+                    "Are 2 cloves minced garlic added to the bowl?"
+                ]
+            },
+            {
+                "q": "Into what is the mixture poured? Choose one: a. pan b. skillet c. wok",
+                "correctans": "skillet"
+            },
+            {
+                "q": "Does the person take 2 cloves of garlic?"
+            },
+            {
+                "q": "In what dish is the mixture being cooked? Choose one: a. pan b. skillet c. wok",
+                "correctans": "skillet",
+                "followup": [
+                    "Are sliced mushrooms added to the skillet?"
+                ]
+            },
+            {
+                "q": "Are mushrooms taken and sliced?"
+            },
+            {
+                "q": "In what dish are the contents present? Choose one among a. bowl b. mug c. cup",
+                "correctans": "bowl",
+                "followup": [
+                    "Does the person use a whisk to mix the contents in the bowl?"
+                ]
+            },
+            {
+                "q": "In what dish is the mixture being cooked? Choose one: a. pan b. skillet c. wok",
+                "correctans": "skillet",
+                "followup": [
+                    "Is bell pepper added to the skillet?"
+                ]
+            },
+            {
+                "q": "Is garlic minced?"
+            },
+            {
+                "q": "Is 1/3 of bell pepper sliced?"
+            },
+            {
+                "q": "Is the sauce stirred and cooked for 1 minute until it thickens?"
+            },
+            {
+                "q": "In what dish is the mixture being cooked? Choose one: a. pan b. skillet c. wok",
+                "correctans": "skillet",
+                "followup": [
+                    "Is broccoli added to the skillet?"
+                ]
+            },
+            {
+                "q": "What is the cooking dish is the olive oil added to in the video? Choose one: a. skillet b. pan c. grill",
+                "correctans": "skillet",
+                "followup": [
+                    "Is 2 tablespoons of olive oil being added to the skillet?"
+                ]
+            },
+            {
+                "q": "In what are the ingredients added to? Select one: a. plate b. mug c. bowl",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1/2 tablespoon of minced ginger being added?"
+                ]
+            },
+            {
+                "q": "In what are the ingredients added to? Select one: a. plate b. mug c. bowl",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1/8 of a teaspoon of black pepper being added?"
+                ]
+            },
+            {
+                "q": "In what are the ingredients added to? Select one: a. plate b. mug c. bowl",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1/6 cup of water being added?"
+                ]
+            },
+            {
+                "q": "Are cremini mushrooms being used in the video?"
+            },
+            {
+                "q": "Is a bell pepper being used in the video?"
+            },
+            {
+                "q": "What tool is being used to recombine the ingredients? Select one: a. whisk b. spoon c. ladle",
+                "correctans": "whisk"
+            },
+            {
+                "q": "Are 5 broccoli florets being used in the recipe?"
+            },
+            {
+                "q": "Is the cooking being continued, while stirring often, for 2-3 minutes until vegetables are crisp-tender?"
+            }
+        ]
+    },
+    "13_x": {
+        "questions": [
+            {
+                "q": "What type of dish is being used to add lime juice? Select one: a. bowl, b. cup",
+                "correctans": "bowl",
+                "followup": [
+                    "Is lime juice being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is 2 cups of frozen corn measured?"
+            },
+            {
+                "q": "To what is pepper powder being added? Select one: a. cup b. bowl c. plate",
+                "correctans": "bowl",
+                "followup": [
+                    "Is black pepper being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is lime juice extracted from 1/3 lime?"
+            },
+            {
+                "q": "What type of bowl is being used to add ingredients? Answer one: a. plastic bowl b. microwave-safe bowl c. steel bowl",
+                "correctans": "microwave-safe bowl",
+                "followup": [
+                    "Is corn being added to the microwave-safe bowl?"
+                ]
+            },
+            {
+                "q": "In what dish are the contents being mixed? Select one: a. bowl b. plate c. mug",
+                "correctans": "bowl"
+            },
+            {
+                "q": "What is being used to heat the corn? Select one: a. pan b. microwave",
+                "correctans": "microwave",
+                "followup": [
+                    "Is corn being microwaved for 2 minutes?"
+                ]
+            },
+            {
+                "q": "What is being used to heat the corn? Select one: a. pan b. microwave",
+                "correctans": "microwave",
+                "followup": [
+                    "Is corn being microwaved for 3 more minutes?"
+                ]
+            },
+            {
+                "q": "What dish holds the mixture to be stirred? Select one: a. bowl b. mug",
+                "correctans": "bowl"
+            },
+            {
+                "q": "In what dish are the contents in? Select one: a. bowl b. plate c. mug",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1 teaspoon of salt added to the bowl?"
+                ]
+            },
+            {
+                "q": "What utensil is being used to thaw corn? Select one: a. microwave-safe bowl b. sieve c. pan",
+                "correctans": "sieve",
+                "followup": [
+                    "Is frozen corn being used in this step?"
+                ]
+            },
+            {
+                "q": "Is 1 teaspoon of softened butter being added?"
+            }
+        ]
+    },
+    "18_x": {
+        "questions": [
+            {
+                "q": "Are the zoodles being cooked for 2 minutes until they are done?"
+            },
+            {
+                "q": "Does the person add 1/6 cup grated parmesan cheese?"
+            },
+            {
+                "q": "Is pepper added as seasoning?"
+            },
+            {
+                "q": "Does the person add more parmesan cheese if desired?"
+            },
+            {
+                "q": "In what utensil is the cooking done on medium heat? Select one: a. skillet b. large pan c. small wok",
+                "correctans": "large pan"
+            },
+            {
+                "q": "Is the pan removed from heat?"
+            },
+            {
+                "q": "Is salt used to season the dish?"
+            },
+            {
+                "q": "What utensil is being used to cook? Select one: a. pan b. grill",
+                "correctans": "pan",
+                "followup": [
+                    "Is 1 large minced garlic clove added to the pan?"
+                ]
+            },
+            {
+                "q": "Is 1 clove of garlic peeled?"
+            },
+            {
+                "q": "Are zucchini noodels being added in the video?"
+            },
+            {
+                "q": "Is garlic being cooked until it is fragnant (about 1 minute), while being careful not to burn garlic?"
+            },
+            {
+                "q": "What tool is being used to make zucchini noodles? Select one: a. spiralizer b. knife c. pasta machine",
+                "correctans": "spiralizer",
+                "followup": [
+                    "Is 1 medium zucchini being used to make zucchini noodles?"
+                ]
+            },
+            {
+                "q": "Is 1 tablespoon of softened butter being melted?"
+            }
+        ]
+    },
+    "12_x": {
+        "questions": [
+            {
+                "q": "Is one tomato sliced into 1/2 inch thick slices?"
+            },
+            {
+                "q": "One what are the tomato slices being placed? Choose one: a. platter b. tray",
+                "correctans": "platter",
+                "followup": [
+                    "Are thick tomato slices being placed on the platter to make a single layer?"
+                ]
+            },
+            {
+                "q": "In what dish is the food placed on? Select one: a. platter c. tray",
+                "correctans": "platter",
+                "followup": [
+                    "Is extra virgin olive oil drizzled (about 1 tablespoon) on the platter?"
+                ]
+            },
+            {
+                "q": "What is being used to dry the tomato? Select one: a. paper/tea towel b. cloth",
+                "correctans": "paper/tea towel"
+            },
+            {
+                "q": "What ingredient is being seasoned? Select one: a. tomatoes b. cheese",
+                "correctans": "tomatoes",
+                "followup": [
+                    "Is salt being used to season the tomatoes?"
+                ]
+            },
+            {
+                "q": "What is being sprinkled on top of the tomato? Choose one: a. mozzarella cheese b. parmesan cheese",
+                "correctans": "mozzarella cheese"
+            },
+            {
+                "q": "Is a tomato being rinsed?"
+            },
+            {
+                "q": "What ingredient is used to season the platter? a. black pepper b. oregano",
+                "correctans": "black pepper"
+            },
+            {
+                "q": "What ingredient is used to garnish the platter? Select one: a. italian seasoning b. sesame seeds",
+                "correctans": "italian seasoning"
+            }
+        ]
+    },
+    "8_x": {
+        "questions": [
+            {
+                "q": "In what are the contents present for heating 1 minute? Choose one: a. mug b. glass",
+                "correctans": "mug"
+            },
+            {
+                "q": "Into what dish is cinnamon added? Select one: a. mug b. glass c. tumbler",
+                "correctans": "mug",
+                "followup": [
+                    "Is 1/5 teaspoon of cinnamon added to the mug?"
+                ]
+            },
+            {
+                "q": "In what dish are the contents being mixed? Select one: a. mug b. bowl",
+                "correctans": "mug" 
+            },
+            {
+                "q": "Into what dish is sugar added? Select one: a. mug b. glass c. tumbler",
+                "correctans": "mug",
+                "followup": [
+                    "Is 1 teaspoon of white sugar added to the mug?"
+                ]
+            },
+            {
+                "q": "Which type of glass is filled? Select one: a. tumbler b. mug c. cup",
+                "correctans": "mug",
+                "followup": [
+                    "Is the mug microwave-safe?",
+                    "Is the mug filled with skimmed milk?"
+                ]
+            },
+            {
+                "q": "Which tool is being used to heat the contents of the mug? Select one: a. microwave b. sauce pan",
+                "correctans": "microwave",
+                "followup": [
+                    "Is a mug used for the contents to be microwaved?"
+                ]
+            },
+            {
+                "q": "To what container are the pieces added to? Select one: a. mug b. cup",
+                "correctans": "mug",
+                "followup": [
+                    "Are two pieces of chocolate added to the mug?"
+                ]
+            }
+        ]
+    },
+    "15_x": {
+        "questions": [
+            {
+                "q": "To which utensil are the mustard seeds being added to? Select one: a. pan b. grill",
+                "correctans": "pan",
+                "followup": [
+                    "Is 1/4 tsp mustard added to the pan?"
+                ]
+            },
+            {
+                "q": "Is the garlic being minced?"
+            },
+            {
+                "q": "To which utensil are the cumin seeds added to? Select one: a. pan b. bowl",
+                "correctans": "pan",
+                "followup": [
+                    "Is a 1/2 tsp of cumin seeds added to the pan?"
+                ]
+            },
+            {
+                "q": "To which utensil is the tomato puree being added to? Select one: a. pan b. grill",
+                "correctans": "pan",
+                "followup": [
+                    "Is tomato puree being added to the pan?"
+                ]
+            },
+            {
+                "q": "What cooking utensil is being taken off the heat? Select one: a. pan b. grill",
+                "correctans": "pan"
+            },
+            {
+                "q": "In what cooking utensil are the contents in? Select one: a. bowl b. pan",
+                "correctans": "pan",
+                "followup": [
+                    "Is tomato puree mixed well with the contents in the pan?"
+                ]
+            },
+            {
+                "q": "Are 4 large garlic cloves taken in the video?"
+            },
+            {
+                "q": "Is 1/2 tsp salt added to the pan?"
+            },
+            {
+                "q": "Is 2 tbsp red chili powder added to the pan?"
+            },
+            {
+                "q": "Is the garlic sauteed for 2-3 minutes?"
+            },
+            {
+                "q": "Is one tomato taken in the video?"
+            },
+            {
+                "q": "What is used to puree the tomatoes? Select one: a. whisk b. blender/mixer",
+                "correctans": "blender/mixer",
+                "followup": [
+                    "Are tomatoes being pureed without any water?"
+                ]
+            },
+            {
+                "q": "Is the heat lowered?"
+            },
+            {
+                "q": "Is minced garlic added when mustard and cumin seeds begin to sizzle?"
+            },
+            {
+                "q": "Is the mixture allowed to simmer over low heat for 5 minutes or until it becomes thick?"
+            },
+            {
+                "q": "To what dish is oil added? Choose one: a. pan b. wok",
+                "correctans": "pan",
+                "followup": [
+                    "Is 3 tbsp of oil added to a pan over medium heat?"
+                ]
+            },
+            {
+                "q": "Is a tomato chopped roughly with any size of chunks?"
+            },
+            {
+                "q": "To what dish is the food transferred? Choose one: a. mug b. bowl",
+                "correctans": "bowl"
+            },
+            {
+                "q": "In what dish are the contents to be mixed present? Choose one: a. pan b. bowl",
+                "correctans": "pan"
+            }
+        ]
+    },
+    "28_x": {
+        "questions": [
+            {
+                "q": "On what are the avocado slices placed? Select one: a. leaf b. plate",
+                "correctans": "leaf"
+            },
+            {
+                "q": "In what dish is the pepper sprinkled into? Choose one: a. bowl b. plate",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1/4 tsp pepper added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is 1/4 cup mayonnaise added to the bowl?"
+            },
+            {
+                "q": "Is the excess water drained from can?"
+            },
+            {
+                "q": "Are 2 large lettuce leaves laid out?"
+            },
+            {
+                "q": "Are the lettuce wraps rolled up?"
+            },
+            {
+                "q": "In what dish are the contents present in? Choose one: a. bowl b. cup",
+                "correctans": "bowl"
+            },
+            {
+                "q": "With what are the lettuce leaves topped? Choose one: a. tuna mixture b. chicken",
+                "correctans": "tuna mixture"
+            },
+            {
+                "q": "Is chopped scallion added to the bowl?"
+            },
+            {
+                "q": "Is 1 can of tuna drained and used?"
+            },
+            {
+                "q": "Is 1 ripe avocado being used?"
+            },
+            {
+                "q": "Is a can of tuna being opened?"
+            },
+            {
+                "q": "With what is the wrap secured? Choose one a. toothpick b. paper c. pin",
+                "correctans": "toothpick"
+            },
+            {
+                "q": "Is the bowl seasoned with 1/4 tsp salt?"
+            },
+            {
+                "q": "Is 1 tsp Sriracha sauce added to the bowl?"
+            },
+            {
+                "q": "Is 1 scallion chopped?"
+            },
+            {
+                "q": "Is the avocado cut into thin slices?"
+            }
+        ]
+    },
+    "29_x": {
+        "questions": [
+            {
+                "q": "What dish is being used to add mozzarella? Choose one: a. bowl b. mug",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1/8 cup shredded mozzarella being used?"
+                ]
+            },
+            {
+                "q": "To what dish is the ingredient added? Choose one: a. mug b. cup c. bowl",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1/4 tsp salt added to the bowl?"
+                ]
+            },
+            {
+                "q": "From what are two 1/2 inch thick round being cut? Choose one: a. baguette b. bread c. croissant",
+                "correctans": "baguette"
+            },
+            {
+                "q": "From what dish is the mixture scooped and on what is the mixture placed on? Choose one from the options: a. mixture is from bowl and placed on bread b. mixture is from pan and placed on plate",
+                "correctans": "mixture is from bowl and placed on bread"
+            },
+            {
+                "q": "Is 1/4 tsp pepper added to the bowl?"
+            },
+            {
+                "q": "Is 1/16 cup basil added to the bowl?"
+            },
+            {
+                "q": "In what dish are the contents combined? Choose one: a. plate b. bowl",
+                "correctans": "bowl"
+            },
+            {
+                "q": "With what are the 2 slices of baguette brushed? Choose one: a. butter b. olive oil",
+                "correctans": "olive oil"
+            },
+            {
+                "q": "Are cherry tomatoes being cut into halves?"
+            },
+            {
+                "q": "To what are the cherry tomatoes added? Choose one: a. bowl b. pan",
+                "correctans": "bowl"
+            },
+            {
+                "q": "In what utensil are the slices of baguette toasted? Choose one: a. pan b. toaster",
+                "correctans": "pan",
+                "followup": [
+                    "Are the slices of baguette transferred to a plate after toasting?"
+                ]
+            }
+        ]
+    },
+    "27_x": {
+        "questions": [
+            {
+                "q": "To what dish is the butter added? Choose one: a. bowl b. mug",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1/2 tbsp softened butter used?"
+                ]
+            },
+            {
+                "q": "To what dish is the salt added? Choose one: a. bowl b. mug",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1/4 teaspoon of salt added?"
+                ]
+            },
+            {
+                "q": "What type of cup is the cheese added to? Choose one: a. microwave-safe cup b. steel cup",
+                "correctans": "microwave-safe cup",
+                "followup": [
+                    "Is 1/3 cup cheddar cheese added to the microwave-safe cup?"
+                ]
+            },
+            {
+                "q": "Are cheese and red bell pepper mixed in a bowl?"
+            },
+            {
+                "q": "In what is the bowl heated, covered for 2 minutes? Choose one: a. microwave b. stove",
+                "correctans": "microwave"
+            },
+            {
+                "q": "Is 1/4 teaspoon pepper added to the bowl?"
+            },
+            {
+                "q": "Is 1 tablespoons of water added to the bowl?"
+            },
+            {
+                "q": "Is 1/4 red bell pepper chopped into tiny bits?"
+            },
+            {
+                "q": "In what is the chopped pepper placed? Choose one: a. microwave-safe bowl b. glass bowl",
+                "correctans": "microwave-safe bowl"
+            },
+            {
+                "q": "How is the cheese melted for 20 seconds? Choose one: a. using microwave b. using stovetop",
+                "correctans": "using microwave"
+            },
+            {
+                "q": "In what dish are all the ingredients present? Choose one: a. bowl b. plate",
+                "correctans": "bowl"
+            }
+        ]
+    },
+    "17_x": {
+        "questions": [
+            {
+                "q": "To what dish are the ingredients added to? Choose one: a. bowl b. cup",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1/4 teaspoon of red chilli powder added?"
+                ]
+            },
+            {
+                "q": "Is a cucumber peeled?"
+            },
+            {
+                "q": "What tool is used to make the curd smooth? Choose one: a. whisk b. fork",
+                "correctans": "whisk",
+                "followup": [
+                    "Is fresh homemade or packaged curd added to the mixing bowl?"
+                ]
+            },
+            {
+                "q": "Is 1/4 teaspoon salt added to the bowl?"
+            },
+            {
+                "q": "Is a cucumber chopped or grated?"
+            },
+            {
+                "q": "In what are all the ingredients combined? Choose one: a. cup b. bowl",
+                "correctans": "bowl"
+            },
+            {
+                "q": "Is 1 tablespoon of chopped cilantro leaves added to the bowl?"
+            },
+            {
+                "q": "Is 1 teaspoon of cumin powder added to the bowl?"
+            },
+            {
+                "q": "Is a medium sized cucumber rinsed?"
+            },
+            {
+                "q": "Is chopped or grated cucumber added to the whisked curd?"
+            },
+            {
+                "q": "Is 1/2 teaspoon of chaat masala powder added to the bowl?"
+            }
+        ]
+    },
+    "5_x": {
+        "questions": [
+            {
+                "q": "Is the person waiting for 30 seconds for the coffee to bloom?"
+            },
+            {
+                "q": "Into what is a small amount of water being poured? Choose one: a. filter b. cup",
+                "correctans": "filter",
+                "followup": [
+                    "Is the water used to wet the coffee grounds?"
+                ]
+            },
+            {
+                "q": "To what are the coffee grounds transferred? Select one: a. filter cone b. funnel",
+                "correctans": "filter cone"
+            },
+            {
+                "q": "In what is the filtered opened to create a cone? Select one: a. dripper b. funnel",
+                "correctans": "dripper"
+            },
+            {
+                "q": "Where is the paper filter placed? Select one: a. funnel b. dripper",
+                "correctans": "dripper"
+            },
+            {
+                "q": "What is poured over the coffee grounds slowly in circular motions without overfilling beyond the top of the paper filter? Choose one: a. water b. coffee",
+                "correctans": "water"
+            },
+            {
+                "q": "What is used to prepare the filter insert by folding in half to create semi-circle, and in half to create a quarter circle? Choose one: a. paper filter b. tissue",
+                "correctans": "paper filter"
+            },
+            {
+                "q": "What items are discarded? Choose one: a. paper filter and coffee grounds b. cone and water",
+                "correctans": "paper filter and coffee grounds"
+            },
+            {
+                "q": "Is the water boiled?"
+            },
+            {
+                "q": "Are the coffee beans weighed?"
+            },
+            {
+                "q": "Into what dish is the coffee let to drain before removing dripper? Choose one: a. bowl b. mug",
+                "correctans": "mug"
+            },
+            {
+                "q": "What seeds are ground until they are of consistency of coarse sand? Choose one a. beans b. coffee beans",
+                "correctans": "coffee beans"
+            },
+            {
+                "q": "Is 12 ounces of cold water measured"
+            },
+            {
+                "q": "Is the dripper placed on top of a coffee mug?"
+            },
+            {
+                "q": "Is the water transfered to kettle"
+            },
+            {
+                "q": "Is the temperature checked once the water is boiled (to be about 195-205 degrees Fahrenheit)?"
+            }
+        ]
+    },
+    "1_x": {
+        "questions": [
+            {
+                "q": "Into what is 1 egg poured? Choose one: a. bowl b. ramekin cup",
+                "correctans": "ramkein cup",
+                "followup": [
+                    "Is one egg poured into the ramekin cup?"
+                ]
+            },
+            {
+                "q": "Where is the egg from the cup placed? Select one: a. over the lettuce b. over the cup",
+                "correctans": "over the lettuce"
+            },
+            {
+                "q": "What is used to coat the ramekin cup? Choose one: a. cooking spray b. butter",
+                "correctans": "cooking spray",
+                "followup": [
+                    "Is a 6-oz. ramekin cup being used?"
+                ]
+            },
+            {
+                "q": "What is used to heat the ramekin cup? Select one a. microwave b. stove",
+                "correctans": "microwave"
+            },
+            {
+                "q": "Is 1 tablespoon of cheese sprinkled on cup?"
+            },
+            {
+                "q": "Is 1 tablespoon of salsa used to top the cup?"
+            },
+            {
+                "q": "What is being used to heat the egg? Choose one: a. microwave b. stove",
+                "correctans": "microwave"
+            },
+            {
+                "q": "What is used to line the English muffin? Choose one: a. lettuce b. romaine",
+                "correctans": "lettuce"
+            },
+            {
+                "q": "How is the cheese melted for about 10 seconds? Choose one: a. microwave b. stove",
+                "correctans": "microwave"
+            },
+            {
+                "q": "Is the ramekin cup stirred?"
+            },
+            {
+                "q": "Using which tool is the English muffin cut into two pieces? Choose one: a. knife b. fork",
+                "correctans": "knife"
+            }
+        ]
+    },
+    "9_x": {
+        "questions": [
+            {
+                "q": "How is the egg cooked through? Choose one: a. using microwave b. using stovetop",
+                "correctans": "using microwave"
+            },
+            {
+                "q": "In what dish is the egg mixture present? Choose one: a. bowl b. mug",
+                "correctans": "mug",
+                "followup": [
+                    "Is egg mixture present in the mug",
+                    "Are bread pieces added to the mug. pressing the bread down into the egg"
+                ]
+            },
+            {
+                "q": "Is the mug stirred?"
+            },
+            {
+                "q": "How is the butter melted? Choose one: a. microwave b. oven",
+                "correctans": "microwave",
+                "followup": [
+                    "Is 1 tablespoon of softened butter being used?"
+                ]
+            },
+            {
+                "q": "Is 1/4 teaspoon cinnamon sprinkled over the egg?"
+            },
+            {
+                "q": "In what dish are all the contents placed and cut and served? Choose one: a. plate b. bowl",
+                "correctans": "plate"
+            },
+            {
+                "q": "Where are the contents from mug put on? Choose one: a. plate b. bowl",
+                "correctans": "plate"
+            },
+            {
+                "q": "What dish is coated with butter? Select one: a. mug b. cup",
+                "correctans": "mug"
+            },
+            {
+                "q": "Is 1 slice of bread cute or torn into bite-size pieces?"
+            },
+            {
+                "q": "Is 1/4 teaspoon vanilla extract added to the mug?"
+            },
+            {
+                "q": "How is the egg whisked in the mug? Choose one: a. fork b. whisk",
+                "correctans": "fork"
+            }
+        ]
+    },
+    "2_x": {
+        "questions": [
+            {
+                "q": "Is one garlic clove peeled?"
+            },
+            {
+                "q": "Are the sauces poured over the meatballs?"
+            },
+            {
+                "q": "Is a 1/8 garlic clove cut?"
+            },
+            {
+                "q": "Is one medium onion peeled?"
+            },
+            {
+                "q": "What tool is used to stir the contents in microwave? Select one: a. spoon b. ladle",
+                "correctans": "spoon"
+            },
+            {
+                "q": "Is 1/8 medium onion sliced?"
+            },
+            {
+                "q": "What tool is used to stir the contents in microwave? Select one: a. spoon b. ladle",
+                "correctans": "spoon"
+            },
+            {
+                "q": "How is the plate heated covered on high for 1.5 minutes? Select one: a. microwave b. oven c. stove",
+                "correctans": "microwave"
+            },
+            {
+                "q": "In what dish are the meatballs placed? Choose one: a. microwave-safe plate b. steel plate",
+                "correctans": "microwave-safe plate"
+            },
+            {
+                "q": "Is 1/4 medium carrot cut into short thin strips?"
+            },
+            {
+                "q": "Are 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce mixed in a small bowl?"
+            },
+            {
+                "q": "Is the plate topped with carrots, onion, garlic and 1/4 tsp pepper powder?"
+            },
+            {
+                "q": "How is the plate heated covered on high for 1.5 minutes? Select one: a. microwave b. oven c. stove",
+                "correctans": "microwave"
+            },
+            {
+                "q": "Is the plate microwaved for 1 more minute?"
+            },
+            {
+                "q": "Is 1/8 garlic clove minced?"
+            },
+            {
+                "q": "Is the onion cut into two pieces?"
+            }
+        ]
+    },
+    "22_x": {
+        "questions": [
+            {
+                "q": "To what utensil is 1 tbsp oil added to heat? Choose one a. non-stick frying pan b. wok",
+                "correctans": "non-stick frying pan"
+            },
+            {
+                "q": "Where are the tomatoes put on? Choose one: a. serving plate b. bowl",
+                "correctans": "serving plate"
+            },
+            {
+                "q": "Are 2 tbsp of cilantro chopped?"
+            },
+            {
+                "q": "Using what tool is the egg stirred with to move the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space? Choose one: a. wooden spoon b. steel spoon",
+                "correctans": "wooden spoon"
+            },
+            {
+                "q": "is one egg cracked in a bowl?"
+            },
+            {
+                "q": "Are the tomatoes cooked cut-side down until they start to soften and colour?"
+            },
+            {
+                "q": "Into what dish is the egg mixture poured into? Choose one: a. pan b. plate",
+                "correctans": "pan"
+            },
+            {
+                "q": "Is chopped cilantro added to the bowl?"
+            },
+            {
+                "q": "To what dish is the omelette transferred to serve with tomatoes? Choose one: a. plate b. bowl",
+                "correctans": "plate"
+            },
+            {
+                "q": "What ingredients are scooped from the pan? Select one a. tomatoes b. egg mixture",
+                "correctans": "tomatoes"
+            },
+            {
+                "q": "Is the stirring stopped when its nearly cooked to allow it to set into an omelette?"
+            },
+            {
+                "q": "Is the tomato cut into two pieces?"
+            },
+            {
+                "q": "Is a tomato taken?"
+            },
+            {
+                "q": "In what dish are the contents beaten in? Choose one: a. bowl b. mug",
+                "correctans": "bowl"
+            },
+            {
+                "q": "Is 1/2 tsp ground black pepper added to the bowl?"
+            }
+        ]
+    },
+    "3_x": {
+        "questions": [
+            {
+                "q": "To what dish is 1/8 teaspoon of salt measured and added? Choose one: a. mug",
+                "correctans": "mug",
+                "followup": [
+                    "Is 1/8 teaspoon of salt added to the mug?"
+                ]
+            },
+            {
+                "q": "What is sprinkled inside the mug? Select one: a. dried italian herbs b. cilli powder",
+                "correctans": "dried italian herbs"
+            },
+            {
+                "q": "Is 1 tablespoon of marinara sauce taken?"
+            },
+            {
+                "q": "Where is the marinara sauce spread? Select one: a. over the batter b. on a plate",
+                "correctans": "over the batter"
+            },
+            {
+                "q": "How are the ingredients cooked until the toppings are bubbling for 1 minute 20 seconds? Select one: a. microwave b. stove c. oven",
+                "correctans": "microwave"
+            },
+            {
+                "q": "To what is the flour added to? Select one: a. mug b. bowl",
+                "correctans": "mug",
+                "followup": [
+                    "Are 4 tablespoons of flour measured and added?"
+                ]
+            },
+            {
+                "q": "Is 1/16 teaspoon of baking soda and added to the mug?"
+            },
+            {
+                "q": "What type of mug is chosen? Select one a. microwavable mug b. oven-safe mug",
+                "correctans": "microwavable mug"
+            },
+            {
+                "q": "Are the contents of the mug thoroughly mixed?"
+            },
+            {
+                "q": "Are the contents of the mug stirred well?"
+            },
+            {
+                "q": "Is 1 generous tablespoon of mozzarella cheese on top of the sauce sprinkled?"
+            },
+            {
+                "q": "Is 1/8 teaspoon of baking powder measured and added to the mug?"
+            },
+            {
+                "q": "Is 3 tablespoons of milk added to the mug?"
+            }
+        ]
+    },
+    "26_x": {
+        "questions": [
+            {
+                "q": "Is the batter being whisked until no lumps remain?"
+            },
+            {
+                "q": "What is carefully removed from the cake? Select one: a. paper liner b. paper filter",
+                "correctans": "paper liner"
+            },
+            {
+                "q": "Is 2 tbsp of water added to the bowl?"
+            },
+            {
+                "q": "To what dish is sugar added to? Select one: a. mixing bowl b. salad bowl",
+                "correctans": "mixing bowl",
+                "followup": [
+                    "Is 1.5 tbsp sugar added to the mixing bowl?"
+                ]
+            },
+            {
+                "q": "Into what is 4 spoonfuls of chocolate frosting spooned into? Choose one: a. zip-top bag b. plastic bag",
+                "correctans": "zip-top bag"
+            },
+            {
+                "q": "Is 2 tbsp flour measured and added to the mixing bowl?"
+            },
+            {
+                "q": "Is 2 tsp of vegetable oil added to the mixing bowl?"
+            },
+            {
+                "q": "What is being set aside? Select one: a. lined mug b. plain mug",
+                "correctans": "lined mug"
+            },
+            {
+                "q": "Where are small dollops of frosting being squeezed? Select one: a. onto the plate in a circle around base of the cake b. onto the top of cake",
+                "correctans": "onto the plate in a circle around base of the cake"
+            },
+            {
+                "q": "Where is the cupcake liner placed? Choose one: a. inside the mug b. in the bowl",
+                "correctans": "inside the mug"
+            },
+            {
+                "q": "Is 1/4 tsp of baking powder measured and added to the bowl?"
+            },
+            {
+                "q": "Is the mug allowed to cool until it is no longer hot to touch?"
+            },
+            {
+                "q": "Using which tool is the bag cut to create a small opening? Select one: a. knife b. scissors",
+                "correctans": "scissors"
+            },
+            {
+                "q": "Is the batter poured into the prepared mug?"
+            },
+            {
+                "q": "Are flour, sugar and baking powder whisked to combine them in the bowl?"
+            },
+            {
+                "q": "What dish is the mug inverted into? Choose one: a. plate b. mug",
+                "correctans": "plate"
+            },
+            {
+                "q": "Is the zip-top bag sealed to remove air as much as possible?"
+            },
+            {
+                "q": "In what machine is the cake cooked? Choose one: a. microwave b. oven",
+                "correctans": "microwave"
+            },
+            {
+                "q": "Is 1/4 tsp vanilla extract added to the bowl?"
+            }
+        ]
+    },
+    "16_x": {
+        "questions": [
+            {
+                "q": "To what dish is cilantro being added? Select one from: a. bowl b. pan",
+                "correctans": "bowl",
+                "followup": [
+                    "Is cilantro being chopped?"
+                ]
+            },
+            {
+                "q": "In what dish is the egg mixture being whisked? Select one from: a. bowl b. pan",
+                "correctans": "bowl",
+                "followup": [
+                    "Is the egg mixture being whisked in the bowl?"
+                ]
+            },
+            {
+                "q": "To what dish is garlic being added? Select one from: a. pan b. bowl",
+                "correctans": "pan",
+                "followup": [
+                    "Is garlic added to the pan?"
+                ]
+            },
+            {
+                "q": "What ingredient is being chopped? Select one from: a. green chilli b. onion",
+                "correctans": "green chilli",
+                "followup": [
+                    "Is a green chilli being chopped?"
+                ]
+            },
+            {
+                "q": "To what dish is chilli being added? Select one from: a. pan b. bowl",
+                "correctans": "pan",
+                "followup": [
+                    "Is the chopped chilli added to the pan?"
+                ]
+            },
+            {
+                "q": "What ingredient is being chopped? Select one from: a. onion b. tomato",
+                "correctans": "onion",
+                "followup": [
+                    "Is 1/4 medium onion being chopped?"
+                ]
+            },
+            {
+                "q": "To what dish is salt being added? Select one from: a. bowl b. pan",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1/3 tsp salt added to the bowl?"
+                ]
+            },
+            {
+                "q": "Is the person cooking for 1 minute, mixing everything?"
+            },
+            {
+                "q": "In what dish are the onions being sautéed? Select one from: a. pan b. bowl",
+                "correctans": "pan",
+                "followup": [
+                    "Are the onions being sautéed on medium heat until they are soft and translucent?"
+                ]
+            },
+            {
+                "q": "In what dish is the egg being cracked? Select one from: a. bowl b. pan",
+                "correctans": "bowl",
+                "followup": [
+                    "Is one egg being cracked into the bowl?"
+                ]
+            },
+            {
+                "q": "To what dish is turmeric being added? Select one from: a. pan b. bowl",
+                "correctans": "pan",
+                "followup": [
+                    "Is 1/8 tsp of turmeric added to the pan?"
+                ]
+            },
+            {
+                "q": "What ingredient is being chopped? Select one from: a. tomato b. onion",
+                "correctans": "tomato",
+                "followup": [
+                    "Is 1/4 tomato being chopped?"
+                ]
+            },
+            {
+                "q": "Is the person cooking covered for 1 minute or until the tomatoes soften?"
+            },
+            {
+                "q": "Is the person mixing with a spatula for 3 minutes or until the eggs are almost cooked?"
+            },
+            {
+                "q": "To what dish are the whisked eggs being added? Select one from: a. pan b. bowl",
+                "correctans": "pan",
+                "followup": [
+                    "Are the whisked eggs slowly poured into the pan?"
+                ]
+            },
+            {
+                "q": "In what dish is oil being heated? Select one from: a. pan b. bowl",
+                "correctans": "pan",
+                "followup": [
+                    "Is 2 tbsp oil being heated in a heavy-bottomed or nonstick pan on medium heat?"
+                ]
+            },
+            {
+                "q": "Is the person garnishing with 1 tbsp chopped cilantro and serving?"
+            },
+            {
+                "q": "To what dish are the tomatoes being added? Select one from: a. pan b. bowl",
+                "correctans": "pan",
+                "followup": [
+                    "Are the tomatoes added to the pan?"
+                ]
+            },
+            {
+                "q": "Is the person peeling 2 garlic cloves?"
+            },
+            {
+                "q": "To what dish is milk being added? Select one from: a. bowl b. pan",
+                "correctans": "bowl",
+                "followup": [
+                    "Is 1 tbsp milk added to the bowl?"
+                ]
+            },
+            {
+                "q": "To what dish is salt being added? Select one from: a. pan b. bowl",
+                "correctans": "pan",
+                "followup": [
+                    "Is 1/3 tsp salt added to the pan?"
+                ]
+            },
+            {
+                "q": "To what dish are the chopped onions being added? Select one from: a. pan b. bowl",
+                "correctans": "pan",
+                "followup": [
+                    "Are the chopped onions added to the pan?"
+                ]
+            },
+            {
+                "q": "Is the person mincing peeled garlic cloves?"
+            }
+        ]
+    },
+    "25_x": {
+        "questions": [
+            {
+                "q": "What ingredient is being cut into large cubes? Select one from: a. tofu b. cheese",
+                "correctans": "tofu",
+                "followup": [
+                    "Is 1/4 block or 3 ounces of fresh tofu being cut into large cubes (about 1 in x 1 in)?"
+                ]
+            },
+            {
+                "q": "What action is being performed with the heat? Select one from: a. Turn on b. Turn off",
+                "correctans": "Turn on",
+                "followup": [
+                    "Is the heat turned on to medium?"
+                ]
+            },
+            {
+                "q": "What is being drizzled on the pan? Select one from: a. soy sauce b. olive oil",
+                "correctans": "soy sauce",
+                "followup": [
+                    "Is 1 tablespoon soy sauce being drizzled on the pan (watch for spitting)?"
+                ]
+            },
+            {
+                "q": "What is being drizzled on the pan? Select one from: a. sesame oil b. vegetable oil",
+                "correctans": "sesame oil",
+                "followup": [
+                    "Is 1 tablespoon sesame oil being drizzled on the pan?"
+                ]
+            },
+            {
+                "q": "What ingredient is being added to the pan? Select one from: a. tofu cubes b. salt",
+                "correctans": "tofu cubes",
+                "followup": [
+                    "Are the tofu cubes being added to the pan?"
+                ]
+            },
+            {
+                "q": "Is the pan briefly removed from the heat to reduce spitting?"
+            },
+            {
+                "q": "What action is being performed with the tofu on the pan? Select one from: a. flip b. stir",
+                "correctans": "flip",
+                "followup": [
+                    "Is the tofu being flipped on the pan?"
+                ]
+            },
+            {
+                "q": "Is the pan briefly removed from the heat again?"
+            },
+            {
+                "q": "To what dish is the tofu being transferred? Select one from: a. serving dish b. mixing bowl",
+                "correctans": "serving dish",
+                "followup": [
+                    "Is the tofu being transferred to a serving dish?"
+                ]
+            },
+            {
+                "q": "What action is being performed with the heat? Select one from: a. Return to low heat b. Turn off heat",
+                "correctans": "Return to low heat",
+                "followup": [
+                    "Is the pan being returned to low heat?"
+                ]
+            },
+            {
+                "q": "What tool is being used to flip the tofu? Select one from: a. tongs b. spatula",
+                "correctans": "tongs",
+                "followup": [
+                    "Is the tofu being flipped with tongs?"
+                ]
+            },
+            {
+                "q": "What ingredient is being added to the pan? Select one from: a. salt b. pepper",
+                "correctans": "salt",
+                "followup": [
+                    "Is 1/4 tsp salt being added to the pan?"
+                ]
+            },
+            {
+                "q": "What action is being performed with the heat? Select one from: a. Return to medium heat b. Turn off heat",
+                "correctans": "Return to medium heat",
+                "followup": [
+                    "Is the heat being returned to medium?"
+                ]
+            },
+            {
+                "q": "Is the person cooking the pan for 2 minutes until the colour is darkened?"
+            },
+            {
+                "q": "Is the person cooking the pan for 2 minutes?"
+            },
+            {
+                "q": "Is the person cooking until the tofu turns brown?"
+            },
+            {
+                "q": "What ingredient is being added to a non-stick pan? Select one from: a. olive oil b. soy sauce",
+                "correctans": "olive oil",
+                "followup": [
+                    "Is 1 tablespoon of olive oil being added to a non-stick pan?"
+                ]
+            },
+            {
+                "q": "Is the person cooking for 5 to 6 minutes until the tofu cubes are lightly browned on the bottom?"
+            },
+            {
+                "q": "Is the tofu being patted dry with a towel?"
+            }
+        ]
+    },
+    "10_x": {
+        "questions": [
+            {
+                "q": "Is the person slicing with floss to create 1 more pinwheel?"
+            },
+            {
+                "q": "What is being discarded? Select one from: a. ends of the tortilla b. middle of the tortilla",
+                "correctans": "ends of the tortilla",
+                "followup": [
+                    "Are the ends of the tortilla being discarded?"
+                ]
+            },
+            {
+                "q": "Is the person slicing with floss to create 1 more pinwheel?"
+            },
+            {
+                "q": "Is the knife being cleaned by wiping with a paper towel?"
+            },
+            {
+                "q": "Are the floss's two ends being crossed over the tortilla roll's top?"
+            },
+            {
+                "q": "Is the floss being slid under the tortilla, perpendicular to the length of the roll?"
+            },
+            {
+                "q": "What is being spread over the nut butter? Select one from: a. jelly b. butter",
+                "correctans": "jelly",
+                "followup": [
+                    "Is jelly being spread over the nut butter?"
+                ]
+            },
+            {
+                "q": "Are the floss ends being pulled in opposite directions to slice?"
+            },
+            {
+                "q": "Where are the pinwheels being placed? Select one from: a. plate b. bowl",
+                "correctans": "plate",
+                "followup": [
+                    "Are the pinwheels being placed on a plate?"
+                ]
+            },
+            {
+                "q": "How is the rolled tortilla being secured? Select one from: a. inserting 5 toothpicks b. tying with string",
+                "correctans": "inserting 5 toothpicks",
+                "followup": [
+                    "Is the rolled tortilla being secured by inserting 5 toothpicks about 1 inch apart?"
+                ]
+            },
+            {
+                "q": "What tool is being used to scoop jelly from the jar? Select one from: a. knife b. spoon",
+                "correctans": "knife",
+                "followup": [
+                    "Is the knife being used to scoop jelly from the jar?"
+                ]
+            },
+            {
+                "q": "What is being spread onto the tortilla? Select one from: a. nut butter b. jelly",
+                "correctans": "nut butter",
+                "followup": [
+                    "Is nut butter being spread onto the tortilla, leaving 1/2-inch uncovered at the edges?"
+                ]
+            },
+            {
+                "q": "What tool is being used to scoop nut butter from the jar? Select one from: a. butter knife b. spoon",
+                "correctans": "butter knife",
+                "followup": [
+                    "Is a butter knife being used to scoop nut butter from the jar?"
+                ]
+            },
+            {
+                "q": "Is the person slicing with floss to create 1 more pinwheel?"
+            },
+            {
+                "q": "Are the ends of the tortilla roll being trimmed with the butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll?"
+            },
+            {
+                "q": "Where is the tortilla being placed? Select one from: a. cutting board b. plate",
+                "correctans": "cutting board",
+                "followup": [
+                    "Is the 8-inch flour tortilla being placed on a cutting board?"
+                ]
+            },
+            {
+                "q": "Is the tortilla being rolled from one end to the other into a log shape, about 1.5 inches thick?"
+            },
+            {
+                "q": "Is the floss being placed halfway between toothpicks?"
+            },
+            {
+                "q": "Is the knife being cleaned by wiping it with a paper towel?"
+            }
+        ]
+    },
+    "4_x": {
+        "questions": [
+            {
+                "q": "Is the flavour packet being mixed into the bowl?"
+            },
+            {
+                "q": "What tool is being used to stir the noodles? Select one from: a. spoon b. fork",
+                "correctans": "spoon or fork",
+                "followup": [
+                    "Are the noodles being stirred with a spoon or fork until the flavouring dissolves?"
+                ]
+            },
+            {
+                "q": "What action is being performed with the noodles from the package? Select one from: a. breaking the noodles b. keeping them as a block",
+                "correctans": "breaking the noodles or keeping them as a block",
+                "followup": [
+                    "Are the noodles being removed from the package?"
+                ]
+            },
+            {
+                "q": "Is the ramen being microwaved for 4 minutes?"
+            },
+            {
+                "q": "What ingredient is being sliced? Select one from: a. onion b. garlic",
+                "correctans": "onion",
+                "followup": [
+                    "Is 1/4 medium onion being sliced into pieces?"
+                ]
+            },
+            {
+                "q": "Is 1 medium onion being peeled?"
+            },
+            {
+                "q": "Are the noodles being left to sit for about 1 minute after the microwave stops?"
+            },
+            {
+                "q": "Is the bowl being covered with a lid (or paper towel) to prevent splattering?"
+            },
+            {
+                "q": "What ingredient is being added to the bowl? Select one from: a. basil b. cilantro",
+                "correctans": "basil",
+                "followup": [
+                    "Is basil being added to the bowl?"
+                ]
+            },
+            {
+                "q": "What ingredient is being chopped on a cutting board? Select one from: a. garlic clove b. onion",
+                "correctans": "garlic clove",
+                "followup": [
+                    "Is 1 garlic clove being chopped on a cutting board?"
+                ]
+            },
+            {
+                "q": "Are the noodles being added to the bowl?"
+            },
+            {
+                "q": "What ingredient is being added to the bowl? Select one from: a. chopped cilantro b. basil",
+                "correctans": "chopped cilantro",
+                "followup": [
+                    "Is chopped cilantro being added to the bowl?"
+                ]
+            },
+            {
+                "q": "Where are all the vegetables being put? Select one from: a. microwave-safe bowl b. pan",
+                "correctans": "microwave-safe bowl",
+                "followup": [
+                    "Are all the vegetables being put in a microwave-safe bowl?"
+                ]
+            },
+            {
+                "q": "Is 1 garlic clove being peeled?"
+            },
+            {
+                "q": "Are the noodles being covered with water?"
+            }
+        ]
+    },
+    "20_x": {
+        "questions": [
+            {
+                "q": "Are rinsed mushrooms being patted dry with a paper towel?"
+            },
+            {
+                "q": "Are 3 mushrooms being rinsed under cold water?"
+            },
+            {
+                "q": "Is the pan being cooked, often stirring, for 1 minute?"
+            },
+            {
+                "q": "What ingredient is being added once the pan is hot? Select one from: a. mushrooms b. garlic",
+                "correctans": "mushrooms",
+                "followup": [
+                    "Are the mushrooms being added once the pan is hot?"
+                ]
+            },
+            {
+                "q": "What ingredient is being added to the pan? Select one from: a. chopped shallot b. minced garlic",
+                "correctans": "chopped shallot",
+                "followup": [
+                    "Is chopped shallot being added to the pan?"
+                ]
+            },
+            {
+                "q": "Are the mushrooms being sliced?"
+            },
+            {
+                "q": "Is garlic being minced?"
+            },
+            {
+                "q": "What ingredient is being chopped? Select one from: a. shallot b. mushroom",
+                "correctans": "shallot",
+                "followup": [
+                    "Is 1 shallot being chopped?"
+                ]
+            },
+            {
+                "q": "Is the person cooking for 3-5 minutes, stirring often, until mushrooms start to soften and brown?"
+            },
+            {
+                "q": "Are mushroom stems being pulled out?"
+            },
+            {
+                "q": "Is 1 tbsp olive oil being heated in a large skillet over medium-high heat?"
+            },
+            {
+                "q": "Are the contents of the pan being transferred to a serving dish?"
+            },
+            {
+                "q": "Is the pan being cooked, often stirring, for 1 minute?"
+            },
+            {
+                "q": "Are 2 garlic cloves being peeled?"
+            },
+            {
+                "q": "What ingredient is being added to the pan? Select one from: a. balsamic vinegar b. olive oil",
+                "correctans": "balsamic vinegar",
+                "followup": [
+                    "Is 1/4 tbsp balsamic vinegar being added to the pan?"
+                ]
+            },
+            {
+                "q": "What ingredient is being added to the pan? Select one from: a. minced garlic b. chopped shallot",
+                "correctans": "minced garlic",
+                "followup": [
+                    "Are 2 cloves of minced garlic being added to the pan?"
+                ]
+            },
+            {
+                "q": "Is pepper being seasoned on the pan to taste?"
+            },
+            {
+                "q": "Is the pan being seasoned with salt?"
+            }
+        ]
+    }
+}
