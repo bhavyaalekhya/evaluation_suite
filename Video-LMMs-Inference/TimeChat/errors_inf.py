@@ -43,12 +43,12 @@ class Model:
     def __init__(self):
         pass
 
-    def load_file(path):
+    def load_file(self,path):
         with open(path, 'r') as file:
             op = json.load(file)
         return op
     
-    def parse_args():
+    def parse_args(self):
         parser = argparse.ArgumentParser(description="Inference")
         parser.add_argument("--cfg_path", default='eval_configs/timechat.yaml', help='path to configuration file.')
         parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to the model.")
