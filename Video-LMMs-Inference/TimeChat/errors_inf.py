@@ -40,6 +40,9 @@ wandb.init(
 )
 
 class Model:
+    def __init__(self):
+        pass
+
     def load_file(path):
         with open(path, 'r') as file:
             op = json.load(file)
@@ -65,7 +68,7 @@ class Model:
     
     def initialize_model(self):
         print('Initializing Chat')
-        args = self.parse_args()
+        args =self.parse_args()
         args.cfg_path = '/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/eval_configs/timechat.yaml'
         cfg = Config(args)
         DIR = 'ckpt/TimeChat-7b'
