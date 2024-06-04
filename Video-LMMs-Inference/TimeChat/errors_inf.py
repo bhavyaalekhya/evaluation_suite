@@ -66,7 +66,7 @@ class Model:
         return args
     
     @staticmethod
-    def initialize_model(self):
+    def initialize_model():
         print('Initializing Chat')
         args =Model.parse_args()
         args.cfg_path = '/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/eval_configs/timechat.yaml'
