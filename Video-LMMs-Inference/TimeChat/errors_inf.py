@@ -182,7 +182,7 @@ class Missing_Error:
             questions = qs[q_name]['questions']
             g_truth = self.ground_truth(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot, questions)
             gt.append(g_truth)
-            pred = []
+            pred = [0] * len(g_truth)
             #print(video.size())
             C, T, H, W = video.shape
             ts.show(video.transpose(0,1))
@@ -287,7 +287,7 @@ class Order_Error():
             questions = qs[q_name]['questions']
             g_truth = self.ground_truth(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot, questions)
             gt.append(g_truth)
-            pred = []
+            pred = [0] * len(g_truth)
             #print(video.size())
             C, T, H, W = video.shape
             ts.show(video.transpose(0,1))
@@ -331,7 +331,7 @@ class Preparation_Error():
         self.gt_dict = gt_dict
         self.normal_annot = normal_annot
 
-    def ground_truth(name, video, normal_annot, questions):
+    def ground_truth(self, name, video, normal_annot, questions):
         gt = []
         steps = video['steps']
         normal = name + '_x'
@@ -356,19 +356,19 @@ class Preparation_Error():
 
         return gt
     
-    def op_val(ans, correctans, q_type):
-        if q_type=='yes_no':
+    def op_val(self, ans, correctans, q_type):
+        if q_type == 'yes_no':
             if 'yes' in ans or 'not' not in ans:
                 return 0
             else:
                 return 1
-        elif q_type=='option':
+        elif q_type == 'option':
             if correctans in ans:
                 return 0
             else:
                 return 1
         
-    def question_index(related_questions):
+    def question_index(self, related_questions):
         question_to_index = {}
         index_counter = 0
         for question in related_questions:
@@ -397,7 +397,7 @@ class Preparation_Error():
             questions = qs[q_name]['questions']
             g_truth = self.ground_truth(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot, questions)
             gt.append(g_truth)
-            pred = []
+            pred = [0] * len(g_truth)
             #print(video.size())
             C, T, H, W = video.shape
             ts.show(video.transpose(0,1))
@@ -501,7 +501,7 @@ class Measurement_Error():
             questions = qs[q_name]['questions']
             g_truth = self.ground_truth(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot, questions)
             gt.append(g_truth)
-            pred = []
+            pred = [0] * len(g_truth)
             #print(video.size())
             C, T, H, W = video.shape
             ts.show(video.transpose(0,1))
@@ -605,7 +605,7 @@ class Temperature_Error():
             questions = qs[q_name]['questions']
             g_truth = self.ground_truth(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot, questions)
             gt.append(g_truth)
-            pred = []
+            pred = [0] * len(g_truth)
             #print(video.size())
             C, T, H, W = video.shape
             ts.show(video.transpose(0,1))
