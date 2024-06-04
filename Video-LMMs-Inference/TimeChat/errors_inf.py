@@ -40,15 +40,14 @@ wandb.init(
 )
 
 class Model:
-    def __init__(self):
-        pass
-
-    def load_file(self,path):
+    @staticmethod
+    def load_file(path):
         with open(path, 'r') as file:
             op = json.load(file)
         return op
     
-    def parse_args(self):
+    @staticmethod
+    def parse_args():
         parser = argparse.ArgumentParser(description="Inference")
         parser.add_argument("--cfg_path", default='eval_configs/timechat.yaml', help='path to configuration file.')
         parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to the model.")
@@ -66,9 +65,10 @@ class Model:
         args = parser.parse_args(args=[])
         return args
     
+    @staticmethod
     def initialize_model(self):
         print('Initializing Chat')
-        args =self.parse_args()
+        args =Model.parse_args()
         args.cfg_path = '/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/eval_configs/timechat.yaml'
         cfg = Config(args)
         DIR = 'ckpt/TimeChat-7b'
@@ -88,6 +88,7 @@ class Model:
         
         return args, chat
     
+    @staticmethod
     def ask_question(args, chat, chat_state, img_list, q):
         text_input = f"You are given a cooking video from the Captain Cook dataset. Please watch the video and answer the question: {q} Return the answer in the format of Yes or No."
         print(text_input)
@@ -102,9 +103,11 @@ class Model:
 
         return output
     
+    @staticmethod
     def flatten(nested_list):
         return [item for sublist in nested_list for item in sublist]
 
+    @staticmethod
     def save_data(output_file, pred):
         print("Predicted: {prediction}".format(
             prediction = pred
