@@ -665,12 +665,13 @@ class Temperature_Error():
 
 def main():
     #initialize video dir, gt_dict, normal_annot
+    tc = Model()
     video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
-    gt_dict = Model.load_file('/data/bhavya/task_verification/Video-LLaVA/error_annotations.json')
-    normal_annot = Model.load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
+    gt_dict = tc.load_file('/data/bhavya/task_verification/Video-LLaVA/error_annotations.json')
+    normal_annot = tc.load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
 
     # Initialize chat
-    args, chat = Model.initialize_model()
+    args, chat = tc.initialize_model()
 
     #preparation error inference
     print("Preparation Error Inference: \n")
@@ -697,10 +698,6 @@ def main():
     missing_error = Missing_Error(args, chat, video_dir, gt_dict, normal_annot)
     missing_error.missing_inference()
 
-    
-
-    
-    
 
 if __name__ == '__main__':
     main()
