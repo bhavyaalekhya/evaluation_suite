@@ -108,12 +108,14 @@ class Model:
         return [item for sublist in nested_list for item in sublist]
 
     @staticmethod
-    def save_data(output_file, pred):
-        print("Predicted: {prediction}".format(
+    def save_data(output_file, gt, pred):
+        print("Ground Truth: {gt} \nPredicted: {prediction}".format(
+            gt = gt,
             prediction = pred
         ))
 
-        content = "Predicted: {predicted}".format(
+        content = "Ground Truth: {gt} \nPredicted: {predicted}".format(
+            gt = gt,
             predicted = pred
         )
 
@@ -145,13 +147,14 @@ class Missing_Error:
 
         video_steps_desc = [step['description'] for step in steps]
         common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
-        gt = [1] * len(questions)
+        
+        gt = [0] * len(questions)
 
         for step in steps:
             if step['description'] in common_steps:
                 index = common_steps.index(step['description'])
-                if not step['has_errors']:
-                    gt[index] = 0
+                if step['has_errors'] and "Missing Step" in step['errors']:
+                    gt[index] = 1
 
         return gt
     
@@ -225,28 +228,30 @@ class Order_Error():
 
         video_steps_desc = [step['description'] for step in steps]
         common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
-        gt = [0] * len(questions)
+        q = len(questions)
+        flattened_questions = []
+        for i, j in enumerate(questions):
+            flattened_questions.append(j['q'])
+            flattened_questions.extend(j['followup'])
+        
+        gt = [0] * len(flattened_questions)
 
         for step in steps:
             if step['description'] in common_steps:
                 index = common_steps.index(step['description'])
-                question = questions[index]
-                if 'followup' in question.keys():
-                    if step['has_errors']:
-                        gt[index] = 1
-                else:
-                    if step['has_errors']:
+                question = flattened_questions[index]
+                if step['has_errors'] and "Order Error" in step['errors']:
                         gt[index] = 1
 
+        current_index = q
         for i, question in enumerate(questions):
             if 'followup' in question.keys():
-                if gt[i] == 1:
-                    followup_gt = [0] * len(question['followup'])
-                    for j, followup in enumerate(question['followup']):
-                        if followup in video_steps_desc:
-                            followup_gt[j] = 1
-                    if 0 in followup_gt:
-                        gt[i] = 0
+                followup_gt = [0] * len(question['followup'])
+                for j, followup in enumerate(question['followup']):
+                    if followup in video_steps_desc:
+                        followup_gt[j] = 1
+                gt[current_index:current_index + len(question['followup'])] = followup_gt
+                current_index += len(question['followup'])
 
         return gt
     
@@ -328,7 +333,7 @@ class Preparation_Error():
 
     def ground_truth(name, video, normal_annot, questions):
         gt = []
-        steps = video['steps_annotations']
+        steps = video['steps']
         normal = name + '_x'
         n_steps = normal_annot[normal]['steps']
         n_steps_desc = []
@@ -338,24 +343,16 @@ class Preparation_Error():
 
         video_steps_desc = [step['description'] for step in steps]
         common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
-        gt = [0] * len(questions)
+        q = len(questions)
+        
+        gt = [0] * q
 
-        for i, question in enumerate(questions):
-            main_question_match = False
-            followup_question_match = False
-
-            for step in steps:
-                if step['description'] in common_steps:
-                    if not step['has_errors']:
-                        if step['description'] in question['q']:
-                            main_question_match = True
-                        if 'followup' in question.keys():
-                            for followup in question['followup']:
-                                if step['description'] in followup:
-                                    followup_question_match = True
-
-            if main_question_match or followup_question_match:
-                gt[i] = 1
+        for step in steps:
+            if step['description'] in common_steps:
+                index = n_steps_desc.index(step['description'])
+                if index < q:
+                    if step['has_errors'] and "Preparation Error" in step['errors']:
+                        gt[index] = 1
 
         return gt
     
@@ -457,28 +454,14 @@ class Measurement_Error():
 
         video_steps_desc = [step['description'] for step in steps]
         common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
+        
         gt = [0] * len(questions)
 
         for step in steps:
             if step['description'] in common_steps:
                 index = common_steps.index(step['description'])
-                question = questions[index]
-                if 'followup' in question.keys():
-                    if step['has_errors']:
-                        gt[index] = 1
-                else:
-                    if step['has_errors']:
-                        gt[index] = 1
-
-        for i, question in enumerate(questions):
-            if 'followup' in question.keys():
-                if gt[i] == 1:
-                    followup_gt = [0] * len(question['followup'])
-                    for j, followup in enumerate(question['followup']):
-                        if followup in video_steps_desc:
-                            followup_gt[j] = 1
-                    if 0 in followup_gt:
-                        gt[i] = 0
+                if step['has_errors'] and "Measurement Error" in step['errors']:
+                    gt[index] = 1
 
         return gt
 
@@ -576,24 +559,14 @@ class Temperature_Error():
 
         video_steps_desc = [step['description'] for step in steps]
         common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
+        
         gt = [0] * len(questions)
 
-        for i, question in enumerate(questions):
-            main_question_match = False
-            followup_question_match = False
-
-            for step in steps:
-                if step['description'] in common_steps:
-                    if not step['has_errors']:
-                        if step['description'] in question['q']:
-                            main_question_match = True
-                        if 'followup' in question.keys():
-                            for followup in question['followup']:
-                                if step['description'] in followup:
-                                    followup_question_match = True
-
-            if main_question_match or followup_question_match:
-                gt[i] = 1
+        for step in steps:
+            if step['description'] in common_steps:
+                index = common_steps.index(step['description'])
+                if step['has_errors'] and "Temperature Error" in step['errors']:
+                    gt[index] = 1
 
         return gt
 
@@ -670,7 +643,7 @@ def main():
     #initialize video dir, gt_dict, normal_annot
     tc = Model()
     video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
-    gt_dict = tc.load_file('/data/bhavya/task_verification/Video-LLaVA/error_annotations.json')
+    gt_dict = tc.load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
     normal_annot = tc.load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
 
     # Initialize chat
