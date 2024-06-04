@@ -135,7 +135,7 @@ class Missing_Error:
         self.gt_dict = gt_dict
         self.normal_annot = normal_annot
 
-    def ground_truth(name, video, normal_annot, questions):
+    def ground_truth(self, name, video, normal_annot, questions):
         gt = []
         steps = video['steps']
         normal = name + '_x'
@@ -158,7 +158,7 @@ class Missing_Error:
 
         return gt
     
-    def op_val(ans):
+    def op_val(self, ans):
         if 'yes' in ans:
             return 0
         else:
@@ -193,8 +193,8 @@ class Missing_Error:
             chat_state.system = "You are able to understand the visual content that the user provides. Follow the instructions carefully and explain your answers in detail."
             msg = self.chat.upload_video_without_audio(video_path=self.args.video_path, conv=chat_state, img_list=img_list, n_frms=96)
             # Response from chat
-            for steps in questions:
-                inp = steps
+            for step in questions:
+                inp = step['q']
                 output = Model.ask_question(self.args, self.chat, chat_state, img_list, inp)
                 pred.append(self.op_val(output))
 
@@ -203,7 +203,7 @@ class Missing_Error:
         gt = Model.flatten(gt)
         prediction = Model.flatten(prediction)
 
-        Model.save_data(output_file, prediction)
+        Model.save_data(output_file, gt, prediction)
 
 class Order_Error():
     '''
@@ -216,7 +216,7 @@ class Order_Error():
         self.gt_dict = gt_dict
         self.normal_annot = normal_annot
 
-    def ground_truth(name, video, normal_annot, questions):
+    def ground_truth(self, name, video, normal_annot, questions):
         gt = []
         steps = video['steps']
         normal = name + '_x'
@@ -255,13 +255,13 @@ class Order_Error():
 
         return gt
     
-    def op_val(ans):
+    def op_val(self, ans):
         if 'yes' in ans:
             return 0
         else:
             return 1
         
-    def question_index(related_questions):
+    def question_index(self, related_questions):
         question_to_index = {question['q']: i for i, question in enumerate(related_questions)}
         for i, question in enumerate(related_questions):
             for followup in question['followup']:
@@ -306,14 +306,14 @@ class Order_Error():
                 output = Model.ask_question(self.args, self.chat, chat_state, img_list, inp1)
                 print(output)
                 all_pred2 = True
-                op = Model.op_val(output)
+                op = self.op_val(output)
                 for q_s in steps['followup']:
                     inp2 = q_s
                     pred2 = Model.ask_question(self.args, self.chat, chat_state, img_list, inp2)
                     pred[question_ind[inp2]] = self.op_val(pred2)
-                    if self.op_val(pred2)!=0:
+                    if self.op_val(pred2) != 0:
                         all_pred2 = False
-                final_op = (0 and op) if all_pred2 else (1 and op)
+                final_op = op if all_pred2 else 1
                 pred[question_ind[inp1]] = final_op
 
             prediction.append(pred)
@@ -321,7 +321,7 @@ class Order_Error():
         gt = Model.flatten(gt)
         prediction = Model.flatten(prediction)
 
-        Model.save_data(output_file, prediction)
+        Model.save_data(output_file, gt, prediction)
 
 class Preparation_Error():
     def __init__(self, args, chat, video_dir, gt_dict, normal_annot):
@@ -434,7 +434,10 @@ class Preparation_Error():
         
         Model.save_data(output_file, gt, prediction)
 
-class Measurement_Error():
+class Measurement_Error:
+    '''
+        Infer measurement errors for the dataset
+    '''
     def __init__(self, args, chat, video_dir, gt_dict, normal_annot):
         self.args = args
         self.chat = chat
@@ -442,7 +445,7 @@ class Measurement_Error():
         self.gt_dict = gt_dict
         self.normal_annot = normal_annot
 
-    def ground_truth(name, video, normal_annot, questions):
+    def ground_truth(self, name, video, normal_annot, questions):
         gt = []
         steps = video['steps']
         normal = name + '_x'
@@ -465,23 +468,24 @@ class Measurement_Error():
 
         return gt
 
-    def op_val(ans):
+    def op_val(self, ans):
         if 'yes' in ans:
             return 0
         else:
             return 1
         
-    def dis(l):
+    def dis(self, l):
         op = l[0]
         for i in range(1, len(l)):
             op = op and l[i]
         return op
         
-    def question_index(related_questions):
+    def question_index(self, related_questions):
         question_to_index = {question['q']: i for i, question in enumerate(related_questions)}
         for i, question in enumerate(related_questions):
             for followup in question['followup']:
                 question_to_index[followup] = i
+        return question_to_index
 
     def measurement_inference(self):
         video_dir = self.video_dir
@@ -535,11 +539,13 @@ class Measurement_Error():
 
         gt = Model.flatten(gt)
         prediction = Model.flatten(prediction)
-        print(prediction)
 
-        Model.save_data(output_file, prediction)
+        Model.save_data(output_file, gt, prediction)
 
-class Temperature_Error():
+class Temperature_Error:
+    '''
+        Infer temperature errors for the dataset
+    '''
     def __init__(self, args, chat, video_dir, gt_dict, normal_annot):
         self.args = args
         self.chat = chat
@@ -547,7 +553,7 @@ class Temperature_Error():
         self.gt_dict = gt_dict
         self.normal_annot = normal_annot
 
-    def ground_truth(name, video, normal_annot, questions):
+    def ground_truth(self, name, video, normal_annot, questions):
         gt = []
         steps = video['steps']
         normal = name + '_x'
@@ -570,7 +576,7 @@ class Temperature_Error():
 
         return gt
 
-    def question_index(related_questions):
+    def question_index(self, related_questions):
         question_to_index = {}
         index_counter = 0
         for question in related_questions:
@@ -581,7 +587,7 @@ class Temperature_Error():
             index_counter += 1
         return question_to_index
 
-    def op_val(ans):
+    def op_val(self, ans):
         if 'yes' in ans or 'not' not in ans:
             return 0
         else:
@@ -620,24 +626,23 @@ class Temperature_Error():
             # Response from chat
             for steps in questions:
                 inp1 = steps['q']
-                pred = Model.ask_question(self.args, self.chat, chat_state, img_list, inp1)
-                pred = pred.lower()
-                print(pred)
-                pred[question_ind[inp1]] = self.op_val(pred)
+                output = Model.ask_question(self.args, self.chat, chat_state, img_list, inp1)
+                output = output.lower()
+                print(output)
+                pred[question_ind[inp1]] = self.op_val(output)
                 if 'followup' in steps.keys():
                     for question in steps['followup']:
                         inp2 = question
-                        pred2 = Model.ask_question(self.args, self.chat, chat_state, img_list, inp2)
-                        print(pred2)
-                        pred[question_ind[inp2]] = self.op_val(pred2)
+                        output2 = Model.ask_question(self.args, self.chat, chat_state, img_list, inp2)
+                        print(output2)
+                        pred[question_ind[inp2]] = self.op_val(output2)
             
             prediction.append(pred)
 
         gt = Model.flatten(gt)
         prediction = Model.flatten(prediction)
-        print(prediction)
 
-        Model.save_data(output_file, prediction)
+        Model.save_data(output_file, gt, prediction)
 
 def main():
     #initialize video dir, gt_dict, normal_annot
