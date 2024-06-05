@@ -176,8 +176,8 @@ class Technique_Error:
         qs = Model.load_file('/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/error_prompts/technique_error.json')
         gt_dict = self.gt_dict
         normal_annot = self.normal_annot
-        output_file = '/data/bhavya/task_verification/CVVREvaluation/error_outputs/technique_error.txt'
-        op_file = '/data/bhavya/task_verification/CVVREvaluation/error_outputs/tech_recur.txt'
+        output_file = './error_outputs/technique_error.txt'
+        op_file = './error_outputs/tech_recur.txt'
         prediction = []
         gt = []
 
@@ -217,9 +217,9 @@ class Technique_Error:
 def main():
     #initialize video dir, gt_dict, normal_annot
     tc = Model()
-    video_dir = '/home/ptg/ptg/rohith/resolution_360p/'
-    gt_dict = tc.load_file('/home/ptg/ptg/rohith/Video-LLaVA/step_annotations.json')
-    normal_annot = tc.load_file('/home/ptg/ptg/rohith/Video-LLaVA/normal_videos.json')
+    video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
+    gt_dict = tc.load_file('./step_annotations.json')
+    normal_annot = tc.load_file('./normal_videos.json')
 
     # Initialize chat
     args, chat = tc.initialize_model()
