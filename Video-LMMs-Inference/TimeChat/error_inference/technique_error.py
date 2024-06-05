@@ -39,158 +39,195 @@ wandb.init(
     entity="vsbhavyaalekhya"
 )
 
-def parse_args():
-    parser = argparse.ArgumentParser(description="Inference")
-    parser.add_argument("--cfg_path", default='eval_configs/timechat.yaml', help='path to configuration file.')
-    parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to the model.")
-    parser.add_argument("--num-beams", type=int, default=1)
-    parser.add_argument("--temperature", type=float, default=1.0)
-    parser.add_argument("--text_query", default="What is he doing?", help="question the video")
-    parser.add_argument("--video_path", default='example/hotdog.mp4', help='path to the video files directory')
-    parser.add_argument(
-        "--options",
-        nargs="+",
-        help="override some settings in the used config, the key-value pair "
-        "in xxx=yyy format will be merged into config file (deprecate), "
-        "change to --cfg-options instead.",
-    )
-    args = parser.parse_args(args=[])
-    return args
+class Model:
+    @staticmethod
+    def load_file(path):
+        with open(path, 'r') as file:
+            op = json.load(file)
+        return op
+    
+    @staticmethod
+    def parse_args():
+        parser = argparse.ArgumentParser(description="Inference")
+        parser.add_argument("--cfg_path", default='eval_configs/timechat.yaml', help='path to configuration file.')
+        parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to the model.")
+        parser.add_argument("--num-beams", type=int, default=1)
+        parser.add_argument("--temperature", type=float, default=1.0)
+        parser.add_argument("--text_query", default="What is he doing?", help="question the video")
+        parser.add_argument("--video_path", default='example/hotdog.mp4', help='path to the video files directory')
+        parser.add_argument(
+            "--options",
+            nargs="+",
+            help="override some settings in the used config, the key-value pair "
+            "in xxx=yyy format will be merged into config file (deprecate), "
+            "change to --cfg-options instead.",
+        )
+        args = parser.parse_args(args=[])
+        return args
+    
+    @staticmethod
+    def initialize_model():
+        print('Initializing Chat')
+        args =Model.parse_args()
+        args.cfg_path = '/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/eval_configs/timechat.yaml'
+        cfg = Config(args)
+        DIR = 'ckpt/TimeChat-7b'
+        MODEL_DIR = f'{DIR}/timechat_7b.pth'
+        model_config = cfg.model_cfg
+        model_config.device_8bit = args.gpu_id
+        model_config.ckpt = MODEL_DIR
+        model_cls = registry.get_model_class(model_config.arch)
+        model = model_cls.from_config(model_config).to('cuda:{}'.format(args.gpu_id))
+        model.eval()
+        wandb.watch(model, log="all")
+        vis_processor_cfg = cfg.datasets_cfg.webvid.vis_processor.train
+        vis_processor = registry.get_processor_class(vis_processor_cfg.name).from_config(vis_processor_cfg)
 
-def load_file(path):
-    with open(path, 'r') as file:
-        op = json.load(file)
-    return op
-
-def ground_truth(name, video, normal_annot, questions):
-    gt = []
-    steps = video['steps']
-    normal = name + '_x'
-    n_steps = normal_annot[normal]['steps']
-    n_steps_desc = []
-
-    for step in n_steps:
-        n_steps_desc.append(step['description'])
-
-    video_steps_desc = [step['description'] for step in steps]
-    common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
-    gt = [0] * len(questions)
-
-    for step in steps:
-        if step['description'] in common_steps:
-            index = common_steps.index(step['description'])
-            if step['has_errors']:
-                gt[index] = 1
-
-    return gt
-
-def flatten(nested_list):
-    return [item for sublist in nested_list for item in sublist]
-
-def ask_question(args, chat, chat_state, img_list, q):
-    text_input = f"You are given a cooking video from the Captain Cook dataset. Please watch the video and answer the question: {q} Return the answer in the format of Yes or No."
-    print(text_input)
-
-    chat.ask(text_input, chat_state)
-    num_beams = args.num_beams
-    temperature = args.temperature
-    llm_message = chat.answer(conv=chat_state, img_list=img_list, num_beams=num_beams, temperature=temperature, max_new_tokens=300, max_length=5000)[0]
-
-    print(llm_message)
-    output = llm_message.lower()
-
-    return output
-
-def op_val(ans):
-    if 'yes' in ans:
-        return 0
-    else:
-        return 1
-
-def data_file(data, filename):
-    df = pd.DataFrame(data)
-    df.to_csv(filename, sep=',', mode='a+')
-
-def inference(args, chat):
-    video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
-    qs = load_file('/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/error_prompts/technique_error.json')
-    gt_dict = load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
-    normal_annot = load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
-    output_file = '/data/bhavya/task_verification/CVVREvaluation/error_outputs/technique_error.txt'
-    prediction = []
-    gt = []
-
-    for v in os.listdir(video_dir):
-        args.video_path = os.path.join(video_dir, v)
-        name = v.split('_')
-        q_name = name[0] + '_x'
+        chat = Chat(model, vis_processor, device='cuda: {}'.format(args.gpu_id))
+        print("Initialization finished")
         
-        video, _ = load_video(video_path=args.video_path, n_frms=30, sampling='uniform', return_msg=True)
-        questions = qs[q_name]['questions']
-        g_truth = ground_truth(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot, questions)
-        gt.append(g_truth)
-        pred = []
-        #print(video.size())
-        C, T, H, W = video.shape
-        ts.show(video.transpose(0,1))
+        return args, chat
+    
+    @staticmethod
+    def ask_question(args, chat, chat_state, img_list, q):
+        text_input = f"You are given a cooking video from the Captain Cook dataset. Please watch the video and answer the question: {q} Return the answer in the format of Yes or No."
+        print(text_input)
 
-        # Setup chat system
-        img_list = []
-        chat_state = conv_llava_llama_2.copy()
-        chat_state.system = "You are able to understand the visual content that the user provides. Follow the instructions carefully and explain your answers in detail."
-        msg = chat.upload_video_without_audio(video_path=args.video_path, conv=chat_state, img_list=img_list, n_frms=96)
+        chat.ask(text_input, chat_state)
+        num_beams = args.num_beams
+        temperature = args.temperature
+        llm_message = chat.answer(conv=chat_state, img_list=img_list, num_beams=num_beams, temperature=temperature, max_new_tokens=300, max_length=5000)[0]
 
-        # Response from chat
-        for steps in questions:
-            inp = steps
-            output = ask_question(args, chat, chat_state, img_list, inp)
-            print(output)
-            pred.append(op_val(output))
+        print(llm_message)
+        output = llm_message.lower()
+
+        return output
+    
+    @staticmethod
+    def flatten(nested_list):
+        return [item for sublist in nested_list for item in sublist]
+
+    @staticmethod
+    def save_data(output_file, gt, pred):
+        print("Ground Truth: {gt} \nPredicted: {prediction}".format(
+            gt = gt,
+            prediction = pred
+        ))
+
+        content = "Ground Truth: {gt} \nPredicted: {predicted}".format(
+            gt = gt,
+            predicted = pred
+        )
+
+        with open(output_file, 'w') as file:
+            file.write(content)
+
+        print(f"File has been saved at: {output_file}")
+
+    @staticmethod
+    def write_recur(file, video, data):
+        content = "{video}: Pred: {data}",format(video = video, data = data)
+
+        with open(file, 'a') as f:
+            f.write(content)
+
+class Technique_Error:
+    '''
+        Infer missing errors for the dataset
+    '''
+    def __init__(self, args, chat, video_dir, gt_dict, normal_annot):
+        self.args = args
+        self.chat = chat
+        self.video_dir = video_dir
+        self.gt_dict = gt_dict
+        self.normal_annot = normal_annot
+
+    def ground_truth(self, name, video, normal_annot, questions):
+        gt = []
+        steps = video['steps']
+        normal = name + '_x'
+        n_steps = normal_annot[normal]['steps']
+        n_steps_desc = []
+
+        for step in n_steps:
+            n_steps_desc.append(step['description'])
+
+        video_steps_desc = [step['description'] for step in steps]
+        common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
         
-        prediction.append(pred)
+        gt = [0] * len(questions)
 
-    gt = flatten(gt)
-    prediction = flatten(prediction)
-    print(gt)
-    print(prediction)
+        for step in steps:
+            if step['description'] in common_steps:
+                index = common_steps.index(step['description'])
+                if step['has_errors'] and "Technique Error" in step['errors']:
+                    gt[index] = 1
 
-    print("Ground Truth: {gt} \nPredicted: {prediction}".format(
-        gt = gt,
-        prediction = prediction
-    ))
+        return gt
+    
+    def op_val(self, ans):
+        if 'yes' in ans:
+            return 0
+        else:
+            return 1
+        
+    def missing_inference(self):
+        video_dir = self.video_dir
+        qs = Model.load_file('/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/error_prompts/technique_error.json')
+        gt_dict = self.gt_dict
+        normal_annot = self.normal_annot
+        output_file = '/data/bhavya/task_verification/CVVREvaluation/error_outputs/technique_error.txt'
+        op_file = '/data/bhavya/task_verification/CVVREvaluation/error_outputs/tech_recur.txt'
+        prediction = []
+        gt = []
 
-    content = "Ground Truth: {ground_truth} \nPredicted: {predicted}".format(
-        ground_truth = gt,
-        predicted = prediction
-    )
+        for v in tqdm(os.listdir(video_dir), desc="Processing videos"):
+            self.args.video_path = os.path.join(video_dir, v)
+            name = v.split('_')
+            q_name = name[0] + '_x'
+            
+            video, _ = load_video(video_path=self.args.video_path, n_frms=30, sampling='uniform', return_msg=True)
+            questions = qs[q_name]['questions']
+            g_truth = self.ground_truth(name[0], gt_dict[name[0] + '_' + name[1]], normal_annot, questions)
+            gt.append(g_truth)
+            pred = [0] * len(g_truth)
+            #print(video.size())
+            C, T, H, W = video.shape
+            ts.show(video.transpose(0,1))
 
-    with open(output_file, 'w') as file:
-        file.write(content)
+            # Setup chat system
+            img_list = []
+            chat_state = conv_llava_llama_2.copy()
+            chat_state.system = "You are able to understand the visual content that the user provides. Follow the instructions carefully and explain your answers in detail."
+            msg = self.chat.upload_video_without_audio(video_path=self.args.video_path, conv=chat_state, img_list=img_list, n_frms=96)
+            # Response from chat
+            for step in questions:
+                inp = step['q']
+                output = Model.ask_question(self.args, self.chat, chat_state, img_list, inp)
+                pred.append(self.op_val(output))
 
-    print(f'Output saved in {output_file}')
+            Model.write_recur(op_file, v, pred)
+            prediction.append(pred)
+
+        gt = Model.flatten(gt)
+        prediction = Model.flatten(prediction)
+
+        Model.save_data(output_file, gt, prediction)
 
 def main():
+    #initialize video dir, gt_dict, normal_annot
+    tc = Model()
+    video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
+    gt_dict = tc.load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
+    normal_annot = tc.load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
+
     # Initialize chat
-    print('Initializing Chat')
-    args = parse_args()
-    args.cfg_path = '/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/eval_configs/timechat.yaml'
-    cfg = Config(args)
-    DIR = 'ckpt/TimeChat-7b'
-    MODEL_DIR = f'{DIR}/timechat_7b.pth'
-    model_config = cfg.model_cfg
-    model_config.device_8bit = args.gpu_id
-    model_config.ckpt = MODEL_DIR
-    model_cls = registry.get_model_class(model_config.arch)
-    model = model_cls.from_config(model_config).to('cuda:{}'.format(args.gpu_id))
-    model.eval()
-    wandb.watch(model, log="all")
-    vis_processor_cfg = cfg.datasets_cfg.webvid.vis_processor.train
-    vis_processor = registry.get_processor_class(vis_processor_cfg.name).from_config(vis_processor_cfg)
+    args, chat = tc.initialize_model()
 
-    chat = Chat(model, vis_processor, device='cuda: {}'.format(args.gpu_id))
-    print("Initialization finished")
-
-    inference(args, chat)
+    #technique error inference
+    print("Technique Error Inference: \n")
+    technique_error = Technique_Error(args, chat, video_dir, gt_dict, normal_annot)
+    technique_error.technique_inference()
 
 if __name__ == '__main__':
     main()

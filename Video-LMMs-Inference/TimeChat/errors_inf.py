@@ -216,43 +216,40 @@ class Order_Error():
         self.gt_dict = gt_dict
         self.normal_annot = normal_annot
 
-    def ground_truth(self, name, video, normal_annot, questions):
-        gt = []
-        steps = video['steps']
-        normal = name + '_x'
-        n_steps = normal_annot[normal]['steps']
-        n_steps_desc = []
-
-        for step in n_steps:
-            n_steps_desc.append(step['description'])
-
-        video_steps_desc = [step['description'] for step in steps]
-        common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
-        q = len(questions)
-        flattened_questions = []
-        for i, j in enumerate(questions):
-            flattened_questions.append(j['q'])
-            flattened_questions.extend(j['followup'])
+    def ground_truth(self, steps, n_annot, questions):
+    # Create a list to store the followed questions
+        followed_questions = []
         
-        gt = [0] * len(flattened_questions)
-
-        for step in steps:
-            if step['description'] in common_steps:
-                index = common_steps.index(step['description'])
-                question = flattened_questions[index]
-                if step['has_errors'] and "Order Error" in step['errors']:
-                        gt[index] = 1
-
-        current_index = q
-        for i, question in enumerate(questions):
-            if 'followup' in question.keys():
-                followup_gt = [0] * len(question['followup'])
-                for j, followup in enumerate(question['followup']):
-                    if followup in video_steps_desc:
-                        followup_gt[j] = 1
-                gt[current_index:current_index + len(question['followup'])] = followup_gt
-                current_index += len(question['followup'])
-
+        # Create a dictionary to store the step ids and whether they have an order error
+        step_ids = {step['step_id']: 0 for step in n_annot['steps']}
+        
+        # Helper function to process a question and its followups
+        def process_question(q, followups):
+            nonlocal followed_questions
+            
+            # Check if the question has already been followed
+            if q not in followed_questions:
+                followed_questions.append(q)
+            
+            # Process follow-up questions
+            for followup in followups:
+                if followup not in followed_questions:
+                    followed_questions.append(followup)
+        
+        # Iterate through the questions and their followups
+        for question in questions:
+            q = question['q']
+            followups = question.get('followup', [])
+            process_question(q, followups)
+        
+        # Check for order errors and update step ids
+        for step in steps['steps']:
+            if step['has_errors'] and 'Order Error' in step.get('errors', []):
+                step_ids[step['step_id']] = 1
+        
+        # Create the ground truth list
+        gt = [step_ids[step['step_id']] for step in n_annot['steps']]
+        
         return gt
     
     def op_val(self, ans):

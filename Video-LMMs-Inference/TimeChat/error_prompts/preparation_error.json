@@ -885,6 +885,9 @@
                 "q": "Is 1 tablespoon of salsa used to top the cup?"
             },
             {
+                "q": "Is the top of the English muffin replaced?"
+            },
+            {
                 "q": "What is being used to heat the egg? Choose one: a. microwave b. stove",
                 "correctans": "microwave"
             },
@@ -1101,6 +1104,13 @@
                 ]
             },
             {
+                "q": "To what is olive oil added to? Select one: a. mug b. bowl",
+                "correctans": "mug",
+                "followup": [
+                    "Is olive oil added to the mug?"
+                ]
+            },
+            {
                 "q": "Is 1/16 teaspoon of baking soda and added to the mug?"
             },
             {
@@ -1184,6 +1194,13 @@
             {
                 "q": "What dish is the mug inverted into? Choose one: a. plate b. mug",
                 "correctans": "plate"
+            },
+            {
+                "q": "To what dish is the salt added to? a. mixing bowl b. mug",
+                "correctans": "mixing bowl",
+                "followup": [
+                    "Is a pinch of salt measured and added?"
+                ]
             },
             {
                 "q": "Is the zip-top bag sealed to remove air as much as possible?"
