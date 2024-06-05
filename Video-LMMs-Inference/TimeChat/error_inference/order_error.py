@@ -251,9 +251,9 @@ class Order_Error():
 def main():
     #initialize video dir, gt_dict, normal_annot
     tc = Model()
-    video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
-    gt_dict = tc.load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
-    normal_annot = tc.load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
+    video_dir = '/home/ptg/ptg/rohith/resolution_360p/'
+    gt_dict = tc.load_file('/home/ptg/ptg/rohith/Video-LLaVA/step_annotations.json')
+    normal_annot = tc.load_file('/home/ptg/ptg/rohith/Video-LLaVA/normal_videos.json')
 
     # Initialize chat
     args, chat = tc.initialize_model()

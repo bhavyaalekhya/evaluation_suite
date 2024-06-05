@@ -248,9 +248,9 @@ class Preparation_Error():
 def main():
     #initialize video dir, gt_dict, normal_annot
     tc = Model()
-    video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
-    gt_dict = tc.load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
-    normal_annot = tc.load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
+    video_dir = '/home/ptg/ptg/rohith/resolution_360p/'
+    gt_dict = tc.load_file('/home/ptg/ptg/rohith/Video-LLaVA/step_annotations.json')
+    normal_annot = tc.load_file('/home/ptg/ptg/rohith/Video-LLaVA/normal_videos.json')
 
     # Initialize chat
     args, chat = tc.initialize_model()
@@ -259,26 +259,6 @@ def main():
     print("Preparation Error Inference: \n")
     preparation_error = Preparation_Error(args, chat, video_dir, gt_dict, normal_annot)
     preparation_error.preparation_inference()
-
-    #order error inference
-    print("Order Error Inference: \n")
-    order_error = Order_Error(args, chat, video_dir, gt_dict, normal_annot)
-    order_error.order_inference()
-
-    #measurement error inference
-    print("Measurement Error Inference: \n")
-    measurement_error = Measurement_Error(args, chat, video_dir, gt_dict, normal_annot)
-    measurement_error.measurement_inference()
-
-    #order error inference
-    print("Temperature Error Inference: \n")
-    temperature_error = Temperature_Error(args, chat, video_dir, gt_dict, normal_annot)
-    temperature_error.temperature_inference()
-
-    #missing error inference
-    print("Missing Error Inference: \n")
-    missing_error = Missing_Error(args, chat, video_dir, gt_dict, normal_annot)
-    missing_error.missing_inference()
 
 
 if __name__ == '__main__':
