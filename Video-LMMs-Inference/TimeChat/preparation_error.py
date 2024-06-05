@@ -193,8 +193,8 @@ class Preparation_Error():
         qs = Model.load_file('/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/error_prompts/preparation_error.json')
         gt_dict = self.gt_dict
         normal_annot = self.normal_annot
-        output_file = '/data/bhavya/task_verification/CVVREvaluation/error_outputs/preparation_error.txt'
-        op_file = '/data/bhavya/task_verification/CVVREvaluation/error_outputs/preparation_recur.txt'
+        output_file = 'error_outputs/preparation_error.txt'
+        op_file = 'error_outputs/preparation_recur.txt'
         prediction = []
         gt = []
 
