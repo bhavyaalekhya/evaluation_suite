@@ -127,6 +127,12 @@ class Model:
 
     @staticmethod
     def write_recur(file, video, data):
+        directory = os.path.dirname(file)
+
+# Create the directory if it doesn't exist
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
         content = "{video}: Pred: {data}",format(video = video, data = data)
 
         with open(file, 'a') as f:
