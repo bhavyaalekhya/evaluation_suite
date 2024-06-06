@@ -62,7 +62,7 @@ def load_file(path):
         op = json.load(file)
     return op
 
-def ground_truth(name, video, normal_annot, questions):
+def ground_truth(self, name, video, normal_annot, questions):
     gt = []
     steps = video['steps']
     normal = name + '_x'
@@ -74,24 +74,14 @@ def ground_truth(name, video, normal_annot, questions):
 
     video_steps_desc = [step['description'] for step in steps]
     common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
+    
     gt = [0] * len(questions)
 
-    for i, question in enumerate(questions):
-        main_question_match = False
-        followup_question_match = False
-
-        for step in steps:
-            if step['description'] in common_steps:
-                if not step['has_errors']:
-                    if step['description'] in question['q']:
-                        main_question_match = True
-                    if 'followup' in question.keys():
-                        for followup in question['followup']:
-                            if step['description'] in followup:
-                                followup_question_match = True
-
-        if main_question_match or followup_question_match:
-            gt[i] = 1
+    for step in steps:
+        if step['description'] in common_steps:
+            index = common_steps.index(step['description'])
+            if step['has_errors'] and "Temperature Error" in step['errors']:
+                gt[index] = 1
 
     return gt
 
@@ -129,9 +119,11 @@ def op_val(ans):
     else:
         return 1
 
-def data_file(data, filename):
-    df = pd.DataFrame(data)
-    df.to_csv(filename, sep=',', mode='a+')
+def write_recur(op_file, name, data):
+    content = f"\n{name}: Pred: {data}"
+
+    with open(op_file, 'a') as file:
+        file.write(content)
 
 def inference(args, chat):
     video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
@@ -139,6 +131,7 @@ def inference(args, chat):
     gt_dict = load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
     normal_annot = load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
     output_file = '/data/bhavya/task_verification/CVVREvaluation/error_outputs/temperature_error.txt'
+    op_file = 'error_outputs/temperature_recur.txt'
     prediction = []
     gt = []
 
@@ -154,7 +147,7 @@ def inference(args, chat):
         pred = []
         #print(video.size())
         C, T, H, W = video.shape
-        ts.show(video.transpose(0,1))
+        #ts.show(video.transpose(0,1))
 
         # Setup chat system
         img_list = []
@@ -177,12 +170,11 @@ def inference(args, chat):
                     print(pred2)
                     pred[question_ind[inp2]] = op_val(pred2)
         
+        write_recur(op_file, v, pred)
         prediction.append(pred)
 
     gt = flatten(gt)
     prediction = flatten(prediction)
-    print(gt)
-    print(prediction)
 
     print("Ground Truth: {gt} \nPredicted: {prediction}".format(
         gt = gt,
