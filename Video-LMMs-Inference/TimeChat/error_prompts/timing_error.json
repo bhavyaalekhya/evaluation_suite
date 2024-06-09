@@ -1,0 +1,1297 @@
+{
+    "21_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to add 1/2 tsp baking powder to a blender. Should adding 1/2 tsp baking powder to a blender be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to serve the pancakes with chopped strawberries. Should serving the pancakes with chopped strawberries be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to melt a small knob of butter in a non-stick frying pan over low-medium heat. Should melting a small knob of butter in a non-stick frying pan over low-medium heat be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to splash maple syrup on plate. Should splashing maple syrup on plate be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 banana to a blender. Should adding 1 banana to a blender be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cook for 1 min or until the tops start to bubble. Should cooking be performed for a specific time?",
+                "followup": [
+                    "Is cooking being performed for 1 min or until the tops start to bubble?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to blitz the blender for 20 seconds. Should blitzing the blender be performed for a specific time?",
+                "followup": [
+                    "Is blitzing the blender being performed for 20 seconds?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to flip the pancakes with a fork or a fish slice spatula. Should flipping the pancakes with a fork or a fish slice spatula be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 egg to a blender. Should adding 1 egg to a blender be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cook for 20-30 seconds more. Should cooking be performed for a specific time?",
+                "followup": [
+                    "Is cooking being performed for 20-30 seconds more?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to pour three little puddles straight from the blender into the frying pan. Should pouring three little puddles straight from the blender into the frying pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 heaped tbsp flour to a blender. Should adding 1 heaped tbsp flour to a blender be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to chop 1 strawberry. Should chopping 1 strawberry be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to transfer to a plate. Should transferring to a plate be performed for a specific time?"
+            }
+        ]
+    },
+    "7_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to whisk the egg. Should whisking the egg be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to microwave for 3 minutes, stirring in between. Should microwaving be performed for a specific time?",
+                "followup": [
+                    "Is microwaving being performed for 3 minutes?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to add 1/2 tbsp sweet and sour sauce to the bowl. Should adding 1/2 tbsp sweet and sour sauce to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to sprinkle 1 tbsp shredded cheddar cheese on top of the egg. Should sprinkling 1 tbsp shredded cheddar cheese on top of the egg be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mix the contents of the bowl well. Should mixing the contents of the bowl well be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to extract and add contents of an egg to a microwave-safe bowl. Should extracting and adding contents of an egg to a microwave-safe bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to roll the tortilla from one end to another into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps but not so tight that the filling leaks. Should rolling the tortilla from one end to another into a log shape be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to pour egg mixture on top of the tortilla. Should pouring egg mixture on top of the tortilla be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 tbsp salsa to the bowl. Should adding 1 tbsp salsa to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to place 8 inch tortilla on a cutting board. Should placing 8 inch tortilla on a cutting board be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to sprinkle oregano in the bowl. Should sprinkling oregano in the bowl be performed for a specific time?"
+            }
+        ]
+    },
+    "23_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to add 1/8 cup soy sauce to the bowl. Should adding 1/8 cup soy sauce to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to set aside the sauce mixture. Should setting aside the sauce mixture be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 tablespoon honey to the bowl. Should adding 1 tablespoon honey to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cook, stirring often, for 4 minutes. If the pan gets too hot on medium-high, turn the heat down to medium. Should cooking, stirring often, be performed for a specific time?",
+                "followup": [
+                    "Is cooking, stirring often, being performed for 4 minutes?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to add 1 teaspoon cornstarch to the bowl. Should adding 1 teaspoon cornstarch to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 2 cloves minced garlic to the bowl. Should adding 2 cloves minced garlic to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to pour the sauce into the skillet. Should pouring the sauce into the skillet be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to peel 2 cloves of garlic. Should peeling 2 cloves of garlic be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add sliced mushrooms to the skillet. Should adding sliced mushrooms to the skillet be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to slice mushrooms. Should slicing mushrooms be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to whisk the contents of bowl. Should whisking the contents of the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add bell pepper to the skillet. Should adding bell pepper to the skillet be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mince garlic. Should mincing garlic be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to slice 1/3 of the bell pepper. Should slicing 1/3 of the bell pepper be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cook, stirring, for 1 minute until the sauce thickens. Should cooking, stirring, be performed for a specific time?",
+                "followup": [
+                    "Is cooking, stirring, being performed for 1 minute?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to add broccoli to the skillet. Should adding broccoli to the skillet be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to heat 2 tablespoons olive oil in a skillet over medium-high heat. Should heating 2 tablespoons olive oil in a skillet over medium-high heat be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/2 tablespoon minced ginger to the bowl. Should adding 1/2 tablespoon minced ginger to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/8 teaspoon black pepper to the bowl. Should adding 1/8 teaspoon black pepper to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/6 cup water to the bowl. Should adding 1/6 cup water to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to take 2 cremini mushrooms. Should taking 2 cremini mushrooms be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to take 1 bell pepper. Should taking 1 bell pepper be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to whisk the sauce again to recombine the ingredients. Should whisking the sauce again to recombine the ingredients be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to take 5 broccoli florets. Should taking 5 broccoli florets be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to continue cooking, stirring often, for 2-3 minutes, until vegetables are crisp-tender. Should continuing cooking, stirring often, be performed for a specific time?",
+                "followup": [
+                    "Is continuing cooking, stirring often, being performed for 2-3 minutes?"
+                ]
+            }
+        ]
+    },
+    "13_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to add lime juice to the bowl. Should adding lime juice to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to measure 2 cups of frozen corn. Should measuring 2 cups of frozen corn be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 teaspoon of pepper powder to the bowl. Should adding 1 teaspoon of pepper powder to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to extract lime juice from 1/3 lime. Should extracting lime juice from 1/3 lime be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add the corn into a microwave-safe bowl. Should adding the corn into a microwave-safe bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mix the contents of the bowl well. Should mixing the contents of the bowl well be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to microwave the corn for 2 minutes. Should microwaving the corn be performed for a specific time?",
+                "followup": [
+                    "Is microwaving the corn being performed for 2 minutes?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to microwave the corn for 3 more minutes. Should microwaving the corn be performed for a specific time?",
+                "followup": [
+                    "Is microwaving the corn being performed for 3 more minutes?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to stir the bowl. Should stirring the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 teaspoon salt to the bowl. Should adding 1 teaspoon salt to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to thaw the frozen corn by putting it in a sieve and running it under cold water. Should thawing the frozen corn by putting it in a sieve and running it under cold water be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 teaspoon of softened butter. Should adding 1 teaspoon of softened butter be performed for a specific time?"
+            }
+        ]
+    },
+    "29_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to add 1/8 cup shredded mozzarella to a bowl. Should adding 1/8 cup shredded mozzarella to a bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/4 tsp salt to a bowl. Should adding 1/4 tsp salt to a bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to slice two 1/2 inch thick rounds from a baguette (slice slanted). Should slicing two 1/2 inch thick rounds from a baguette (slice slanted) be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to spoon the mixture from the bowl onto the bread. Should spooning the mixture from the bowl onto the bread be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/4 tsp pepper to a bowl. Should adding 1/4 tsp pepper to a bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/16 cup basil to a bowl. Should adding 1/16 cup basil to a bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to combine the contents of the bowl. Should combining the contents of the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to brush 2 slices of baguette with olive oil on both sides. Should brushing 2 slices of baguette with olive oil on both sides be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cut 1/4 cup of cherry tomatoes into halves. Should cutting 1/4 cup of cherry tomatoes into halves be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to in a bowl, add the cut cherry tomatoes. Should adding the cut cherry tomatoes in a bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy and transfer the slices to a plate. Should toasting both sides of the slices on the pan be performed for a specific time?",
+                "followup": [
+                    "Is toasting both sides of the slices on the pan being performed for 2 to 3 minutes?"
+                ]
+            }
+        ]
+    },
+    "27_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to add 1/2 tbsp softened butter to the bowl. Should adding 1/2 tbsp softened butter to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/4 teaspoon salt to the bowl. Should adding 1/4 teaspoon salt to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/3 cup cheddar cheese to a microwave-safe cup. Should adding 1/3 cup cheddar cheese to a microwave-safe cup be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mix the cheese and red bell pepper in the bowl. Should mixing the cheese and red bell pepper in the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to microwave the bowl, covered, for 2 minutes. Should microwaving the bowl be performed for a specific time?",
+                "followup": [
+                    "Is microwaving the bowl being performed for 2 minutes?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to add 1/4 teaspoon pepper to the bowl. Should adding 1/4 teaspoon pepper to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 tablespoon of water to the bowl. Should adding 1 tablespoon of water to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to chop 1/4 red bell pepper into tiny bits. Should chopping 1/4 red bell pepper into tiny bits be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to place the chopped pepper in the microwave-safe bowl. Should placing the chopped pepper in the microwave-safe bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to melt the cheese by microwaving cup for 30 sec. (Check after 30 seconds and microwave for 10 seconds more if needed). Should melting the cheese by microwaving be performed for a specific time?",
+                "followup": [
+                    "Is melting the cheese by microwaving being performed for 30 seconds?",
+                    "Is microwaving for 10 seconds more being performed if needed?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to mix all the ingredients of the bowl well. Should mixing all the ingredients of the bowl well be performed for a specific time?"
+            }
+        ]
+    },
+    "5_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to wait about 30 seconds for the coffee to bloom. (You will see small bubbles or foam on the coffee grounds during this step.) Should waiting for the coffee to bloom be performed for a specific time?",
+                "followup": [
+                    "Is waiting for the coffee to bloom being performed for about 30 seconds?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to pour a small amount of water into the filter to wet the grounds. Should pouring a small amount of water into the filter to wet the grounds be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to transfer the grounds to the filter cone. Should transferring the grounds to the filter cone be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to spread open filter in dripper to create a cone. Should spreading open filter in dripper to create a cone be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to place the paper filter in the dripper. Should placing the paper filter in the dripper be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to slowly pour the rest of the water over the grounds in a circular motion. Do not overfill beyond the top of the paper filter. Should slowly pouring the rest of the water over the grounds in a circular motion be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to prepare the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle. Should preparing the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to discard the paper filter and coffee grounds. Should discarding the paper filter and coffee grounds be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to boil the water. (While the water is boiling, assemble the filter cone). Should boiling the water be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to weigh the coffee beans (0.8oz-0.12 oz). Should weighing the coffee beans be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to let the coffee drain completely into the mug before removing the dripper. Should letting the coffee drain completely into the mug before removing the dripper be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds. Should grinding the coffee beans be performed for a specific time?",
+                "followup": [
+                    "Is grinding the coffee beans being performed for about 20 seconds?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to measure 12 ounces of cold water. Should measuring 12 ounces of cold water be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to place the dripper on top of a coffee mug. Should placing the dripper on top of a coffee mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to transfer water to a kettle. Should transferring water to a kettle be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to once the water has boiled, check the temperature of the water. (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius. If the water is too hot, let it cool briefly.) Should checking the temperature of the water be performed for a specific time?"
+            }
+        ]
+    },
+    "17_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to add 1/4 teaspoon of red chilli powder to the bowl. Should adding 1/4 teaspoon of red chilli powder to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to peel the cucumber. Should peeling the cucumber be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd. Should whisking 1 cup of chilled curd until smooth be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/4 teaspoon salt to the bowl. Should adding 1/4 teaspoon salt to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to chop or grate the cucumber. Should chopping or grating the cucumber be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to combine all the ingredients in the bowl. Should combining all the ingredients in the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 tablespoon of chopped cilantro leaves to the bowl. Should adding 1 tablespoon of chopped cilantro leaves to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 teaspoon of cumin powder to the bowl. Should adding 1 teaspoon of cumin powder to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to rinse 1 medium sized cucumber. Should rinsing 1 medium sized cucumber be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add the chopped or grated cucumber to the whisked curd. Should adding the chopped or grated cucumber to the whisked curd be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/2 teaspoon of chaat masala powder to the bowl. Should adding 1/2 teaspoon of chaat masala powder to the bowl be performed for a specific time?"
+            }
+        ]
+    },
+    "2_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to peel 1 garlic clove. Should peeling 1 garlic clove be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to pour the sauces over the meatballs. Should pouring the sauces over the meatballs be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cut 1/8 garlic clove. Should cutting 1/8 garlic clove be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to peel one medium onion. Should peeling one medium onion be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to stir the contents in the microwave with a spoon. Should stirring the contents in the microwave with a spoon be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to slice 1/8 medium onion. Should slicing 1/8 medium onion be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to stir the contents in the microwave with a spoon. Should stirring the contents in the microwave with a spoon be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to microwave the plate, covered, on high for 1.5 minutes. Should microwaving the plate, covered, be performed for a specific time?",
+                "followup": [
+                    "Is microwaving the plate, covered, being performed for 1.5 minutes?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to place 5 meatballs in a microwave-safe plate. Should placing 5 meatballs in a microwave-safe plate be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cut 1/4 medium carrot into short, thin strips. Should cutting 1/4 medium carrot into short, thin strips be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl. Should mixing 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder. Should topping the plate with the carrots, onion, garlic and 1/4 tsp pepper powder be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to microwave the plate, covered, on high for 1.5 minutes. Should microwaving the plate, covered, be performed for a specific time?",
+                "followup": [
+                    "Is microwaving the plate, covered, being performed for 1.5 minutes?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to microwave for 1 more minute. Should microwaving be performed for a specific time?",
+                "followup": [
+                    "Is microwaving being performed for 1 more minute?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to mince 1/8 garlic clove. Should mincing 1/8 garlic clove be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cut onion into two pieces. Should cutting onion into two pieces be performed for a specific time?"
+            }
+        ]
+    },
+    "22_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to heat 1 tbsp oil in a non-stick frying pan. Should heating 1 tbsp oil in a non-stick frying pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to put tomatoes on a serving plate. Should putting tomatoes on a serving plate be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to chop 2 tbsp cilantro. Should chopping 2 tbsp cilantro be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space. Should stirring gently with a wooden spoon be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to crack one egg in a bowl. Should cracking one egg in a bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cook the tomatoes cut-side down until they start to soften and colour. Should cooking the tomatoes cut-side down until they start to soften and colour be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to pour the egg mixture into the pan. Should pouring the egg mixture into the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add the chopped cilantro to the bowl. Should adding the chopped cilantro to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to transfer omelette to the plate and serve with the tomatoes. Should transferring omelette to the plate and serving with the tomatoes be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to scoop the tomatoes from the pan. Should scooping the tomatoes from the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to stop stirring when it's nearly cooked to allow it to set into an omelette. Should stopping stirring when it's nearly cooked to allow it to set into an omelette be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cut tomato into two pieces. Should cutting tomato into two pieces be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to take a tomato. Should taking a tomato be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to beat the contents of the bowl. Should beating the contents of the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/2 tsp ground black pepper to the bowl. Should adding 1/2 tsp ground black pepper to the bowl be performed for a specific time?"
+            }
+        ]
+    },
+    "1_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to pour 1 egg into the ramekin cup. Should pouring 1 egg into the ramekin cup be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to place the egg from the cup over the lettuce. Should placing the egg from the cup over the lettuce be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to coat a 6-oz. ramekin cup with cooking spray. Should coating a 6-oz. ramekin cup with cooking spray be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to microwave the ramekin cup uncovered on high for 30 seconds. Should microwaving the ramekin cup uncovered on high be performed for a specific time?",
+                "followup": [
+                    "Is microwaving the ramekin cup uncovered on high being performed for 30 seconds?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to sprinkle 1 tablespoon of cheese on cup. Should sprinkling 1 tablespoon of cheese on cup be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to top cup with 1 tablespoon of salsa. Should topping cup with 1 tablespoon of salsa be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to replace the top of the English muffin. Should replacing the top of the English muffin be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to continue to microwave for 15-30 more seconds or until the egg is almost set. Should continuing to microwave be performed for a specific time?",
+                "followup": [
+                    "Is continuing to microwave being performed for 15-30 more seconds or until the egg is almost set?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to line the bottom piece of the English muffin with lettuce. Should lining the bottom piece of the English muffin with lettuce be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to microwave just until cheese melts, about 10 seconds. Should microwaving just until cheese melts be performed for a specific time?",
+                "followup": [
+                    "Is microwaving just until cheese melts being performed for about 10 seconds?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to stir the ramekin cup. Should stirring the ramekin cup be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cut the English muffin into two pieces with a knife. Should cutting the English muffin into two pieces with a knife be performed for a specific time?"
+            }
+        ]
+    },
+    "9_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to microwave on high for 90 seconds until the egg is cooked through. Should microwaving on high be performed for a specific time?",
+                "followup": [
+                    "Is microwaving on high being performed for 90 seconds until the egg is cooked through?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to add bread pieces to the egg mixture in the mug, pressing the bread down into the egg. Should adding bread pieces to the egg mixture in the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to stir the mug. Should stirring the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to in a large mug, melt 1 tablespoon of softened butter in the microwave for about 30 seconds. Should melting 1 tablespoon of softened butter in the microwave be performed for a specific time?",
+                "followup": [
+                    "Is melting 1 tablespoon of softened butter in the microwave being performed for about 30 seconds?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to sprinkle 1/4 teaspoon cinnamon over the egg. Should sprinkling 1/4 teaspoon cinnamon over the egg be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cut the contents on plate, and serve. Should cutting the contents on plate be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to put the mug's contents on a plate. Should putting the mug's contents on a plate be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to roll the butter around in the mug to coat it. Should rolling the butter around in the mug to coat it be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cut or tear 1 slice of bread into bite-size pieces. Should cutting or tearing 1 slice of bread into bite-size pieces be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/4 teaspoon vanilla extract to the mug. Should adding 1/4 teaspoon vanilla extract to the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to in the mug, whisk one egg with a fork until well blended. Should whisking one egg with a fork until well blended be performed for a specific time?"
+            }
+        ]
+    },
+    "3_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to measure 1/8 teaspoon of salt and add it to the mug. Should measuring 1/8 teaspoon of salt and adding it to the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to sprinkle dried Italian herbs inside the mug. Should sprinkling dried Italian herbs inside the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to take 1 tablespoon of marinara sauce. Should taking 1 tablespoon of marinara sauce be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to spread marinara sauce around the surface of the batter. Should spreading marinara sauce around the surface of the batter be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to microwave for 1 minute 20 seconds, or until it rises and the toppings are bubbling. Should microwaving be performed for a specific time?",
+                "followup": [
+                    "Is microwaving being performed for 1 minute 20 seconds, or until it rises and the toppings are bubbling?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to measure 4 tablespoons of flour and add it to the mug. Should measuring 4 tablespoons of flour and adding it to the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 tablespoon of olive oil to the mug. Should adding 1 tablespoon of olive oil to the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to measure 1/16 teaspoon of baking soda and add it to the mug. Should measuring 1/16 teaspoon of baking soda and adding it to the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to take a microwavable mug. Should taking a microwavable mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mix the contents of the mug thoroughly. (There might be some lumps, but that is ok.) Should mixing the contents of the mug thoroughly be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to stir the contents in the mug well. Should stirring the contents in the mug well be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to sprinkle 1 generous tablespoon of mozzarella cheese on top of the sauce. Should sprinkling 1 generous tablespoon of mozzarella cheese on top of the sauce be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to measure 1/8 teaspoon of baking powder and add it to the mug. Should measuring 1/8 teaspoon of baking powder and adding it to the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add in 3 tablespoons of milk to the mug. Should adding 3 tablespoons of milk to the mug be performed for a specific time?"
+            }
+        ]
+    },
+    "26_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to whisk batter until no lumps remain. Should whisking batter until no lumps remain be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to then carefully remove the paper liner. Should carefully removing the paper liner be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to measure and add 2 tbsp water to the bowl. Should measuring and adding 2 tbsp water to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to measure and add 1.5 tbsp sugar to the mixing bowl. Should measuring and adding 1.5 tbsp sugar to the mixing bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to while the cake is cooling, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag. Should preparing to pipe the frosting and scooping 4 spoonfuls of chocolate frosting into a zip-top bag be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to measure and add 2 tbsp flour to the mixing bowl. Should measuring and adding 2 tbsp flour to the mixing bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to measure and add 2 tsp vegetable oil to the bowl. Should measuring and adding 2 tsp vegetable oil to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to set aside the lined mug. Should setting aside the lined mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake. Should squeezing the frosting through the opening be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to place the paper cupcake liner inside the mug. Should placing the paper cupcake liner inside the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to measure and add 1/4 tsp baking powder to the bowl. Should measuring and adding 1/4 tsp baking powder to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to allow to cool until it is no longer hot to the touch. Should allowing to cool until it is no longer hot to the touch be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to use scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter. Should using scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to pour batter into prepared mug. Should pouring batter into prepared mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to whisk to combine mixture of flour, sugar and baking powder in the bowl. Should whisking to combine mixture of flour, sugar and baking powder in the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to invert the mug to release the cake onto a plate. Should inverting the mug to release the cake onto a plate be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to measure and add a pinch of salt to the mixing bowl. Should measuring and adding a pinch of salt to the mixing bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to seal zip top bag, removing as much air as possible. Should sealing zip top bag, removing as much air as possible be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to microwave the mug and batter on high power for 60 seconds. Check if the cake is done by inserting a toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue. Should microwaving the mug and batter on high power be performed for a specific time?",
+                "followup": [
+                    "Is microwaving the mug and batter on high power being performed for 60 seconds?",
+                    "Is microwaving for an additional 5 seconds being performed if wet batter clings to the toothpick?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to measure and add 1/4 tsp vanilla extract to the bowl. Should measuring and adding 1/4 tsp vanilla extract to the bowl be performed for a specific time?"
+            }
+        ]
+    },
+    "25_x": {
+        "questions": [
+            {
+                "q": "Does cutting 1/4 block or 3 ounces of fresh tofu into large cubes involve a certain duration?"
+            },
+            {
+                "q": "Does turning on the heat to medium involve a certain duration?"
+            },
+            {
+                "q": "Does drizzling 1 tablespoon soy sauce on the pan involve a certain duration?"
+            },
+            {
+                "q": "Does drizzling with 1 tablespoon sesame oil on the pan involve a certain duration?"
+            },
+            {
+                "q": "Does adding the tofu cubes to the pan involve a certain duration?"
+            },
+            {
+                "q": "Does briefly removing the pan from the heat to reduce spitting involve a certain duration?"
+            },
+            {
+                "q": "Does flipping the tofu on the pan involve a certain duration?"
+            },
+            {
+                "q": "Does briefly removing from the heat again involve a certain duration?"
+            },
+            {
+                "q": "Does transferring to a serving dish involve a certain duration?"
+            },
+            {
+                "q": "Does returning to low heat involve a certain duration?"
+            },
+            {
+                "q": "Does flipping the tofu with tongs involve a certain duration?"
+            },
+            {
+                "q": "Does adding 1/4 tsp salt to the pan involve a certain duration?"
+            },
+            {
+                "q": "Does returning the heat to medium involve a certain duration?"
+            },
+            {
+                "q": "Does cooking the pan involve a certain duration?",
+                "followup": [
+                    "Is the pan cooked for 2 minutes until the color is darkened?"
+                ]
+            },
+            {
+                "q": "Does cooking the pan involve a certain duration?",
+                "followup": [
+                    "Is the pan cooked for 2 minutes?"
+                ]
+            },
+            {
+                "q": "Is the tofu cooked until it turns brown?"
+            },
+            {
+                "q": "Does adding 1 tablespoon of olive oil to a non-stick pan involve a certain duration?"
+            },
+            {
+                "q": "Does cooking involve a certain duration?",
+                "followup": [
+                    "Are the tofu cubes cooked for 5 to 6 minutes until they are lightly browned on the bottom?"
+                ]
+            },
+            {
+                "q": "Does patting the tofu dry with a towel involve a certain duration?"
+            }
+        ]
+    },
+    "10_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to continue slicing with floss to create 1 more pinwheel. Should continuing slicing with floss to create 1 more pinwheel be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to discard ends of the tortilla. Should discarding ends of the tortilla be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to continue slicing with floss to create 1 more pinwheel. Should continuing slicing with floss to create 1 more pinwheel be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to clean the knife by wiping with a paper towel. Should cleaning the knife by wiping with a paper towel be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cross the floss's two ends over the tortilla roll's top. Should crossing the floss's two ends over the tortilla roll's top be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to slide floss under the tortilla, perpendicular to the length of the roll. Should sliding floss under the tortilla, perpendicular to the length of the roll be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to spread jelly over the nut butter. Should spreading jelly over the nut butter be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to pull the floss ends in opposite directions to slice. Should pulling the floss ends in opposite directions to slice be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to place the pinwheels on a plate. Should placing the pinwheels on a plate be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to secure the rolled tortilla by inserting 5 toothpicks about 1 inch apart. Should securing the rolled tortilla by inserting 5 toothpicks about 1 inch apart be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to use the knife to scoop jelly from the jar. Should using the knife to scoop jelly from the jar be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to spread nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges. Should spreading nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to use a butter knife to scoop nut butter from the jar. Should using a butter knife to scoop nut butter from the jar be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to continue slicing with floss to create 1 more pinwheel. Should continuing slicing with floss to create 1 more pinwheel be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to trim the ends of the tortilla roll with the butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll. Should trimming the ends of the tortilla roll with the butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to place 8-inch flour tortilla on cutting board. Should placing 8-inch flour tortilla on cutting board be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to roll the tortilla from one end to the other into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps, but not so tight that the filling leaks. Should rolling the tortilla from one end to the other into a log shape, about 1.5 inches thick be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to place the floss halfway between toothpicks. Should placing the floss halfway between toothpicks be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to clean the knife by wiping it with a paper towel. Should cleaning the knife by wiping it with a paper towel be performed for a specific time?"
+            }
+        ]
+    },
+    "4_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to mix in the flavour packet to the bowl. Should mixing in the flavour packet to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to stir noodles with a spoon or fork until the flavouring dissolves. Should stirring noodles with a spoon or fork until the flavouring dissolves be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to remove the noodles from the package (Break Noodles / Keep them as a block). Should removing the noodles from the package (Break Noodles / Keep them as a block) be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to microwave the ramen for 4 minutes. Should microwaving the ramen be performed for a specific time?",
+                "followup": [
+                    "Is microwaving the ramen being performed for 4 minutes?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to slice 1/4 medium onion into pieces. Should slicing 1/4 medium onion into pieces be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to peel 1 medium onion. Should peeling 1 medium onion be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to let the noodles sit for about 1 minute after the microwave stops. Should letting the noodles sit be performed for a specific time?",
+                "followup": [
+                    "Is letting the noodles sit being performed for about 1 minute?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to cover with a lid (or paper towel) to prevent splattering. Should covering with a lid (or paper towel) to prevent splattering be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add basil to the bowl. Should adding basil to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to chop 1 garlic clove on a cutting board. Should chopping 1 garlic clove on a cutting board be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add the noodles to the bowl. Should adding the noodles to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add chopped cilantro to the bowl. Should adding chopped cilantro to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to put all the vegetables in a microwave-safe bowl. Should putting all the vegetables in a microwave-safe bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to peel 1 garlic clove. Should peeling 1 garlic clove be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cover the noodles with water. Should covering the noodles with water be performed for a specific time?"
+            }
+        ]
+    },
+    "20_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to pat rinsed mushrooms dry with a paper towel. Should patting rinsed mushrooms dry with a paper towel be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to rinse 3 mushrooms under cold water. Should rinsing 3 mushrooms under cold water be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cook the pan, often stirring, for 1 minute. Should cooking the pan, often stirring, be performed for a specific time?",
+                "followup": [
+                    "Is cooking the pan, often stirring, being performed for 1 minute?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to once the pan is hot, add the mushrooms. Should adding the mushrooms once the pan is hot be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add chopped shallot to the pan. Should adding chopped shallot to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to slice the mushrooms. Should slicing the mushrooms be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mince garlic cloves. Should mincing garlic cloves be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to chop 1 shallot. Should chopping 1 shallot be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown. Should cooking, stirring often, be performed for a specific time?",
+                "followup": [
+                    "Is cooking, stirring often, being performed for 3-5 minutes?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to pull out mushroom stems. Should pulling out mushroom stems be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to heat 1 tbsp olive oil in a large skillet over medium-high heat. Should heating 1 tbsp olive oil in a large skillet over medium-high heat be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to transfer the contents of the pan to a serving dish. Should transferring the contents of the pan to a serving dish be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cook the pan, often stirring, for 1 minute. Should cooking the pan, often stirring, be performed for a specific time?",
+                "followup": [
+                    "Is cooking the pan, often stirring, being performed for 1 minute?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to peel 2 garlic cloves. Should peeling 2 garlic cloves be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/4 tbsp balsamic vinegar to the pan. Should adding 1/4 tbsp balsamic vinegar to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 2 cloves of minced garlic to the pan. Should adding 2 cloves of minced garlic to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to pepper on pan to taste. Should seasoning with pepper on the pan to taste be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to season pan with salt. Should seasoning pan with salt be performed for a specific time?"
+            }
+        ]
+    },
+    "16_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to chop 1 tsp cilantro. Should chopping 1 tsp cilantro be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to whisk the egg mixture in the bowl. Should whisking the egg mixture in the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add garlic to the pan. Should adding garlic to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to chop 1 green chilli. Should chopping 1 green chilli be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add chilli to the pan. Should adding chilli to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to chop 1/4 medium onion. Should chopping 1/4 medium onion be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/3 tsp salt to the bowl. Should adding 1/3 tsp salt to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cook for 1 minute, mixing everything. Should cooking for 1 minute, mixing everything be performed for a specific time?",
+                "followup": [
+                    "Is cooking for 1 minute, mixing everything being performed for 1 minute?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to saute the onions on medium heat until they are soft and translucent. Should sauteing the onions on medium heat until they are soft and translucent be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to crack one egg in the bowl. Should cracking one egg in the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/8 tsp of turmeric to the pan. Should adding 1/8 tsp of turmeric to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to chop 1/4 tomato. Should chopping 1/4 tomato be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cook covered for 1 minute or until the tomatoes soften. Should cooking covered be performed for a specific time?",
+                "followup": [
+                    "Is cooking covered being performed for 1 minute or until the tomatoes soften?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to keep mixing with a spatula for 3 minutes or until the eggs are almost cooked. Should keep mixing with a spatula be performed for a specific time?",
+                "followup": [
+                    "Is keeping mixing with a spatula being performed for 3 minutes or until the eggs are almost cooked?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to slowly pour the whisked eggs into the pan. Should slowly pouring the whisked eggs into the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat. Should heating 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to garnish with 1 tbsp chopped cilantro and serve. Should garnishing with 1 tbsp chopped cilantro and serving be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add tomatoes to the pan. Should adding tomatoes to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to peel 2 garlic cloves. Should peeling 2 garlic cloves be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 tbsp milk to the bowl. Should adding 1 tbsp milk to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/3 tsp salt to the pan. Should adding 1/3 tsp salt to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add chopped onions to the pan. Should adding chopped onions to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mince peeled garlic cloves. Should mincing peeled garlic cloves be performed for a specific time?"
+            }
+        ]
+    },
+    "8_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to heat the contents of the mug for 1 minute and serve. Should heating the contents of the mug be performed for a specific time?",
+                "followup": [
+                    "Is heating the contents of the mug being performed for 1 minute?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to add 1/5 teaspoon cinnamon to the mug. Should adding 1/5 teaspoon cinnamon to the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mix the contents of the mug. Should mixing the contents of the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 teaspoon of white sugar to the mug. Should adding 1 teaspoon of white sugar to the mug be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to fill a microwave-safe mug with skimmed milk. Should filling a microwave-safe mug with skimmed milk be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to microwave the contents of the mug for 1 minute. Should microwaving the contents of the mug be performed for a specific time?",
+                "followup": [
+                    "Is microwaving the contents of the mug being performed for 1 minute?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to add 2 pieces of chocolate to the mug. Should adding 2 pieces of chocolate to the mug be performed for a specific time?"
+            }
+        ]
+    },
+    "28_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to place avocado slices on each leaf. Should placing avocado slices on each leaf be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to season 1/4 tsp pepper on the bowl. Should seasoning 1/4 tsp pepper on the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/4 cup mayonnaise to the bowl. Should adding 1/4 cup mayonnaise to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to drain excess water from can. Should draining excess water from can be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to lay out 2 large lettuce leaves. Should laying out 2 large lettuce leaves be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to roll up the lettuce wraps. Should rolling up the lettuce wraps be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mix the contents of the bowl. Should mixing the contents of the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to top lettuce leaves with the tuna mixture. Should topping lettuce leaves with the tuna mixture be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add chopped scallion to the bowl. Should adding chopped scallion to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 can drained tuna to the bowl. Should adding 1 can drained tuna to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to take 1 ripe avocado. Should taking 1 ripe avocado be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to open a can of tuna. Should opening a can of tuna be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to secure the wrap with a toothpick. Should securing the wrap with a toothpick be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to season bowl with 1/4 tsp salt. Should seasoning bowl with 1/4 tsp salt be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 tsp Sriracha sauce to the bowl. Should adding 1 tsp Sriracha sauce to the bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to chop 1 scallion. Should chopping 1 scallion be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cut avocado into thin slices. Should cutting avocado into thin slices be performed for a specific time?"
+            }
+        ]
+    },
+    "15_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to add 1/4 tsp mustard to the pan. Should adding 1/4 tsp mustard to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mince the garlic. Should mincing the garlic be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/2 tsp cumin seeds to the pan. Should adding 1/2 tsp cumin seeds to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add tomato puree to the pan. Should adding tomato puree to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to take the pan off the heat. Should taking the pan off the heat be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mix well tomato puree with contents in the pan. Should mixing well tomato puree with contents in the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to peel 4 large garlic cloves. Should peeling 4 large garlic cloves be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1/2 tsp salt to the pan. Should adding 1/2 tsp salt to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 2 tbsp red chili powder to the pan. Should adding 2 tbsp red chili powder to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to saute the garlic for 2-3 minutes. Should sauteing the garlic be performed for a specific time?",
+                "followup": [
+                    "Is sauteing the garlic being performed for 2-3 minutes?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to take 1 tomato. Should taking 1 tomato be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to puree tomatoes without any water in a blender/mixer. Should pureeing tomatoes without any water in a blender/mixer be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to lower the heat. Should lowering the heat be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to when mustard and cumin seeds begin to sizzle, add minced garlic. Should adding minced garlic when mustard and cumin seeds begin to sizzle be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick. Should allowing the mixture to simmer over low heat be performed for a specific time?",
+                "followup": [
+                    "Is allowing the mixture to simmer over low heat being performed for 5 minutes or until the mixture becomes thick?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to heat 3 tbsp oil in a pan over medium heat. Should heating 3 tbsp oil in a pan over medium heat be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to chop tomato roughly (any size chunks are fine). Should chopping tomato roughly be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to transfer it to a serving bowl. Should transferring it to a serving bowl be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to mix well contents of the pan. Should mixing well contents of the pan be performed for a specific time?"
+            }
+        ]
+    },
+    "12_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to slice one tomato into about 1/2 inch thick slices. Should slicing one tomato into about 1/2 inch thick slices be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to place the thick slices of tomatoes on a platter, ensuring they only make a single layer. Should placing the thick slices of tomatoes on a platter be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter. Should adding a drizzle of extra-virgin olive oil over the entire platter be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to gently dry it with a paper/tea towel. Should gently drying it with a paper/tea towel be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to season the tomato slices with salt. Should seasoning the tomato slices with salt be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to sprinkle mozzarella cheese on top of the tomato throughout the platter. Should sprinkling mozzarella cheese on top of the tomato throughout the platter be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to rinse a tomato. Should rinsing a tomato be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to season the platter with 1/4 teaspoon black pepper. Should seasoning the platter with 1/4 teaspoon black pepper be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to garnish the platter with Italian seasoning. Should garnishing the platter with Italian seasoning be performed for a specific time?"
+            }
+        ]
+    },
+    "18_x": {
+        "questions": [
+            {
+                "q": "To perform this step, the person has to cook for 2 minutes or until the zoodles are done. Should cooking be performed for a specific time?",
+                "followup": [
+                    "Is cooking being performed for 2 minutes or until the zoodles are done?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to add 1/6 cup grated parmesan cheese. Should adding 1/6 cup grated parmesan cheese be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to season pepper to taste. Should seasoning pepper to taste be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to top with more parmesan if desired. Should topping with more parmesan if desired be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to heat a large pan on medium heat. Should heating a large pan on medium heat be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to remove from heat. Should removing from heat be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to season with salt. Should seasoning with salt be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add 1 large minced garlic clove to the pan. Should adding 1 large minced garlic clove to the pan be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to peel 1 garlic clove. Should peeling 1 garlic clove be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to add the zucchini noodles. Should adding the zucchini noodles be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to cook garlic until fragrant (about 1 minute). Be careful not to burn garlic. Should cooking garlic until fragrant be performed for a specific time?",
+                "followup": [
+                    "Is cooking garlic until fragrant being performed for about 1 minute?"
+                ]
+            },
+            {
+                "q": "To perform this step, the person has to spiralize 1 medium zucchini into thin noodles using a spiralizer. Should spiralizing 1 medium zucchini into thin noodles using a spiralizer be performed for a specific time?"
+            },
+            {
+                "q": "To perform this step, the person has to melt 1 tablespoon of softened butter. Should melting 1 tablespoon of softened butter be performed for a specific time?"
+            }
+        ]
+    }
+}
