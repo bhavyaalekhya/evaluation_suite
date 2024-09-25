@@ -74,7 +74,6 @@ class Model:
         DIR = 'ckpt/TimeChat-7b'
         MODEL_DIR = f'{DIR}/timechat_7b.pth'
         model_config = cfg.model_cfg
-        args.gpu_id = 0
         model_config.device_8bit = args.gpu_id
         model_config.ckpt = MODEL_DIR
         model_cls = registry.get_model_class(model_config.arch)
@@ -84,7 +83,7 @@ class Model:
         vis_processor_cfg = cfg.datasets_cfg.webvid.vis_processor.train
         vis_processor = registry.get_processor_class(vis_processor_cfg.name).from_config(vis_processor_cfg)
 
-        chat = Chat(model, vis_processor, device='cuda:{}'.format(args.gpu_id))
+        chat = Chat(model, vis_processor, device='cuda: {}'.format(args.gpu_id))
         print("Initialization finished")
         
         return args, chat
@@ -127,18 +126,15 @@ class Model:
 
     @staticmethod
     def write_recur(file, video, data):
-        directory = os.path.dirname(file)
-
-# Create the directory if it doesn't exist
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-
         content = "{video}: Pred: {data}",format(video = video, data = data)
 
         with open(file, 'a') as f:
             f.write(content)
 
-class Preparation_Error():
+class Technique_Error:
+    '''
+        Infer missing errors for the dataset
+    '''
     def __init__(self, args, chat, video_dir, gt_dict, normal_annot):
         self.args = args
         self.chat = chat
@@ -158,49 +154,30 @@ class Preparation_Error():
 
         video_steps_desc = [step['description'] for step in steps]
         common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
-        q = len(questions)
         
-        gt = [0] * q
+        gt = [0] * len(questions)
 
         for step in steps:
             if step['description'] in common_steps:
-                index = n_steps_desc.index(step['description'])
-                if index < q:
-                    if step['has_errors'] and "Preparation Error" in step['errors']:
-                        gt[index] = 1
+                index = common_steps.index(step['description'])
+                if step['has_errors'] and "Technique Error" in step['errors']:
+                    gt[index] = 1
 
         return gt
     
-    def op_val(self, ans, correctans, q_type):
-        if q_type == 'yes_no':
-            if 'yes' in ans or 'not' not in ans:
-                return 0
-            else:
-                return 1
-        elif q_type == 'option':
-            if correctans in ans:
-                return 0
-            else:
-                return 1
+    def op_val(self, ans):
+        if 'yes' in ans:
+            return 0
+        else:
+            return 1
         
-    def question_index(self, related_questions):
-        question_to_index = {}
-        index_counter = 0
-        for question in related_questions:
-            question_to_index[question['q']] = index_counter
-            if 'followup' in question.keys():
-                for followup in question['followup']:
-                    question_to_index[followup] = index_counter
-            index_counter += 1
-        return question_to_index
-    
-    def preparation_inference(self):
+    def missing_inference(self):
         video_dir = self.video_dir
-        qs = Model.load_file('/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/error_prompts/preparation_error.json')
+        qs = Model.load_file('/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/error_prompts/technique_error.json')
         gt_dict = self.gt_dict
         normal_annot = self.normal_annot
-        output_file = './timechat_metrics/preparation_error.txt'
-        op_file = 'error_outputs/preparation_recur.txt'
+        output_file = './timechat_metrics/technique_error.txt'
+        op_file = './error_outputs/tech_recur.txt'
         prediction = []
         gt = []
 
@@ -223,49 +200,34 @@ class Preparation_Error():
             chat_state = conv_llava_llama_2.copy()
             chat_state.system = "You are able to understand the visual content that the user provides. Follow the instructions carefully and explain your answers in detail."
             msg = self.chat.upload_video_without_audio(video_path=self.args.video_path, conv=chat_state, img_list=img_list, n_frms=96)
-
-            question_ind = self.question_index(questions)
             # Response from chat
-            for steps in questions:
-                inp1 = steps['q']
-                if 'correctans' not in steps.keys():
-                    q_type = 'yes_no'
-                else:
-                    correctans = steps['correctans']
-                    q_type = 'option'
-                output = Model.ask_question(self.args, self.chat, chat_state, img_list, inp1)
-                print(output)
-                pred[question_ind[inp1]] = self.op_val(pred, correctans, q_type)
-                if 'followup' in steps.keys():
-                    for q in steps['followup']:
-                        inp2 = q
-                        pred2 = Model.ask_question(self.args, self.chat, chat_state, img_list, inp2)
-                        print(pred2)
-                        pred[question_ind[inp2]] = self.op_val(pred2, correctans, q_type)
-            
+            for step in questions:
+                inp = step['q']
+                output = Model.ask_question(self.args, self.chat, chat_state, img_list, inp)
+                pred.append(self.op_val(output))
+
             Model.write_recur(op_file, v, pred)
             prediction.append(pred)
 
         gt = Model.flatten(gt)
         prediction = Model.flatten(prediction)
-        
+
         Model.save_data(output_file, gt, prediction)
 
 def main():
     #initialize video dir, gt_dict, normal_annot
     tc = Model()
-    video_dir = '/home/ptg/ptg/rohith/resolution_360p/'
+    video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
     gt_dict = tc.load_file('./step_annotations.json')
     normal_annot = tc.load_file('./normal_videos.json')
 
     # Initialize chat
     args, chat = tc.initialize_model()
 
-    #preparation error inference
-    print("Preparation Error Inference: \n")
-    preparation_error = Preparation_Error(args, chat, video_dir, gt_dict, normal_annot)
-    preparation_error.preparation_inference()
-
+    #technique error inference
+    print("Technique Error Inference: \n")
+    technique_error = Technique_Error(args, chat, video_dir, gt_dict, normal_annot)
+    technique_error.technique_inference()
 
 if __name__ == '__main__':
     main()

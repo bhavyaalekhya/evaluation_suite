@@ -169,7 +169,7 @@ class Missing_Error:
         qs = Model.load_file('/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/error_prompts/missing_error.json')
         gt_dict = self.gt_dict
         normal_annot = self.normal_annot
-        output_file = '/data/bhavya/task_verification/CVVREvaluation/error_outputs/missing_error.txt'
+        output_file = './timechat_metrics/variant_1.txt'
         prediction = []
         gt = []
 

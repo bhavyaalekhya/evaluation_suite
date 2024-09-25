@@ -62,7 +62,7 @@ def load_file(path):
         op = json.load(file)
     return op
 
-def ground_truth(self, name, video, normal_annot, questions):
+def ground_truth(name, video, normal_annot, questions):
     gt = []
     steps = video['steps']
     normal = name + '_x'
@@ -74,27 +74,15 @@ def ground_truth(self, name, video, normal_annot, questions):
 
     video_steps_desc = [step['description'] for step in steps]
     common_steps = list(set(n_steps_desc).intersection(video_steps_desc))
-    
-    gt = [0] * len(questions)
+    gt = [1] * len(questions)
 
     for step in steps:
         if step['description'] in common_steps:
             index = common_steps.index(step['description'])
-            if step['has_errors'] and "Timing Error" in step['errors']:
-                gt[index] = 1
+            if not step['has_errors']:
+                gt[index] = 0
 
     return gt
-
-def question_index(related_questions):
-    question_to_index = {}
-    index_counter = 0
-    for question in related_questions:
-        question_to_index[question['q']] = index_counter
-        if 'followup' in question.keys():
-            for followup in question['followup']:
-                question_to_index[followup] = index_counter
-        index_counter += 1
-    return question_to_index
 
 def flatten(nested_list):
     return [item for sublist in nested_list for item in sublist]
@@ -114,24 +102,27 @@ def ask_question(args, chat, chat_state, img_list, q):
     return output
 
 def op_val(ans):
-    if 'yes' in ans or 'not' not in ans:
+    if 'yes' in ans:
         return 0
     else:
         return 1
-
-def write_recur(op_file, name, data):
-    content = f"\n{name}: Pred: {data}"
-
-    with open(op_file, 'a') as file:
-        file.write(content)
+    
+def dis(l):
+    op = l[0]
+    for i in range(1, len(l)):
+        op = op and l[i]
+    return op
+    
+def data_file(data, filename):
+    df = pd.DataFrame(data)
+    df.to_csv(filename, sep=',', mode='a+')
 
 def inference(args, chat):
     video_dir = '/data/rohith/captain_cook/videos/gopro/resolution_360p/'
-    qs = load_file('/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/error_prompts/timing_error.json')
+    qs = load_file('/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/error_prompts/missing_error.json')
     gt_dict = load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
     normal_annot = load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
-    output_file = './timechat_metrics/timing_error.txt'
-    op_file = 'error_outputs/timing_recur.txt'
+    output_file = './timechat_metrics/missing_error.txt'
     prediction = []
     gt = []
 
@@ -147,34 +138,25 @@ def inference(args, chat):
         pred = []
         #print(video.size())
         C, T, H, W = video.shape
-        #ts.show(video.transpose(0,1))
+        ts.show(video.transpose(0,1))
 
         # Setup chat system
         img_list = []
         chat_state = conv_llava_llama_2.copy()
         chat_state.system = "You are able to understand the visual content that the user provides. Follow the instructions carefully and explain your answers in detail."
         msg = chat.upload_video_without_audio(video_path=args.video_path, conv=chat_state, img_list=img_list, n_frms=96)
-
-        question_ind = question_index(questions)
         # Response from chat
         for steps in questions:
-            inp1 = steps['q'] 
-            pred = ask_question(args, chat, chat_state, img_list, inp1)
-            pred = pred.lower()
-            print(pred)
-            pred[question_ind[inp1]] = op_val(pred)
-            if 'followup' in steps.keys():
-                for question in steps['followup']:
-                    inp2 = question 
-                    pred2 = ask_question(args, chat, chat_state, img_list, inp2)
-                    print(pred2)
-                    pred[question_ind[inp2]] = op_val(pred2)
-        
-        write_recur(op_file, v, pred)
+            inp = steps
+            output = ask_question(args, chat, chat_state, img_list, inp)
+            pred.append(op_val(output))
+
         prediction.append(pred)
 
     gt = flatten(gt)
     prediction = flatten(prediction)
+    print(gt)
+    print(prediction)
 
     print("Ground Truth: {gt} \nPredicted: {prediction}".format(
         gt = gt,

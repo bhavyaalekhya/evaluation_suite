@@ -130,7 +130,7 @@ def inference(args, chat):
     qs = load_file('/data/bhavya/task_verification/CVVREvaluation/cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/error_prompts/temperature_error.json')
     gt_dict = load_file('/data/bhavya/task_verification/Video-LLaVA/step_annotations.json')
     normal_annot = load_file('/data/bhavya/task_verification/Video-LLaVA/normal_videos.json')
-    output_file = '/data/bhavya/task_verification/CVVREvaluation/error_outputs/temperature_error.txt'
+    output_file = './timechat_metrics/temperature_error.txt'
     op_file = 'error_outputs/temperature_recur.txt'
     prediction = []
     gt = []

@@ -1,0 +1,23 @@
+{
+    "annotations": [
+        {
+            "image_id": "8_16_360p.mp4",
+            "caption": "<time_token_1> <time_token_1896> fill a microwave-safe mug with skimmed milk <time_token_2113> <time_token_4035> microwave the contents of the mug for 1 minute <time_token_4018> <time_token_5114> add 2 pieces of chocolate to the mug <time_token_5114> <time_token_6557> add 1/5 teaspoon cinnamon to the mug <time_token_6714> <time_token_8879> add 1 teaspoon of white sugar to the mug <time_token_8897> <time_token_11306> mix the contents of the mug <time_token_11323> <time_token_13558> heat the contents of the mug for 1 minute and serve",
+            "id": 0,
+            "seg_prompt": "1, 1896 ; 2113, 4035 ; 4018, 5114 ; 5114, 6557 ; 6714, 8879 ; 8897, 11306 ; 11323, 13558",
+            "asr_text": "<time_token_1> fill a microwave-safe mug with skimmed milk <time_token_1896> microwave the contents of the mug for 1 minute <time_token_4018> add 2 pieces of chocolate to the mug <time_token_5114> add 1/5 teaspoon cinnamon to the mug <time_token_6557> add 1 teaspoon of white sugar to the mug <time_token_8879> mix the contents of the mug <time_token_11306> heat the contents of the mug for 1 minute and serve",
+            "duration": 463,
+            "segments": [
+                [1, 1896],
+                [2113, 4035],
+                [4018, 5114],
+                [5114, 6557],
+                [6714, 8879],
+                [8897, 11306],
+                [11323, 13558]
+            ],
+            "seg_text": "<time_token_1> <time_token_1896> <time_token_4018> <time_token_5114> <time_token_6557> <time_token_8879> <time_token_11306>",
+            "pure_cap": "fill a microwave-safe mug with skimmed milk. microwave the contents of the mug for 1 minute. add 2 pieces of chocolate to the mug. add 1/5 teaspoon cinnamon to the mug. add 1 teaspoon of white sugar to the mug. mix the contents of the mug. heat the contents of the mug for 1 minute and serve."
+        }
+    ]
+}
