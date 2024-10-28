@@ -1,4 +1,4 @@
-# Error Category Recognition in Procedural Videos using Video-LLaVA
+# Error Category Recognition in Procedural Videos using TimeChat
 
 ## Annotation JSONs
 
